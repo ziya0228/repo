@@ -1000,6 +1000,24 @@ Author: Andrew Liu <wynd07@gmail.com>
 Depiction: http://wynd07.appspot.com/depict/dreamboard
 Name: DreamBoard
 
+Package: com.ziya.repo
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: ziya <724273292@qq.com>
+Filename: ./debs/com.ziya.repo_1.0_iphoneos-arm.deb
+Size: 22686610
+MD5sum: fb19c88f671aa0080aaaefd700871935
+SHA1: 646f2f6f94e9ef0d3fc691be4aab8c2e6b1e9c0b
+SHA256: 7fc8b2bc70db1aaf697b71b17c06420950d1abbdd6e95a3fd104c529a0091097
+Section: 字体
+Priority: standard
+Tag: cydia::commercial
+Author: ziya <724273292@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Fonts.png
+Name: 不老梦体
+Sponsor: ziya <https://ziya0228.github.io/repo/>
+
 Package: cydia-dark
 Version: 1.9.3~chimera5
 Architecture: iphoneos-arm
@@ -1640,22 +1658,4 @@ Dev: hbang
 Icon: file:///Library/PreferenceBundles/Cephei.bundle/icon@2x.png
 Name: Cephei
 Support: https://hashbang.productions/support/
-
-Package: xyz.coolstar.blmt233
-Version: 1.0
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Alice源™ <17629241777@163.com>
-Filename: ./debs/xyz.coolstar.blmt233_1.0_iphoneos-arm.deb
-Size: 22686756
-MD5sum: 80d6b2f2f3a15664589a26bd5dbedb0b
-SHA1: c16cfc8bd01f4ee56bbd71c8c84bbae88ab752de
-SHA256: 89874807c27dbc857e83b77a8e73bcb83b4444ff3f6cdef30308dd1c91f6cc43
-Section: 字体
-Priority: standard
-Tag: cydia::commercial
-Author: Alice源™ <17629241777@163.com>
-Icon: file:///Applications/Cydia.app/Sections/Fonts.png
-Name: 不老梦体
-Sponsor: Alice源™ <https://apt.coolstar.xyz/>
 
