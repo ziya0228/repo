@@ -1006,10 +1006,10 @@ Architecture: iphoneos-arm
 Essential: no
 Maintainer: ziya <724273292@qq.com>
 Filename: ./debs/com.ziya.repo_1.0_iphoneos-arm.deb
-Size: 22686610
-MD5sum: fb19c88f671aa0080aaaefd700871935
-SHA1: 646f2f6f94e9ef0d3fc691be4aab8c2e6b1e9c0b
-SHA256: 7fc8b2bc70db1aaf697b71b17c06420950d1abbdd6e95a3fd104c529a0091097
+Size: 22686742
+MD5sum: 775e634b86b70cf8b5a8935a93e47d47
+SHA1: 4b173beb0c4c493556ce93e2dd27bee38b1acbbf
+SHA256: 9e85c15067a3a0fcc47c717b382499a3e877001b7513f262d5381f61e6da26ac
 Section: 字体
 Priority: standard
 Tag: cydia::commercial
