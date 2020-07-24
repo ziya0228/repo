@@ -18,6 +18,23 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: appsync40plus.178
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: 丛林狼 <conglinlang.vip@gmail.com>
+Pre-Depends: firmware (>= 4.0)
+Filename: ./debs/appsync40plus.178_1.1-5_iphoneos-arm.deb
+Size: 9104
+MD5sum: 79d9d53dfbe4c41d4de03d8adc8c6bec
+SHA1: faa2e8f1d0b36678db4bc15e5688f15ddc9fa041
+SHA256: c7c4a5d0ce91852997fbf3dabbbe2a9d42ed51bbb2bf95d9825eae79a47bb7e3
+Section: [178 - 破解]
+Description: iphone | ipad 4.0 - 4.3.1全部适用的appsync ，如果你安装了其它appsync请先卸载
+Author: Hackulo.us
+Depiction: http://apt.178.com/2011/0402/1920.shtml
+Name: Appsync 4.0-4.3.1全兼容
+Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
+
 Package: backgrounderaction12
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -159,6 +176,73 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsymboli
 Dev: ashikase
 Name: libsymbolicate (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.91.appsyncunified.fengsync8
+Version: 6.0.0-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 220
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Filename: ./debs/_com.91.appsyncunified.fengsync8_6.0.0-1_iphoneos-arm.deb
+Size: 28230
+MD5sum: f6b45f359ca4833cc8262742cfe973c8
+SHA1: 47913ed86e72d19dd16bbaba1d8efcbdbb98adf6
+SHA256: 32b67920707aa77c1dc5fec9792d65469984084f2ee04e48658fd76b3118c777
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=5593c4c10e1d157b6a8b4ffa
+Description: Appsync是iPhone、iPad、iPod touch越狱后必装补丁，安装后可以绕过系统验证，随意安装运行破解的ipa软件，此版本完美兼容 iOS 8.0 ~ iOS 8.4。
+Tag: role::enduser
+Author: WeiPhone.com <support@office.weiphone.com>
+Name: Appsync for iOS8.0-8.4
+
+Package: com.91.us.hackulo.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 23
+Pre-Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/_com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Size: 4466
+MD5sum: d2c62e917339ea087b605a3738bff9d5
+SHA1: e2b2a649041463aa18fa224dfed11540c8118b84
+SHA256: b8d5fb3d60e4db09971448adc0ae2ec648dcbae8d6afb556c3b89647ffe7dbc2
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
+Description: AppSync是允许您安装破解软件的补丁
+Tag: role::enduser
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5.0+
+
+Package: com.91.us.hackulo.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 23
+Pre-Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Size: 4466
+MD5sum: 076d3cf0c16984a8174f4f834ab35a0d
+SHA1: bf52daefe16f6af591c0050ca0e7f7d6c5b2c4c3
+SHA256: 533956ac9770be2084858dce1f6ab10222e8d08c711f5a67bd5b773d67027453
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
+Description: AppSync是允许您安装破解软件的补丁
+Tag: role::enduser
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5.0+
 
 Package: com.a3tweaks.flipswitch
 Version: 1.0.16~beta5
@@ -783,6 +867,22 @@ Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Dev: rpetrich
 Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.3999.6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Filename: ./debs/com.saurik.substrate.safemode_0.9.3999.6_iphoneos-arm.deb
+Size: 8638
+MD5sum: 493dffac2b9e983406ee95fe7cd956c1
+SHA1: a62fbecde5efc25e2b4abd9aaf44f4df12e5611c
+SHA256: 4efb8ff0fd3c1b6e135c629ca4f2eb52c40c6d41046b61d36aab0a4a050f4627
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
 
 Package: com.spark.libsparkapplist
 Version: 1.0.3
@@ -1419,6 +1519,88 @@ Section: Development
 Description: Nepeta's color utils
 Author: Nepeta
 Name: libnepeta
+
+Package: mobilesubstrate
+Version: 0.9.3367-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/mobilesubstrate_0.9.3367-1_iphoneos-arm.deb
+Size: 68722
+MD5sum: 81da0f29020b2507900d8c6d01d9c504
+SHA1: 2cb165c938cbe2d6d492052a14b44f5dfbf0645e
+SHA256: 687adfa969092801bc02cf4ce6a7a13a7a22b3f61fced8cc443c6f6f9ca54791
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Tag: role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Mobile Substrate
+
+Package: net.angelxwind.appsyncunified
+Version: 4.3-1
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 88
+Pre-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/appsync unified.deb
+Size: 4068
+MD5sum: fb27750a29c3721a12436a9d1f14fe69
+SHA1: 0c3b61715ff4de730ea41d928ee15ec34931ab0b
+SHA256: b1706dc593e1f51d6ac417c2ab4ca44465e01c20ec593c96e47944d80a7194a0
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5, 6, and 7.
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.angelxwind.appsyncunified
+Version: 4.3-1
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 88
+Pre-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_4.3-1_iphoneos-arm.deb
+Size: 3974
+MD5sum: f9a81bdd6e55ced96a321e811d9bff05
+SHA1: 0a50926059f9c6a8be70f3332364ee104a0ad418
+SHA256: e5fe767b2e5b2acdb30a9d08daf97b000e8d0d5f97f0bd93b6fae78c0fa47504
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5, 6, and 7.
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.angelxwind.appsyncunified91
+Version: 6.0~b1
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 364
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified91_6.0~b1_iphoneos-arm.deb
+Size: 42076
+MD5sum: 358047f667e036f8b7a08791de1e2b24
+SHA1: c1f7a123f9aa78bad84c6f8b9ac199e73e31855d
+SHA256: df3d86cdf92b77f9c6608d3a4864475358d7455e38eefba4dfba31c331df0d64
+Section: 91助手-补丁
+Homepage: http://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified iOS10
 
 Package: net.limneos.libbulletin
 Version: 0.1-147
