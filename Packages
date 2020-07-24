@@ -723,6 +723,25 @@ Icon: https://repo.pulandres.me/CydiaIcon.png
 Name: libiarrays Cracked
 Sileodepiction: https://repo.pulandres.me/sileo.php?pid=657
 
+Package: com.pulandres.safestdn
+Version: 1.60
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 12368
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, net.limneos.libbulletin, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.pulandres.safestdn_1.60_iphoneos-arm.deb
+Size: 9314832
+MD5sum: d6d9366fabb6ca7299ccee56b07f195e
+SHA1: de1e57a0d01afe010c11479840c61171631aae70
+SHA256: cc4cf535988e59cff369c717b4379f5bfd4511fdd5e7e45f82daa128c1af2d19
+Section: Tweaks
+Description: Avoid re-jailbreaking when your iDevice have not battery.
+Author: Pulandres
+Depiction: https://repo.pulandres.me/index.php?pid=1116
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Name: SafeShutdown Cracked
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1116
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.7~beta3
 Architecture: iphoneos-arm
