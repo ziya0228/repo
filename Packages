@@ -1,3 +1,23 @@
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 185844
+MD5sum: c7870f009c13319849aa6a7c534b6c15
+SHA1: 4308ad58916369f3fc8ea13603e5bd2dc7222548
+SHA256: 3d8bb79cfc3b9ff224d2d7b3dd730572aac21b231e43dcd2527e874dd0ca28f0
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
 Package: appsync40plus.178
 Version: 1.1-5
 Architecture: iphoneos-arm
@@ -301,6 +321,28 @@ Section: Security
 Priority: required
 Description: SSL library and cryptographic tools
 Name: OpenSSL
+
+Package: org.thebigboss.auxo
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2177
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debs/org.thebigboss.auxo_1.0-1_iphoneos-arm.deb
+Size: 1229310
+MD5sum: 99a144aaa22a4db54084e68673d6825e
+SHA1: 4ecda153f64ab0bf222fb8177bc1a3757c7211de
+SHA256: 04718039ba4763efecec89fb64863fb0a79df7542acabb702505837e0331683a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Description: Auxo re-imagines the iOS task switcher!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: wget
 Version: 1.19.5-2
