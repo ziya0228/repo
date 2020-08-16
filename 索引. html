@@ -19,7 +19,7 @@
 	  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ziya0228.github.io/repo" class="btn">在cydia上添加</a>
 	  <a href="sileo://source/https://ziya0228.github.io/repo/" class="btn">在sileo上添加</a>
 	  <a href="zbra://sources/add/https://ziya0228.github.io/repo/" class="btn">在zebra上添加</a>
-	  <a href="installer://add/banana-gfp.github.io/repo/" class="btn">在installer上添加</a>
+	  <a href="installer://add/ziya0228.github.io/repo/" class="btn">在installer上添加</a>
     </section>
 
     <section class="main-content">
