@@ -35,6 +35,24 @@ Depiction: http://apt.178.com/2011/0402/1920.shtml
 Name: Appsync 4.0-4.3.1全兼容
 Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
 
+Package: apt.cydiaba.cnpeek-a-boo1
+Version: 10.0.2
+Architecture: iphoneos-arm
+Maintainer: Cydia贴吧吧务组 <1423924@qq.com>
+Installed-Size: 302
+Depends: mobilesubstrate
+Conflicts: com.creatix.universalforce
+Filename: ./debs/apt.cydiaba.cnpeek-a-boo1_10.0.2_iphoneos-arm.deb
+Size: 34118
+MD5sum: 18b96269e6e49a7ef80ab8475c9f5e25
+SHA1: 90c4ce31166e0b9966abecb40b8d083a4e8798ad
+SHA256: ba126587050234bcf0ad572837eecaf975d8be0066fe842c6e97762c6c088a3a
+Section: TB-工具
+Author: Creatix
+Name: peek自用3DTouch插件(汉化版）
+Section1: iOS10
+Sponsor: Cydia贴吧吧务组 <1423924@qq.com>
+
 Package: com.91.appsyncunified.fengsync8
 Version: 6.0.0-1
 Architecture: iphoneos-arm
