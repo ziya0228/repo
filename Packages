@@ -190,6 +190,20 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 
+Package: com.tencent.mobileqq
+Version: 5.4
+Architecture: iphoneos-arm
+Maintainer: ziya
+Filename: ./debs/com.tencent.mobileqq_5.4_iphoneos-arm.deb
+Size: 102331172
+MD5sum: 0a8d07e23c29bde52d6b59002947b62d
+SHA1: 7dcefaeb2bec7bbd9efc53b50555ff5b5ca250d4
+SHA256: d9b39260fd1bde1448b8939cccb6e1ccfce9e702a87237e0451f3a812088936f
+Section: ziya
+Description: ziya
+Author: ziya
+Name: OLG
+
 Package: com.wynd.dreamboard
 Version: 2.0.3
 Architecture: iphoneos-arm
