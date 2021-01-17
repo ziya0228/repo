@@ -53,6 +53,20 @@ Name: peek自用3DTouch插件(汉化版）
 Section1: iOS10
 Sponsor: Cydia贴吧吧务组 <1423924@qq.com>
 
+Package: c.ziya.xiaolianJB
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ziya
+Filename: ./debs/c.ziya.xiaolianJB_1.0_iphoneos-arm.deb
+Size: 10527024
+MD5sum: 6b894edf25c8357e73581db03536eed4
+SHA1: f051ac37875ee6ea94d2f109106372b192d77aa2
+SHA256: 141d181e0db84161888ce0fd551c49041b2854604b673395ac260bb5c8b8435b
+Section: 越狱
+Description: ziya
+Author: ziya
+Name: 孝廉
+
 Package: com.91.appsyncunified.fengsync8
 Version: 6.0.0-1
 Architecture: iphoneos-arm
