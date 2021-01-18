@@ -240,7 +240,7 @@ Package: com.ziya.1
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: ziya
-Filename: ./debs/拼多多1.deb
+Filename: ./debs/拼多多.deb
 Size: 52735368
 MD5sum: ef43323962d703f6e36882082a2284c2
 SHA1: 49bf7ede1ed8c342de1df59ec3dd2d4bc5c2afd9
