@@ -236,6 +236,20 @@ Author: Andrew Liu <wynd07@gmail.com>
 Depiction: http://wynd07.appspot.com/depict/dreamboard
 Name: DreamBoard
 
+Package: com.ziya.1
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ziya
+Filename: ./debs/拼多多1.deb
+Size: 52735368
+MD5sum: ef43323962d703f6e36882082a2284c2
+SHA1: 49bf7ede1ed8c342de1df59ec3dd2d4bc5c2afd9
+SHA256: b435ff409c8eef8099661c42c6e4e37d4b919336ae8597c697cd5769c71bf98a
+Section: 拼多多
+Description: ziya
+Author: ziya
+Name: 拼多多1
+
 Package: com.ziya.repo
 Version: 1.0
 Architecture: iphoneos-arm
