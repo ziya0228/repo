@@ -204,6 +204,23 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 
+Package: com.sinfuliphone.appsync31
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: SiNfuL iPhone <whatever@gmail.com>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Depends: com.sinfuliphone.repoprep
+Filename: ./debs/AppSync3.1.x_v1.0.1.deb
+Size: 296724
+MD5sum: 9a34d5e2a66f85ea09c4c2e7e518a7d9
+SHA1: 881f825c10f303d0c6cbce50eccf9e2b6e2c9bc9
+SHA256: 029bf1f67e22ae58d1c8a354c108758fcfa238ec9fcfa1428b27e95202120753
+Section: SiNfuL iPhone
+Priority: standard
+Homepage: http://www.sinfulss.com/
+Description: Enables cracked apps to be synced to and from iTunes successfully.
+Name: AppSync for OS 3.1.x
+
 Package: com.tencent.mobileqq
 Version: 5.4
 Architecture: iphoneos-arm
@@ -389,6 +406,42 @@ Dev: a3tweaks
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 Name: Auxo
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: us.hackulo.appsync30
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.0) | firmware (= 3.0.1)
+Filename: ./debs/appsync30_1.0.1.deb
+Size: 292176
+MD5sum: 2e731080a922f82a7b458bc747188d98
+SHA1: 874e751befe4f170fc09c11193cf016a1684d742
+SHA256: 638937efab3f4e46432d9e0461a4c4057bc9758f158a2ffa964ca5d87c16d59c
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync30/
+Name: AppSync for OS 3.0
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync31
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <admin@hackulo.us>
+Pre-Depends: firmware (>= 3.1)
+Filename: ./debs/AppSync for 3.1.x.deb
+Size: 296804
+MD5sum: 5952d7077fe8e38452ac50f3d39cef9c
+SHA1: f7d53a4984eef265ae21256f8e4e48075e1ebc07
+SHA256: 20d381022d15181dd590ec6ba6cde5b337f100bce5d4f9f2374cc7b731e52dce
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: wget
 Version: 1.19.5-2
