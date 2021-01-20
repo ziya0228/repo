@@ -35,6 +35,23 @@ Depiction: http://apt.178.com/2011/0402/1920.shtml
 Name: Appsync 4.0-4.3.1全兼容
 Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
 
+Package: apt.cydiaba.cnbackupdeb91
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Fish <1423924@qq.com>
+Installed-Size: 16
+Depends: apt7, sed, coreutils, coreutils-bin, openssl, gawk, zip, unzip, tar
+Filename: ./debs/apt.cydiaba.cnbackupdeb91_2.1.0.deb
+Size: 5422
+MD5sum: 414d5d16e146619aac26315731dbaa1f
+SHA1: 3de77ff97e7adb1ff15367d94008e12c964b4d3e
+SHA256: b170ca41616cee70705d5b5bd8dce5b77b8f89e837eab377583bdb763b102c4e
+Section: 91助手-系统
+Priority: standard
+Author: Min
+Name: DEB打包备份
+Sponsor: Fish <1423924@qq.com>
+
 Package: apt.cydiaba.cnpeek-a-boo1
 Version: 10.0.2
 Architecture: iphoneos-arm
@@ -52,6 +69,41 @@ Author: Creatix
 Name: peek自用3DTouch插件(汉化版）
 Section1: iOS10
 Sponsor: Cydia贴吧吧务组 <1423924@qq.com>
+
+Package: apt.cydiaba.cntencentxunlei391
+Version: 5.20
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Fish <1423924@qq.com>
+Installed-Size: 22850
+Pre-Depends: firmware (>=6.0)
+Filename: ./debs/apt.cydiaba.cntencentxunlei391_5.20.deb
+Size: 28902148
+MD5sum: 8efd38292b19c8664805e68347ac6aab
+SHA1: 1abd9b88829fea466c65be17e8a404e1ddaf383c
+SHA256: a0c0012fdacd95f6e8155fd203acd1472c1e5dfa886edc6b09f9cab2dc9f0f14
+Section: 91助手-工具
+Priority: standard
+Tag: role::enduser
+Author: 老文出品
+Name: 迅雷-5.20会员离线加速破解版
+Sponsor: Fish <1423924@qq.com>
+
+Package: apt.cydiatieba.topdpkg191
+Version: 1.14.25-9
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 828
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: ./debs/apt.cydiatieba.topdpkg191_1.14.25-9.deb
+Size: 360264
+MD5sum: 1f0e94e72a34e83c5e7f73809af2bb3a
+SHA1: f3456cbbba17055d965236364cddab195c48c669
+SHA256: 639d5727f4b353e5a5191e588880a96131649415e8e776d7c4a5858be835eba8
+Section: 91助手-系统
+Priority: required
+Author: 匿名
+Name: Debian Packager
 
 Package: c.ziya.xiaolianJB
 Version: 1.0
