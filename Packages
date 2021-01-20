@@ -67,6 +67,20 @@ Description: ziya
 Author: ziya
 Name: 孝廉
 
+Package: co.ziya.xunlei
+Version: 5.11
+Architecture: iphoneos-arm
+Maintainer: ziya
+Filename: ./debs/co.ziya.xunlei_5.11_iphoneos-arm.deb
+Size: 29982744
+MD5sum: c1fc24499128bc4fd6f0e230425aefbf
+SHA1: 200aa365a271b8c3bb6720f733b329e2b1f6c86e
+SHA256: e99aa6dcf82ba5e4f9b4b5183cd3fdb3ff60ab6d3b6432a4ebd856abe967f362
+Section: iOS7
+Description: ziya
+Author: ziya
+Name: 迅雷
+
 Package: com.91.appsyncunified.fengsync8
 Version: 6.0.0-1
 Architecture: iphoneos-arm
