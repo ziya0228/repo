@@ -56,6 +56,25 @@ Section1: iOS10
 Section2: iOS11
 Section3: iOS12
 
+Package: apt.cydiaba.cnappsync91
+Version: 5.8
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Cydia贴吧吧务组 <1423924@qq.com>
+Pre-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Depends: firmware (>= 5.0)
+Conflicts: app.weiphone.cn.appsync, com.myrepospace.aptso.appsync, us.hackulo.appsync50, us.hackulo.appsync50plus, ppsync.178, app.weiphone.hackyouriphone.appsync7, net.angelxwind.appsync70plus, com.teiron.ppsync, com.91.appsync7.a5a4, com.91.appsync7.a6, com.91.appsync7.a7, net.angelxwind.appsyncunified, app.weiphone.lzl.appsync456, us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, appsync50plus2.25pp, com.hackyouriphone.appsyncunified, appsync70.appvv, cn.appsync, com.linusyang.appsync
+Filename: ./debs/apt.cydiaba.cnappsync91_5.8.deb
+Size: 30162
+MD5sum: 6fab1aab75a6534fd3ac0054528f9e59
+SHA1: be5e9d7df6c70c626c9787307375ff5df0452fbb
+SHA256: 3246ca92092364f610f271848bd04a945572f7ff0793ea17a90c60ab903f9fc3
+Section: 91助手-系统
+Priority: standard
+Author: Linus Yang, Karen Tsai <aptso@qq.com>
+Name: AppSync Unified
+Sponsor: Cydia贴吧吧务组 <1423924@qq.com>
+
 Package: apt.cydiaba.cnbackupdeb91
 Version: 2.1.0
 Architecture: iphoneos-arm
