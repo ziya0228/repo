@@ -35,6 +35,27 @@ Depiction: http://apt.178.com/2011/0402/1920.shtml
 Name: Appsync 4.0-4.3.1全兼容
 Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
 
+Package: apt.cydiaba.appsyncunified2222222
+Version: 31.1-1
+Architecture: iphoneos-arm
+Installed-Size: 256
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 11.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/apt.cydiaba.appsyncunified2222222_31.1-1_iphoneos-arm.deb
+Size: 37988
+MD5sum: c13e6af3c215358399eda3262bc3424c
+SHA1: 86784d80c3b355b7fcd7e7a16c8935faaa0e74da
+SHA256: 0c3e6ea8dd9cb5765f799628803d8ec207ddb3d54923e25a724e70cd4bf86cca
+Section: TB-系统
+Author: AppSync
+Icon: https://apt.wxhbts.com/icon/%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6.png
+Name: AppSync Unified 关闭签名
+Section1: iOS10
+Section2: iOS11
+Section3: iOS12
+
 Package: apt.cydiaba.cnbackupdeb91
 Version: 2.1.0
 Architecture: iphoneos-arm
