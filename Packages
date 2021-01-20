@@ -237,6 +237,18 @@ Author: Various Developers
 Name: MobileTerminal
 Sponsor: Xsellize.com
 
+Package: com.hongv.dfu
+Version: 1.0
+Architecture: iphoneos-arm
+Filename: ./debs/com.hongv.dfu_1.0_iphoneos-arm.deb
+Size: 52392
+MD5sum: 8a05e7c2ed2d4f0a1139488c058350c7
+SHA1: 76b505de7e333299a622527a53a71eebc5c472fd
+SHA256: 0efe2edfc31a686a8814b42e2f9208d50a925ff1e0dbbd185223509487c2bc14
+Section: [红V-系统]
+Author: 红V <a951515778@qq.com>
+Name: 4S-进入DFU模式
+
 Package: com.modmyi.mountainlionosipad
 Version: 2.0.1
 Architecture: iphoneos-arm
@@ -437,6 +449,27 @@ Homepage: http://cydia.angelxwind.net/
 Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5, 6, and 7.
 Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
 Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_84.0.deb
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.angelxwind.appsyncunified91
