@@ -226,6 +226,54 @@ Tag: role::enduser
 Author: Dissident <apps@hackulo.us>
 Name: AppSync for iOS 5.0+
 
+Package: com.abcydia.detailedpowerusage
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts: org.thebigboss.detailedbatteryusage
+Filename: ./debs/com.abcydia.detailedpowerusage_1.0.0_iphoneos-arm.deb
+Size: 56596
+MD5sum: 5db0a1b5f4961199f83775b9f350e5dd
+SHA1: 78205fadb923f22f6f1ecc05655fbadd00820dee
+SHA256: b88bda7aba6a456191103ed3ade4145c8cd02fdfd02759e28fee7b5e99c0794c
+Section: Tweaks
+Author: TheComputerWhisperer
+Icon: file:///Library/Application Support/DPUTweakResources/kTCWIcon.png
+Name: DetailPowerU 电量详情
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.downgrade10x2841
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.0)
+Filename: ./debs/com.abcydia.downgrade10x2841_1.0.0_iphoneos-arm.deb
+Size: 888
+MD5sum: cc306ee5a2a9d9aaf66082e8b5bcec52
+SHA1: fe8888e725617a04496e7e7ade28b1313d9157b4
+SHA256: 045643495946938228c4fa1e456ce24ea43536e600e8360279b44091fd686138
+Section: System
+Author: FTiOS <admin@abcydia.com>
+Name: DownHelper 降级辅助
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.netfix
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.2.1)
+Filename: ./debs/com.abcydia.netfix_1.0-1_iphoneos-arm.deb
+Size: 836
+MD5sum: b59773d949a4b136c8867a5c63b48d10
+SHA1: ea560d746991ba923dc15da4309e9b726f3125b3
+SHA256: 4fe48407991672265785633ede9c6c1b8d268bae66d6f8acfe715400ca50193f
+Section: System
+Description: 修复Cydia越狱后不能联网问题
+Author: ABCydia <admin@abcydia.com>
+Name: Netfix Cydia联网修正
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.googlecode.mobileterminal.Terminal
 Version: 472
 Architecture: iphoneos-arm
