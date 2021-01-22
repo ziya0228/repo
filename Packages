@@ -600,6 +600,24 @@ Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 Name: Auxo
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: org.xbmc.xbmc-ios
+Version: 12.3-1
+Architecture: iphoneos-arm
+Maintainer: Scott Davilla, Edgar Hucek
+Depends: firmware (>= 4.1), curl, org.xbmc.xbmc-iconpack
+Filename: ./debs/org.xbmc.xbmc-ios_12.3-1_iphoneos-arm.deb
+Size: 51273074
+MD5sum: a3d41cdc9457010c6793e1a237b5685f
+SHA1: c4be8eb532523132cd367139bfc41bde453308d7
+SHA256: c82c93d972ee4ff8b963ba2231fa476334593f5e0ef494d8695d90ece05fa314
+Section: Multimedia
+Priority: Extra
+Homepage: http://xbmc.org/
+Description: XBMC Multimedia Center for 4.x iOS
+Author: TeamXBMC
+Icon: file:///Applications/Cydia.app/Sources/mirrors.xbmc.org.png
+Name: XBMC-iOS
+
 Package: us.hackulo.appsync30
 Version: 1.1
 Architecture: iphoneos-arm
