@@ -226,6 +226,26 @@ Tag: role::enduser
 Author: Dissident <apps@hackulo.us>
 Name: AppSync for iOS 5.0+
 
+Package: com.RMN.deb
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Hackl0us <mr.hackl0us@gmail.com>
+Installed-Size: 2048
+Depends: coreutils, firmware(>=5.0.1)
+Filename: ./debs/a.deb
+Size: 2029502
+MD5sum: 926e5abc3340fe15e81115eac1ede8d0
+SHA1: 07cd7d248282f0795f048fd2c8b438fe2e41d629
+SHA256: a682a7283f4e4f1262c3e46bd1aa02a76a4505e1a6f74d99f142160848a5b777
+Section: [工具]
+Priority: Standard
+Description: Rock your iOS!
+Tag: role::enduser, cydia::commercial
+Author: Hackl0us & Jackie099
+Icon: file:///Applications/ReleaseMeNow.app/icon.png
+Name: Release Me Now 3
+Sponsor: Jackie099 <jackie099@me.com>
+
 Package: com.abcydia.detailedpowerusage
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -301,6 +321,25 @@ SHA256: 0efe2edfc31a686a8814b42e2f9208d50a925ff1e0dbbd185223509487c2bc14
 Section: [红V-系统]
 Author: 红V <a951515778@qq.com>
 Name: 4S-进入DFU模式
+
+Package: com.im099.iShutdown
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Jackie099 <Jackie099@me.com>
+Installed-Size: 300
+Filename: ./debs/b.deb
+Size: 345462
+MD5sum: 1ebf1eaf8b5f2af64a30fc8332fb640e
+SHA1: 78113c6fa71e2563129f6e81deac7f305b5bef90
+SHA256: a2cce5233722b4a3e1742715882ecbe5bc07bb7e6e2945b68e5db097258b5c1e
+Section: [系统]
+Priority: standard
+Homepage: http://www.im099.com
+Description: 快速的注销，关机，重启你的iPhone/iPad/iPod， 无任何依赖包，不常驻进程。 是洁癖人士的最佳伴侣
+Tag: role::enduser
+Author: Jackie099 <Jackie099@me.com>
+Name: iShutdown
+Sponsor: im099.com <http://www.im099.com>
 
 Package: com.modmyi.mountainlionosipad
 Version: 2.0.1
@@ -408,6 +447,26 @@ Author: ziya <724273292@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Fonts.png
 Name: 不老梦体
 Sponsor: ziya <https://ziya0228.github.io/repo/>
+
+Package: coreutils
+Version: 8.12-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6536
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: ./debs/c.deb
+Size: 628868
+MD5sum: d7c377af64a081af979e611ad321f3d1
+SHA1: 0dec31f145c496a072326e74c664fe6159514c31
+SHA256: 36e4cb148a5e242a8b24e425a2b176f0b745063cbdd19810fa2ffc4e906c5f6f
+Section: Utilities
+Priority: standard
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
 
 Package: gettext
 Version: 0.19.8-1
