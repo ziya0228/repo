@@ -1,3 +1,19 @@
+Package: anondev.LocalIAPStore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: WEIP.Tech <repo@weiphone.com>
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: ./debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 70054
+MD5sum: ad528ec0c200e17f0f00268b941cc155
+SHA1: 0ef7642217f891bdd5ed2842df723ef222ca885c
+SHA256: 32f11be2fb67171b5831b77a43a6cb1603e2a76f057e0153b1a16ec6dd25d43b
+Section: [FengTech - 工具]
+Priority: optional
+Author: anondev
+Icon: /Library/PreferenceLoader/Preferences/LocalIAPStoreIcon.png
+Name: LocalIAPStore 虚拟内购商店
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
@@ -412,6 +428,27 @@ Homepage: http://www.sinfulss.com/
 Description: Enables cracked apps to be synced to and from iTunes successfully.
 Name: AppSync for OS 3.1.x
 
+Package: com.weiphone.wallpaper.ipad-scenery6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: WEIP.Tech <repo@weiphone.com>
+Installed-Size: 10219
+Pre-Depends: firmware (>= 3.2), firmware (<< 4.0)
+Depends: coreutils
+Filename: ./debs/com.weiphone.wallpaper.ipad-scenery6_1.0_iphoneos-arm.deb
+Size: 10448592
+MD5sum: 2754bd68f7f11a3c34820265cb8360c2
+SHA1: 65e22bfc69d3d353230fd1a0195732e3596c1e04
+SHA256: d38646c1dc176babc098af2c768f183e38d29ace06b081e2ca531c66ee5da65d
+Section: [美化]
+Priority: optional
+Homepage: http://bbs.weiphone.com/read.php?tid=794186&page=35#11194796
+Description: 风景壁纸六 6张，分辨率均为1024×1024，仅支持iPad
+Tag: role::enduser
+Author: brett8899
+Name: 风景壁纸（iPad）6
+Sponsor: WeiPhone.com <http://www.weiphone.com>
+
 Package: com.wynd.dreamboard
 Version: 2.0.3
 Architecture: iphoneos-arm
@@ -676,6 +713,41 @@ Description: XBMC Multimedia Center for 4.x iOS
 Author: TeamXBMC
 Icon: file:///Applications/Cydia.app/Sources/mirrors.xbmc.org.png
 Name: XBMC-iOS
+
+Package: repo.feng.hksnt83.font
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: WEIP.Tech <repo@weiphone.com>
+Pre-Depends: firmware (>= 8.3)
+Depends: com.bytafont.bytafont2
+Filename: ./debs/repo.feng.hksnt83.font_1.0_iphoneos-arm.deb
+Size: 59875332
+MD5sum: 49eeafb03a2ef3aced47a5187f29575c
+SHA1: 9ca31ce67fca534e5704d7c2d8f1a7b4e8df1697
+SHA256: 74cb9edc1bb85eafc250305b49e0697488b3ca429e064e75df6dc8509a90fec9
+Section: [FengTech - 字体]
+Author: CDSQ <cdsq.deb@gmail.com>
+Name: 华康少女体 iOS8.3&8.4
+
+Package: repo.feng.passwdui
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: WEIP.Tech <weip.com@gmail.com>
+Installed-Size: 353
+Conflicts: com.weiphone.passwdui
+Replaces: com.weiphone.passwdui
+Filename: ./debs/repo.feng.passwdui_1.5.1_iphoneos-arm.deb
+Size: 331114
+MD5sum: 1d2cd0ddf29e5875fc91808c542e6131
+SHA1: 30e04deddbb50e87f98de2dbcb15a12fb72dd4e3
+SHA256: 78d2077c88ab8c7c27af546ad8e7b2542235f0a93c7dcd310d0ac55db5b8e5fe
+Section: [FengTech - 系统]
+Priority: standard
+Tag: role::enduser
+Author: autopear <lonelystars@gmail.com>
+Icon: file:///Applications/SYS Passwd.app/icon.png
+Name: SSH 登录密码修改
+Sponsor: WeiPhone.com <http://www.weiphone.com>
 
 Package: us.hackulo.appsync30
 Version: 1.1
