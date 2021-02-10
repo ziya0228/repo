@@ -175,6 +175,25 @@ Description: ziya
 Author: ziya
 Name: 孝廉
 
+Package: cn.yttxcs.aod
+Version: 3.7
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Installed-Size: 00000.
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker, preferenceloader, com.spark.libsparkapplist
+Filename: ./debs/cn.yttxcs.aod_3.7_iphoneos-arm.deb
+Size: 1414344
+MD5sum: 5f8084387ce9dd01bee1ec65bb01f466
+SHA1: 7dc70bc479b9565cd5006e5b6cde04c99a1e6417
+SHA256: 810e43b0ea708cd044478813af09e71f2c8ad77b175949f465af0ca300450a00
+Section: 插件
+Description: 酷炫的永远在线显示时间
+Author: Soh Satoh <409774743@qq.com>
+Icon: https://yttxcs.com/image/icon/cn.yttxcs.aod.png
+Moderndepiction: https://yttxcs.com/sileo/1387
+Name: AOD 「息屏显示增强」
+Sponsor: 幺筒源<409774743@qq.com>
+
 Package: com.91.appsyncunified.fengsync8
 Version: 6.0.0-1
 Architecture: iphoneos-arm
@@ -309,6 +328,27 @@ Description: 修复Cydia越狱后不能联网问题
 Author: ABCydia <admin@abcydia.com>
 Name: Netfix Cydia联网修正
 Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.cydiabc.noctis12
+Version: 1.8.9.6
+Architecture: iphoneos-arm
+Maintainer: Ai-小苹果
+Installed-Size: 1228
+Depends: mobilesubstrate, preferenceloader, me.nepeta.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctisxi
+Filename: ./debs/com.cydiabc.noctis12_1.8.9.6_iphoneos-arm.deb
+Size: 252506
+MD5sum: da198f19dd1bc1c4daf009ba905f347c
+SHA1: f3d1bd8b87cff0460bdc77cac4cb974a06cebf42
+SHA256: 2acdba59d2c28a41b4cf51d27101bc3a3273ea65f93ab2e0df0a64d567a64794
+Section: 系统
+Description: 全局黑暗模式，暂无汉化接口，本版本为英文版，兼容A12
+A12: 1
+Author: LaughingQuoll
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 12.png
+Name: Noctis12黑暗模式
+Sponsor: Ai-小苹果
 
 Package: com.googlecode.mobileterminal.Terminal
 Version: 472
