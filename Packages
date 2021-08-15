@@ -852,6 +852,26 @@ Icon: file:///Applications/SYS Passwd.app/icon.png
 Name: SSH 登录密码修改
 Sponsor: WeiPhone.com <http://www.weiphone.com>
 
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-152+debug
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/tubefixer-2.0-152-RC1.deb
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+Section: Tweaks
+Homepage: http://tubefixer.ovh/
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Name: TubeFixer for iOS
+
 Package: us.hackulo.appsync30
 Version: 1.1
 Architecture: iphoneos-arm
