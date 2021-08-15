@@ -2715,6 +2715,574 @@ Homepage: http://gmplib.org/
 Description: (Big) Arithmetic Library
 Name: GNU Multiple Precision
 
+Package: gnupg
+Version: 1.4.8-1
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Filename: ./debs/gnupg_1.4.8-1_darwin-arm.deb
+Size: 743388
+MD5sum: 445f17e888f558590c712d87d8469413
+SHA1: 31c2c629b9d68de5c2e928053940f2656a81991d
+SHA256: b3e8ea7ca0793b95345acc4f53b45b1544aa3bb0195dc0772095fb1aa64a06ea
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg
+Version: 1.4.8-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1944
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-1_iphoneos-arm.deb
+Size: 947366
+MD5sum: 96f51c391598ff0b7ff6204fbf06e85c
+SHA1: 2908d05c98f884df64bd0bf737458c0ce0d81043
+SHA256: 8fc9333db8d9c9331d746d3c8e97f2ed35829e133271d272b87b9ac03474cd64
+Section: Security
+Priority: required
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-2
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1464
+Filename: ./debs/gnupg_1.4.8-2_darwin-arm.deb
+Size: 655088
+MD5sum: e3dfe77b2fd5c4f7168d65dc3fc486d6
+SHA1: 74a34e32775969006e68732e2a08ffa9cb1d5ad8
+SHA256: 82477898276f2a7a6bc10cd148aee78c5e0c81f2c13954927eaddd2c1b654615
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg
+Version: 1.4.8-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1996
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-2_iphoneos-arm.deb
+Size: 973400
+MD5sum: 9dd1299dff4b1ddb3d000ce59d228161
+SHA1: 2d8f5e637790af91b7d67979ab9fa65a3dda1065
+SHA256: e718307d133a20e1ec2587d9341c94b8646c43f0be4eaa6dc20fe3761c1617da
+Section: Security
+Priority: required
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-3
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-3_darwin-arm.deb
+Size: 743380
+MD5sum: 5a4553ad542ebd1de1625a63bba2f465
+SHA1: 800cd15bbe9ff80333185ce9b5c39ba715495647
+SHA256: b3a8a430f1f78cac2bf25bb4a7702875b0bab0fed9a6bfeabb40f366980324de
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg
+Version: 1.4.8-3
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 2008
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-3_iphoneos-arm.deb
+Size: 981830
+MD5sum: 9742926fc779644882c84a3b4247690c
+SHA1: 6e007db8f3896a9e81818dd6e566043ce75f05e6
+SHA256: 90741e5a1e950bf839f1fb2b93b59df63a8a4789d7ed31679cf1b70694eb4da9
+Section: Security
+Priority: required
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-4_darwin-arm.deb
+Size: 743382
+MD5sum: ef2ca0429e0a35fc45220afbf0f0cce4
+SHA1: 242671ceb9625b148c77ce4f76a22701ede5ccac
+SHA256: 8b6d5fd668b5a88ed1cbe8a6859c379c5590c0b26b33b446de7f5c683947ceeb
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg
+Version: 1.4.8-4
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-4_iphoneos-arm.deb
+Size: 470686
+MD5sum: 94a206b01ef0a72da5bd33b0f749e257
+SHA1: a813fad002a3b476c2596e445d2ab87ece79d012
+SHA256: 9ead71f65ad62e95b31cc821dd6e7b6a3dbd930a7a49e96f280a2988288f5187
+Section: Security
+Priority: required
+Homepage: http://www.gnupg.org/
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-5
+Architecture: darwin-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-5_darwin-arm.deb
+Size: 743390
+MD5sum: 3d999335fee4b6e63ca9b078a454be93
+SHA1: e1e58b97c149bc027eb129a6e89054885526f5ff
+SHA256: c462ac14e059167ed983fbcac7915b46c08c65ffece270f03d1d1f4c6c264c65
+Section: security
+Priority: required
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg
+Version: 1.4.8-6
+Architecture: darwin-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-6_darwin-arm.deb
+Size: 743186
+MD5sum: 842f5ab6132b393a33d4a9fde0c63cc0
+SHA1: 5ee21213ffa92a242c30bff2da1b9d1fc9569445
+SHA256: 894aaaa9afa5104f93fcb2e567742eb33f409b43ba4d7a481f662610a342f1b7
+Section: security
+Priority: required
+Description: older encryption compatible with OpenPGP
+
+Package: gnupg
+Version: 1.4.8-7
+Architecture: darwin-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-7_darwin-arm.deb
+Size: 699174
+MD5sum: 4398e217d05732c6a460e65274190d69
+SHA1: acb5e8c4b760d6727700176e3275ed29635150d7
+SHA256: 4b94cbe9b98959975ce20b2e6d43b05fe8f6340aebc77ea21f5ffe18450040b9
+Section: Security
+Priority: required
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-8
+Architecture: darwin-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1944
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-8_darwin-arm.deb
+Size: 947362
+MD5sum: c6219f83d51adabe5e45231317486941
+SHA1: c0b1faf00e7fe95195957c738480daac6957d58b
+SHA256: 5911e9ed48b5371b28926357576cfe0b620cb6ec101978efdbc048946fb757cd
+Section: Security
+Priority: required
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg2
+Version: 2.0.8-1
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3912
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-1_darwin-arm.deb
+Size: 1544932
+MD5sum: 94b32fcd7de36a792a3e97072e66e7da
+SHA1: 272cbf33c298b6d58972f2c9cba8b577b877f1d6
+SHA256: 9fc35d1c852aaf160966a8f8aaa2c7dfda24eaa6af7804ffd12985acae9c099e
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg2
+Version: 2.0.8-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3560
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-1_iphoneos-arm.deb
+Size: 1594114
+MD5sum: b377f4c0fe0ca6c5539c58586fc98e94
+SHA1: 997098fadf3b7e93927c7c7c2296babdd8c094dc
+SHA256: 95c1ca4ad14380a7ff29ef13869eff84efd001ded5ab0cb7c27d547a99c24953
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupg2
+Version: 2.0.8-2
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3296
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-2_darwin-arm.deb
+Size: 1354546
+MD5sum: d9b2210607ae8d1fb693d3881f563f68
+SHA1: f9f377a5fb116a9ee3621e490a30e973e3260f1f
+SHA256: e9bf108f357e3d52ee2d46101e030c8c6cb50404d6d43e730c060c88ede50455
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg2
+Version: 2.0.8-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3684
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-2_iphoneos-arm.deb
+Size: 1653972
+MD5sum: f919be7a417e6ca418b1ca21794c8052
+SHA1: 4e24d5cc6cd2bef3d9f6b986f01f276489d2d2be
+SHA256: 415ae2c01ef475fcdb5f2bda6121dc99509ab82442dcf4a2ec4caa13056ad8c1
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupg2
+Version: 2.0.8-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3684
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-2p_iphoneos-arm.deb
+Size: 1653964
+MD5sum: aa9f0eb71632170341bb928b7373de12
+SHA1: 87b4069905d9cc02784ff52c3e84258a4665df4d
+SHA256: 5c64eb662e1396f21c3c822e76d2b1098cdab8a1c9b6a637ffd5746c3895d36c
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupg2
+Version: 2.0.8-3
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3912
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-3_darwin-arm.deb
+Size: 1544908
+MD5sum: 2074638fe523f5a94f31a57218f438dc
+SHA1: 2902da1ea31332e1a6e5c54a03c63bfe034ff4ce
+SHA256: 74dd08272e173885f3c245fa81c61cc55bd61ddf6613af3d013cf19ef7c85285
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg2
+Version: 2.0.8-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3912
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-4_darwin-arm.deb
+Size: 1544832
+MD5sum: 62e27c33febf46e2116128ad7ae52a1f
+SHA1: c1ef96c8d33b150c4e2465c6e744c2318e7aa524
+SHA256: 397ba7e93385befd1154b5ae276f44b2912217a68f3c881f8e0b85d286ce4cfd
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg2
+Version: 2.0.8-5
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3912
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-5_darwin-arm.deb
+Size: 1544840
+MD5sum: cba226a432ea3249a95347fd6aa81cb5
+SHA1: 5e4da48e98683cd3458f915dafbdcea035f2b86e
+SHA256: f0d53e61aaade613e1ea5ce38f3829b9768acc44cf2db2bb0d1170609591ec8f
+Section: security
+Priority: optional
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupg2
+Version: 2.0.8-6
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3912
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-6_darwin-arm.deb
+Size: 1544644
+MD5sum: 73735b8e31fb157189ca73c7cd6dc0d2
+SHA1: 3aadeacb5671c55d1df28fd1282bc40163ba0717
+SHA256: d74315159cb94efc57e7acb87dca5e9157915e330d3dc9fb25de2808d8819ce5
+Section: security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+
+Package: gnupg2
+Version: 2.0.8-7
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-7_darwin-arm.deb
+Size: 1544624
+MD5sum: 93fe36adcafbecb17c071716c8ea22f2
+SHA1: b9f738db6f84d214872a99d5982121a2369d4143
+SHA256: 34302775b1d38da7ebbf8c6caa4ddbcef2628fc2eb4e8bc9d12e1d5eea284d51
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupg2
+Version: 2.0.8-8
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3560
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-8_darwin-arm.deb
+Size: 1594060
+MD5sum: 93b34994c590dc31ed540f93bc847536
+SHA1: f2d01722ef2bf839ef02fae29018c487a7b3e976
+SHA256: caeaf69edc8c28a4c3c60ff7056d1669640bd633cb63e03eaceb31beafea6514
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupth
+Version: 2.0.7-1
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Filename: ./debs/gnupth_2.0.7-1_darwin-arm.deb
+Size: 45096
+MD5sum: aa5d1d44c5c72284792db7771e1acfa0
+SHA1: 55f40ebb3cca257fa2bdda1b582b81e07e532489
+SHA256: 70b9f9e9aae4a1531667dfc793ae6886d50a2470b79c391ae85477d8ded2e787
+Section: platform
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupth
+Version: 2.0.7-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 172
+Filename: ./debs/gnupth_2.0.7-1_iphoneos-arm.deb
+Size: 46038
+MD5sum: 0e2f0c8295e007a798663a1b0bd2d3c5
+SHA1: 555f1db09ac732192107f49db73441e3ac51d4ad
+SHA256: fddb3f99feaca20f3989fcc4ec7c92497a1bf6a904a8211fb443e2a6b95a0d54
+Section: Development
+Priority: optional
+Description: portable threading library used by X
+Name: GNU Portable Threads
+
+Package: gnupth
+Version: 2.0.7-2
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 156
+Filename: ./debs/gnupth_2.0.7-2_darwin-arm.deb
+Size: 40510
+MD5sum: b619f44aa5b0967fbd44008047e87246
+SHA1: 3c158d3ce54805b24ed9ffe49752dcf1d8642ca5
+SHA256: 860c4ed07610691d78d73880e7d042740b8bf246ae602e1764a2130b26fe10ea
+Section: platform
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupth
+Version: 2.0.7-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 172
+Filename: ./debs/gnupth_2.0.7-2_iphoneos-arm.deb
+Size: 47050
+MD5sum: 5afa454ef0f8f5bbe4d9cf3ac1a61439
+SHA1: 337d37f7ff55ccd500d7ac04b74792e98bd6e794
+SHA256: 3a980bba2805814eb2f9b87edf4d5ebf0d79cf45cb295a2b127a15473a506509
+Section: Development
+Priority: optional
+Description: portable threading library used by X
+Name: GNU Portable Threads
+
+Package: gnupth
+Version: 2.0.7-3
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Filename: ./debs/gnupth_2.0.7-3_darwin-arm.deb
+Size: 45084
+MD5sum: 37533e727a94768bade00133e557dfc4
+SHA1: d59a6daf691cf942bf9f896e8179a569b542c760
+SHA256: b0563fc62e86154d32db2d3c47f873aff78a209eb09eea2f82170e70736679f4
+Section: platform
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupth
+Version: 2.0.7-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Filename: ./debs/gnupth_2.0.7-4_darwin-arm.deb
+Size: 45088
+MD5sum: 2da1cf7c691450dbd2583519e400d7c8
+SHA1: 1cf22520791bc72d502464ed8987777ad26ee4ff
+SHA256: d71119c5ceb8aea7e052a9c06c65f8cceeb70cb83b29096f3ce7bb300ba07804
+Section: platform
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupth
+Version: 2.0.7-5
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Filename: ./debs/gnupth_2.0.7-5_darwin-arm.deb
+Size: 45100
+MD5sum: 4c54c303845226d6e792c6bf591ea2f3
+SHA1: 0cdca560939588d9ee72b2e92dcb6ec8e6708091
+SHA256: 564ff17466eca839884d711fe509475f4a6c174fd04e22a49af4c1a43f08754e
+Section: platform
+Priority: optional
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gnupth
+Version: 2.0.7-6
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Filename: ./debs/gnupth_2.0.7-6_darwin-arm.deb
+Size: 44900
+MD5sum: b4264a61660ea0e0b4ec8c36c85025e6
+SHA1: f783af08325fb14f93112da57409f0e566475c64
+SHA256: 98df398c21bef5b3c485db89a5dc0f5a1d46616f3978b61b0e2e9b0b389dd910
+Section: platform
+Priority: optional
+Description: portable threading library used by X
+
+Package: gnupth
+Version: 2.0.7-7
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/gnupth_2.0.7-7_darwin-arm.deb
+Size: 44894
+MD5sum: 0d8c175ec6887e4ab36dae27e4b13abe
+SHA1: d51c8ecf36c2c2273d0dba67a17834f5c60a70ca
+SHA256: ee1b91bf7527d28439fed872803920ad00c41bcea8e91f53d9d3898da8b2f205
+Section: Development
+Priority: optional
+Description: portable threading library used by X
+Name: GNU Portable Threads
+
 Package: gnupth
 Version: 2.0.7-8
 Architecture: darwin-arm
