@@ -2353,6 +2353,179 @@ Description: GNU's heavy-weight implementation of awk
 Name: Gawk
 
 Package: gcrypt
+Version: 1.4.0-1
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 648
+Filename: ./debs/gcrypt_1.4.0-1_darwin-arm.deb
+Size: 239498
+MD5sum: 3b185ed55fd55292259f6cc16b96411c
+SHA1: 79e7bcf7732bcc71c04d8961e4d714c311d27109
+SHA256: 925b8e257d62fbf072b20a0cb1347f2b78963cd5d1f53d221b6522e938876736
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gcrypt
+Version: 1.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 708
+Depends: libgpg-error
+Filename: ./debs/gcrypt_1.4.0-1_iphoneos-arm.deb
+Size: 296922
+MD5sum: 4f7383a3820772aba1adaa9f6dff5485
+SHA1: d9c5a2b5dcc04e25ed80d798031f8076479e45be
+SHA256: eb38c7e0965762c3d1b982326bfd6edd37c1dc9509a5607ad2532e2f278f7d21
+Section: Security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: gcrypt
+Version: 1.4.0-2
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 592
+Filename: ./debs/gcrypt_1.4.0-2_darwin-arm.deb
+Size: 219968
+MD5sum: 5a5ab37d5e71c1e5b008bda3eab0d002
+SHA1: 02609a77e76e7eef52428e64d3bef48a587a393e
+SHA256: 8fa2f145061ae8a2c7b75af5232758e6b71da0726f36aa1ddf8137a3dc9e9bcb
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gcrypt
+Version: 1.4.0-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 888
+Depends: libgpg-error
+Filename: ./debs/gcrypt_1.4.0-2_iphoneos-arm.deb
+Size: 334144
+MD5sum: f51ee2accec2ea406596991afd42f6fb
+SHA1: 10ef79271aa25dd8db9e782b748b84658c643871
+SHA256: d1bbc7c65e82fbe246df5a161c0fe71d26e2180879bf8bf73c7cca6b6b232190
+Section: Security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: gcrypt
+Version: 1.4.0-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 888
+Depends: libgpg-error
+Filename: ./debs/gcrypt_1.4.0-2p_iphoneos-arm.deb
+Size: 334176
+MD5sum: ee1d1628878df736e139b906642b6e6b
+SHA1: 65a6cf75c43d25e248a0733b90940762fc95dba7
+SHA256: 49535f8769a52c4c55021066fffced1ccbcf5ab5369fa7c8a3552b657ceadcd2
+Section: Security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: gcrypt
+Version: 1.4.0-3
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 648
+Filename: ./debs/gcrypt_1.4.0-3_darwin-arm.deb
+Size: 239498
+MD5sum: 3c5b890307ed75e9600e99a78516446e
+SHA1: 6a3b00faedd297aeec1f542f2502892ea4276835
+SHA256: 48bbeba7f47e94672509abe930323d87a151e27a69d47c40d0d1db27248e086b
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gcrypt
+Version: 1.4.0-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 648
+Filename: ./debs/gcrypt_1.4.0-4_darwin-arm.deb
+Size: 239506
+MD5sum: d3d1e07b8b1acc1bce4955192a177318
+SHA1: 668d4c6e8400939787fe7fcfb6e4419ec347d4ec
+SHA256: 3f609879a3c4a6a61310d3d12038db6199d9162d7d4a5ed2cdae10bcd2a4a9a2
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gcrypt
+Version: 1.4.0-5
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 648
+Filename: ./debs/gcrypt_1.4.0-5_darwin-arm.deb
+Size: 239516
+MD5sum: 30c97e3311507c507f623b5ee793b0ba
+SHA1: 172a3ba196da26dc9bc5d43e4d4ad0bc81cbc6f5
+SHA256: df55b51dcd1424e57300ade83eb9097f2681167bbaf038adb9ecad7680529aeb
+Section: security
+Priority: optional
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: gcrypt
+Version: 1.4.0-6
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 648
+Filename: ./debs/gcrypt_1.4.0-6_darwin-arm.deb
+Size: 239312
+MD5sum: 5df50f9c32e278f56f04e2d468ae050f
+SHA1: 91bda9bf9c80b01cd300f8ea5ff6200358a181db
+SHA256: bacbdeef3a07f942c486885d1fbd5da8693a317e7f7a58671d1d1a7443304f44
+Section: security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+
+Package: gcrypt
+Version: 1.4.0-7
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/gcrypt_1.4.0-7_darwin-arm.deb
+Size: 239298
+MD5sum: 00e81cc2d8e2c32ece1840d607c5312f
+SHA1: 694a8062244e7bfcf0c8484f34af399c02b58488
+SHA256: 4b47ba1588e248801044ec478b904361c9f58df3bccde47a29f617c3fc4e3e06
+Section: Security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: gcrypt
 Version: 1.4.0-8
 Architecture: darwin-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
