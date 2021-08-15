@@ -618,6 +618,26 @@ Author: Pangu <axe@pangu.io>
 Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
 Name: Pangu 8.0-8.1.x Untether
 
+Package: love.litten.diary
+Version: 1.0-1168+debug
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 10132
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo
+Conflicts: hi.my.name.is.ubik.kalm
+Filename: ./debs/love.litten.diary_1.0-1168debug_iphoneos-arm.deb
+Size: 4952556
+MD5sum: 02210b3d7ec55013dbacc6546a6c8df5
+SHA1: c17278e7ef290e1bdbbaa2404c0bd7c9b31dfc41
+SHA256: e9f3160f93eab1470e034d528408b8bbac15d4527c586273fa9f9ca00931cbeb
+Section: Tweaks
+Description: Dear diary..
+Author: Litten
+Depiction: https://repo.litten.love/depictions/dry/index.html
+Icon: https://repo.litten.love/depictions/dry/assets/icon.png
+Name: Diary 📖
+Sileodepiction: https://repo.litten.love/depictions/dry/dry.json
+
 Package: mobilesubstrate
 Version: 0.9.6301
 Architecture: iphoneos-arm
