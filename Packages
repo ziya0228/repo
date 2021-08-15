@@ -4758,6 +4758,176 @@ Priority: required
 Description: core library used by everything
 
 Package: libgpg-error
+Version: 1.6-1
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-1_darwin-arm.deb
+Size: 25862
+MD5sum: 7cb56141005c553e2ed700511b61a09c
+SHA1: 88a5378956a9d1b90362eae94d9fbeee0f4f5c63
+SHA256: ed2922e0647b30a0a4bc889bfb98a12aa20068e7442e3dc705306a4433bd88c5
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: libgpg-error
+Version: 1.6-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-1_iphoneos-arm.deb
+Size: 25380
+MD5sum: 895a67d623f5d0f3fd5edf7f11f1c758
+SHA1: 3cc32493b3b7600b630d32e7d1f27658dc1f80ce
+SHA256: 5ae2f1f57e43f6bed3ec825d627ef917686e029f999fffaf0851f9ba37069c02
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libgpg-error
+Version: 1.6-2
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-2_darwin-arm.deb
+Size: 25270
+MD5sum: 1fcec1577ea08dd38d84213c4602c7c0
+SHA1: c26a2634b246b4971b56f52a5924dfec12276347
+SHA256: 2b1101f7a4410e7da21a3af6556f5a536821d0d624bca1b3d5319a051f664052
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: libgpg-error
+Version: 1.6-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-2_iphoneos-arm.deb
+Size: 26152
+MD5sum: aa6a64f2af096968319cfbbeeab533be
+SHA1: c2127032e410669b5caefeb52f08836cc544961a
+SHA256: e448c78cb147c0b3de5775b4800a2322bbdc1ee14c2b6b5bfb28bc01388d2e99
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libgpg-error
+Version: 1.6-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-2p_iphoneos-arm.deb
+Size: 26178
+MD5sum: 49e43ff8d35c4b5740618af2c6f93b76
+SHA1: 04cb2cbc83accd6472290f037b9dd3208ffbf7bb
+SHA256: 436bef2048803eb9a83b9f732f71411f67af059fb6eac4030b6f90b26e425c99
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libgpg-error
+Version: 1.6-3
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-3_darwin-arm.deb
+Size: 25862
+MD5sum: c23c4771a1ec35da3e77917e6182c3a7
+SHA1: 70b91698fb991734260800f2dcf116f62e336001
+SHA256: 96cb89878c0413cf270962809b43d7c3c2d2df8f4c042d3db80630d2670619be
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: libgpg-error
+Version: 1.6-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-4_darwin-arm.deb
+Size: 25862
+MD5sum: 825a9251ebfbb2d9d5763ff1e190eb60
+SHA1: ff8907fa3dd8dfaa191b8f585b73887802baddd9
+SHA256: 840ca519c46409d5af3e3acb0c6aaf62709a41164292a9c45546ad1140697788
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: libgpg-error
+Version: 1.6-5
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-5_darwin-arm.deb
+Size: 25868
+MD5sum: b8731c47cfc8e722d8a6d23959c6c66c
+SHA1: bb5fe77034f70b3134e4c034f540267459725686
+SHA256: 02094cf65d5317faa008e16d97dcb17979b6baa67831f4291b80f3a72cedaaab
+Section: security
+Priority: optional
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
+
+Package: libgpg-error
+Version: 1.6-6
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-6_darwin-arm.deb
+Size: 25664
+MD5sum: f6c780ecbfd2215152711cfb7e891a4b
+SHA1: e2ecd3c499ed60efa090049b23c65504f9cf7646
+SHA256: d5a996101e4b06e95782d44cd9ee24542bff0733cfd36df2aa0c9e1b5ef80548
+Section: security
+Priority: optional
+Description: GnuPG's error management library
+
+Package: libgpg-error
+Version: 1.6-7
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/libgpg-error_1.6-7_darwin-arm.deb
+Size: 25644
+MD5sum: 2a02181230a9bbdb288209378df916de
+SHA1: 58358c9679fc75b9fdf583c80ac541fec2fa7efd
+SHA256: 25f42346d69a10ea9f182bf6c0d010c16b2ee7f3b2a4a46d4103c4eef273c7ed
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libgpg-error
 Version: 1.6-8
 Architecture: darwin-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
