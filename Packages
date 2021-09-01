@@ -111,6 +111,26 @@ Author: anondev
 Icon: /Library/PreferenceLoader/Preferences/LocalIAPStoreIcon.png
 Name: LocalIAPStore 虚拟内购商店
 
+Package: app.weiphone.auxo3
+Version: 1.1k
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Feng.com <support@office.feng.com>
+Filename: ./debs/app.weiphone.auxo3_1.1k_iphoneos-arm.deb
+Size: 655008
+MD5sum: 56eced61c6e65d37a6377f5bb69b96ae
+SHA1: 9e7e3d835e6ea032be366b206f84130f24cb7f6d
+SHA256: 96bc34e25f8056cf8098cf44da770783fdd3d71b7ccd73ea013d595c06abff1f
+Section: [威锋源-系统工具]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=549be9bb0e1d1550228b4b4b
+Description: 炫丽强大的后台插件
+Tag: role::enduser
+Author: A3tweaks<support@office.feng.com>
+Depiction: http://apt.so/index.php?r=cydia&id=549be9bb0e1d1550228b4b4b
+Name: Auxo 3 (iOS 8)
+Sponsor: Feng.com <http://www.feng.com>
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
@@ -325,6 +345,24 @@ Priority: required
 Author: 匿名
 Name: Debian Packager
 
+Package: apt7
+Version: 0.7.25.3-9
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Filename: ./debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+Size: 268210
+MD5sum: fd4e21263623720e819563dfb0fe23f2
+SHA1: d4829183f3e5929f857532204958f19028163602
+SHA256: 09e9b0dba087ee93385b8591f3d2e0005d78187e95d8633525fd92cf045f69ab
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+
 Package: apt7-ssl
 Version: 0.7.25.3-3
 Architecture: iphoneos-arm
@@ -464,6 +502,23 @@ SHA1: cac0f128be97b11e8df7f07d5e01bdd018da118f
 SHA256: 3f0629d3d1152cf1901d5f5f241290bec2043fc18a987d7cf4674b4af7b9a04c
 Section: Data_Storage
 Priority: standard
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+
+Package: berkeleydb
+Version: 4.6.21-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1704
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/berkeleydb_4.6.21-5_iphoneos-arm.deb
+Size: 483432
+MD5sum: d5538a770babf6adeb6f637c640fbcee
+SHA1: bb4cb7b140e57852d892c14d5a9649694d7b5f2b
+SHA256: 6754bcc64405a837c900040420838378d81e9e1df8ea70ae50ed4f91a33d8971
+Section: Data_Storage
+Priority: standard
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
 Description: Oracle's embeddable database engine
 Name: Berkeley DB
 
@@ -706,11 +761,11 @@ Pre-Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: us.hackulo.appsync50
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/_com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Filename: ./debs/com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
 Size: 4466
-MD5sum: d2c62e917339ea087b605a3738bff9d5
-SHA1: e2b2a649041463aa18fa224dfed11540c8118b84
-SHA256: b8d5fb3d60e4db09971448adc0ae2ec648dcbae8d6afb556c3b89647ffe7dbc2
+MD5sum: 076d3cf0c16984a8174f4f834ab35a0d
+SHA1: bf52daefe16f6af591c0050ca0e7f7d6c5b2c4c3
+SHA256: 533956ac9770be2084858dce1f6ab10222e8d08c711f5a67bd5b773d67027453
 Section: 91助手-补丁
 Priority: standard
 Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
@@ -729,11 +784,11 @@ Pre-Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: us.hackulo.appsync50
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Filename: ./debs/_com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
 Size: 4466
-MD5sum: 076d3cf0c16984a8174f4f834ab35a0d
-SHA1: bf52daefe16f6af591c0050ca0e7f7d6c5b2c4c3
-SHA256: 533956ac9770be2084858dce1f6ab10222e8d08c711f5a67bd5b773d67027453
+MD5sum: d2c62e917339ea087b605a3738bff9d5
+SHA1: e2b2a649041463aa18fa224dfed11540c8118b84
+SHA256: b8d5fb3d60e4db09971448adc0ae2ec648dcbae8d6afb556c3b89647ffe7dbc2
 Section: 91助手-补丁
 Priority: standard
 Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
@@ -761,6 +816,75 @@ Author: Hackl0us & Jackie099
 Icon: file:///Applications/ReleaseMeNow.app/icon.png
 Name: Release Me Now 3
 Sponsor: Jackie099 <jackie099@me.com>
+
+Package: com.a3tweaks.auxo2
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1613
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
+Filename: ./debs/com.a3tweaks.auxo2_1.2.3_iphoneos-arm.deb
+Size: 596636
+MD5sum: 1dfec4ae286214809481a0a9a2b0cf3e
+SHA1: a864c120cae72dd00183ed56dcf55362956aed33
+SHA256: c34a56959b75de9b537777127515bb82abb24df5fe3badd283e0d8d46b4940d8
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Description: A fantasic re-imagined task switcher!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <auxo2@a3tweaks.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Dev: a3tweaks
+Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
+Name: Auxo 2 (iOS 7)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.a3tweaks.auxo3
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1712
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.a3tweaks.auxo2
+Filename: ./debs/com.a3tweaks.auxo3_1.1_iphoneos-arm.deb
+Size: 656180
+MD5sum: 72fc8bbfe9940b9ec94e22a6eefab583
+SHA1: 8793efae3e3d79e3d90e2e782dccc37525cb6d9e
+SHA256: e54c102d9f329f91c988c751527b25e5d6767545fdda10407a599f71e270321a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo3Dp
+Description: A fantasic re-imagined task switcher!
+Tag: cydia::commercial, purpose::extension, ios8support::1
+Author: A3tweaks <auxo3@a3tweaks.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo3Dp
+Dev: a3tweaks
+Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
+Name: Auxo 3 (iOS 8)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.a3tweaks.auxo3ios9
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 735
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.a3tweaks.auxo2, com.a3tweaks.auxo3
+Filename: ./debs/com.a3tweaks.auxo3ios9_1.1.2_iphoneos-arm.deb
+Size: 335094
+MD5sum: a8e9fd7337d7680e389950473c7e2b48
+SHA1: 788be9f9c21e5fb9159a585c782f9520376061b6
+SHA256: a3d78538a29b2697ce1b3b6b51c9e3c5f1cb414e7e2a212f0edf7660b950bdde
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo3ios9Dp
+Description: A fantasic re-imagined task switcher!
+Tag: cydia::commercial, purpose::extension, compatible::ios9
+Author: A3tweaks <hi@qusic.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo3ios9Dp
+Dev: auxo3ios9
+Icon: file:///Library/PreferenceBundles/NewAuxoPreferences.bundle/Auxo@2x.png
+Name: Auxo 3 (iOS 9)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.abcydia.detailedpowerusage
 Version: 1.0.0
@@ -2069,6 +2193,26 @@ Description: contains nothing, represents everything
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
 
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9751882
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA1: 3ff2ab2d71d013510c2d7946165719757878a613
+SHA256: 9f8c38312d7676a88507dcac6196261185928c9b38666bab80ac50fcfb8c3c61
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Tag: purpose::uikit, cydia::commercial
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
 Package: expat
 Version: 2.0.1-8
 Architecture: darwin-arm
@@ -2543,22 +2687,6 @@ Name: GNU Cryptography
 
 Package: gdata-objectivec-client
 Version: 129-1
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 1732
-Depends: libxml2
-Filename: ./debs/gdata-objectivec-client_129-1_darwin-arm.deb
-Size: 293678
-MD5sum: fcb3891adf926afc21570b63f2c04919
-SHA1: 8a883c8b155d8ac1820f66d3d7864c6674f5f38e
-SHA256: 0128e88731e28899820387f350ca6c4ec4857e815e25f197c0b9bd555584524f
-Section: Development
-Priority: optional
-Description: GData client library (Objective-C)
-Name: Google Data APIs
-
-Package: gdata-objectivec-client
-Version: 129-1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 1892
@@ -2568,6 +2696,22 @@ Size: 332510
 MD5sum: dcd76d3427130a9687b1d2b66638d04e
 SHA1: 195887fdbbb58fe60bb413aa8cef2503546fcbaa
 SHA256: ef98720c80b59981520d061cd4698eb9831dc0b334b9f3a7d016af0c90e61c05
+Section: Development
+Priority: optional
+Description: GData client library (Objective-C)
+Name: Google Data APIs
+
+Package: gdata-objectivec-client
+Version: 129-1
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1732
+Depends: libxml2
+Filename: ./debs/gdata-objectivec-client_129-1_darwin-arm.deb
+Size: 293678
+MD5sum: fcb3891adf926afc21570b63f2c04919
+SHA1: 8a883c8b155d8ac1820f66d3d7864c6674f5f38e
+SHA256: 0128e88731e28899820387f350ca6c4ec4857e815e25f197c0b9bd555584524f
 Section: Development
 Priority: optional
 Description: GData client library (Objective-C)
@@ -2753,25 +2897,6 @@ Name: GNU Privacy Guard
 
 Package: gnupg
 Version: 1.4.8-2
-Architecture: darwin-arm
-Essential: no
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 1464
-Filename: ./debs/gnupg_1.4.8-2_darwin-arm.deb
-Size: 655088
-MD5sum: e3dfe77b2fd5c4f7168d65dc3fc486d6
-SHA1: 74a34e32775969006e68732e2a08ffa9cb1d5ad8
-SHA256: 82477898276f2a7a6bc10cd148aee78c5e0c81f2c13954927eaddd2c1b654615
-Section: security
-Description: this package isn't described yet
- This package, which I'm certain is incredibly interesting, has yet to
- be described. This is probably because Jay has spent days getting all
- kinds of bookkeeping issues, like copyright notifications, all in their
- correct places, and descriptions just aren't the most important thing
- he could be working on. If this is a problem, please come back later.
-
-Package: gnupg
-Version: 1.4.8-2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -2788,17 +2913,16 @@ Description: older encryption compatible with OpenPGP
 Name: GNU Privacy Guard
 
 Package: gnupg
-Version: 1.4.8-3
+Version: 1.4.8-2
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 1748
-Depends: ncurses
-Filename: ./debs/gnupg_1.4.8-3_darwin-arm.deb
-Size: 743380
-MD5sum: 5a4553ad542ebd1de1625a63bba2f465
-SHA1: 800cd15bbe9ff80333185ce9b5c39ba715495647
-SHA256: b3a8a430f1f78cac2bf25bb4a7702875b0bab0fed9a6bfeabb40f366980324de
+Installed-Size: 1464
+Filename: ./debs/gnupg_1.4.8-2_darwin-arm.deb
+Size: 655088
+MD5sum: e3dfe77b2fd5c4f7168d65dc3fc486d6
+SHA1: 74a34e32775969006e68732e2a08ffa9cb1d5ad8
+SHA256: 82477898276f2a7a6bc10cd148aee78c5e0c81f2c13954927eaddd2c1b654615
 Section: security
 Description: this package isn't described yet
  This package, which I'm certain is incredibly interesting, has yet to
@@ -2825,17 +2949,17 @@ Description: older encryption compatible with OpenPGP
 Name: GNU Privacy Guard
 
 Package: gnupg
-Version: 1.4.8-4
+Version: 1.4.8-3
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 1748
 Depends: ncurses
-Filename: ./debs/gnupg_1.4.8-4_darwin-arm.deb
-Size: 743382
-MD5sum: ef2ca0429e0a35fc45220afbf0f0cce4
-SHA1: 242671ceb9625b148c77ce4f76a22701ede5ccac
-SHA256: 8b6d5fd668b5a88ed1cbe8a6859c379c5590c0b26b33b446de7f5c683947ceeb
+Filename: ./debs/gnupg_1.4.8-3_darwin-arm.deb
+Size: 743380
+MD5sum: 5a4553ad542ebd1de1625a63bba2f465
+SHA1: 800cd15bbe9ff80333185ce9b5c39ba715495647
+SHA256: b3a8a430f1f78cac2bf25bb4a7702875b0bab0fed9a6bfeabb40f366980324de
 Section: security
 Description: this package isn't described yet
  This package, which I'm certain is incredibly interesting, has yet to
@@ -2861,6 +2985,26 @@ Priority: required
 Homepage: http://www.gnupg.org/
 Description: older encryption compatible with OpenPGP
 Name: GNU Privacy Guard
+
+Package: gnupg
+Version: 1.4.8-4
+Architecture: darwin-arm
+Essential: no
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1748
+Depends: ncurses
+Filename: ./debs/gnupg_1.4.8-4_darwin-arm.deb
+Size: 743382
+MD5sum: ef2ca0429e0a35fc45220afbf0f0cce4
+SHA1: 242671ceb9625b148c77ce4f76a22701ede5ccac
+SHA256: 8b6d5fd668b5a88ed1cbe8a6859c379c5590c0b26b33b446de7f5c683947ceeb
+Section: security
+Description: this package isn't described yet
+ This package, which I'm certain is incredibly interesting, has yet to
+ be described. This is probably because Jay has spent days getting all
+ kinds of bookkeeping issues, like copyright notifications, all in their
+ correct places, and descriptions just aren't the most important thing
+ he could be working on. If this is a problem, please come back later.
 
 Package: gnupg
 Version: 1.4.8-5
@@ -2970,6 +3114,22 @@ Name: GnuPG 2
 
 Package: gnupg2
 Version: 2.0.8-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 3684
+Depends: gcrypt, gnupth, libassuan, libksba
+Filename: ./debs/gnupg2_2.0.8-2_iphoneos-arm.deb
+Size: 1653972
+MD5sum: f919be7a417e6ca418b1ca21794c8052
+SHA1: 4e24d5cc6cd2bef3d9f6b986f01f276489d2d2be
+SHA256: 415ae2c01ef475fcdb5f2bda6121dc99509ab82442dcf4a2ec4caa13056ad8c1
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: gnupg2
+Version: 2.0.8-2
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -2987,22 +3147,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: gnupg2
-Version: 2.0.8-2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 3684
-Depends: gcrypt, gnupth, libassuan, libksba
-Filename: ./debs/gnupg2_2.0.8-2_iphoneos-arm.deb
-Size: 1653972
-MD5sum: f919be7a417e6ca418b1ca21794c8052
-SHA1: 4e24d5cc6cd2bef3d9f6b986f01f276489d2d2be
-SHA256: 415ae2c01ef475fcdb5f2bda6121dc99509ab82442dcf4a2ec4caa13056ad8c1
-Section: Security
-Priority: optional
-Description: newer encryption compatible with OpenPGP
-Name: GnuPG 2
 
 Package: gnupg2
 Version: 2.0.8-2p
@@ -3164,6 +3308,21 @@ Name: GNU Portable Threads
 
 Package: gnupth
 Version: 2.0.7-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 172
+Filename: ./debs/gnupth_2.0.7-2_iphoneos-arm.deb
+Size: 47050
+MD5sum: 5afa454ef0f8f5bbe4d9cf3ac1a61439
+SHA1: 337d37f7ff55ccd500d7ac04b74792e98bd6e794
+SHA256: 3a980bba2805814eb2f9b87edf4d5ebf0d79cf45cb295a2b127a15473a506509
+Section: Development
+Priority: optional
+Description: portable threading library used by X
+Name: GNU Portable Threads
+
+Package: gnupth
+Version: 2.0.7-2
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -3180,21 +3339,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: gnupth
-Version: 2.0.7-2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 172
-Filename: ./debs/gnupth_2.0.7-2_iphoneos-arm.deb
-Size: 47050
-MD5sum: 5afa454ef0f8f5bbe4d9cf3ac1a61439
-SHA1: 337d37f7ff55ccd500d7ac04b74792e98bd6e794
-SHA256: 3a980bba2805814eb2f9b87edf4d5ebf0d79cf45cb295a2b127a15473a506509
-Section: Development
-Priority: optional
-Description: portable threading library used by X
-Name: GNU Portable Threads
 
 Package: gnupth
 Version: 2.0.7-3
@@ -3756,11 +3900,11 @@ Version: 0.3
 Architecture: iphoneos-arm
 Maintainer: Pangu <axe@pangu.io>
 Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
-Filename: ./debs/10205952_io.pangu.axe7_0.3.deb
-Size: 63518
-MD5sum: 8e5c6b77e803c1fe44c8365c67cfbf4e
-SHA1: 6557fda528e09cdb64da27348aa86f6c79a3b5dc
-SHA256: 563cc8300900e4a6d2917482672e7b9526a176bc3e0e14ac0ffa2568bfc4a069
+Filename: ./debs/io.pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
 Section: System
 Priority: optional
 Description: untethered jailbreak based on pangu exploits
@@ -3773,11 +3917,11 @@ Version: 0.3
 Architecture: iphoneos-arm
 Maintainer: Pangu <axe@pangu.io>
 Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
-Filename: ./debs/io.pangu.axe7_0.3_iphoneos-arm.deb
-Size: 107276
-MD5sum: 3d86ef34bda9287e6081dda95b7593dd
-SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
-SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Filename: ./debs/10205952_io.pangu.axe7_0.3.deb
+Size: 63518
+MD5sum: 8e5c6b77e803c1fe44c8365c67cfbf4e
+SHA1: 6557fda528e09cdb64da27348aa86f6c79a3b5dc
+SHA256: 563cc8300900e4a6d2917482672e7b9526a176bc3e0e14ac0ffa2568bfc4a069
 Section: System
 Priority: optional
 Description: untethered jailbreak based on pangu exploits
@@ -4619,6 +4763,24 @@ Description: replaces init, rc, inetd, atd, crond
 Name: Launch Daemon
 
 Package: ldid
+Version: 1:1.2.1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 272
+Filename: ./debs/ldid_1.2.1_iphoneos-arm.deb
+Size: 46666
+MD5sum: 52fba17f6b568ca3dafc1b1be6572e53
+SHA1: e98ca54ee40ad45c26f4c4881fe39c16dfd7b8b3
+SHA256: 778301af4f6a6f0fc2c5f05314cc8e36075466ab67059f5c1e6198d36cf8dcd3
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
+
+Package: ldid
 Version: 610-5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -4759,6 +4921,21 @@ Description: core library used by everything
 
 Package: libgpg-error
 Version: 1.6-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 160
+Filename: ./debs/libgpg-error_1.6-1_iphoneos-arm.deb
+Size: 25380
+MD5sum: 895a67d623f5d0f3fd5edf7f11f1c758
+SHA1: 3cc32493b3b7600b630d32e7d1f27658dc1f80ce
+SHA256: 5ae2f1f57e43f6bed3ec825d627ef917686e029f999fffaf0851f9ba37069c02
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libgpg-error
+Version: 1.6-1
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -4777,15 +4954,15 @@ Description: this package isn't described yet
  he could be working on. If this is a problem, please come back later.
 
 Package: libgpg-error
-Version: 1.6-1
+Version: 1.6-2
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 160
-Filename: ./debs/libgpg-error_1.6-1_iphoneos-arm.deb
-Size: 25380
-MD5sum: 895a67d623f5d0f3fd5edf7f11f1c758
-SHA1: 3cc32493b3b7600b630d32e7d1f27658dc1f80ce
-SHA256: 5ae2f1f57e43f6bed3ec825d627ef917686e029f999fffaf0851f9ba37069c02
+Filename: ./debs/libgpg-error_1.6-2_iphoneos-arm.deb
+Size: 26152
+MD5sum: aa6a64f2af096968319cfbbeeab533be
+SHA1: c2127032e410669b5caefeb52f08836cc544961a
+SHA256: e448c78cb147c0b3de5775b4800a2322bbdc1ee14c2b6b5bfb28bc01388d2e99
 Section: Security
 Priority: optional
 Description: GnuPG's error management library
@@ -4809,21 +4986,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: libgpg-error
-Version: 1.6-2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 160
-Filename: ./debs/libgpg-error_1.6-2_iphoneos-arm.deb
-Size: 26152
-MD5sum: aa6a64f2af096968319cfbbeeab533be
-SHA1: c2127032e410669b5caefeb52f08836cc544961a
-SHA256: e448c78cb147c0b3de5775b4800a2322bbdc1ee14c2b6b5bfb28bc01388d2e99
-Section: Security
-Priority: optional
-Description: GnuPG's error management library
-Name: GnuPG Errors
 
 Package: libgpg-error
 Version: 1.6-2p
@@ -4944,23 +5106,6 @@ Name: GnuPG Errors
 
 Package: libgpod
 Version: 0.6.0-1
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 288
-Depends: glib
-Filename: ./debs/libgpod_0.6.0-1_darwin-arm.deb
-Size: 70774
-MD5sum: 41c3080d0fc448279c78aaa08c540671
-SHA1: 09d7296d61f8023bc2f08c9a8faae2561152702c
-SHA256: ab8772452e705954f109518dc1f3900982b80b6756540ebc059f42736a33c63e
-Section: Development
-Priority: optional
-Homepage: http://www.gtkpod.org/libgpod.html
-Description: iPod data access library
-Author: Jorg Schuler <jcsjcs@users.sourceforge.net>
-
-Package: libgpod
-Version: 0.6.0-1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 304
@@ -4970,6 +5115,23 @@ Size: 77420
 MD5sum: 7981562977861fe8de7be48d84249159
 SHA1: fd1e5c6e99f995d5e3880dd0abb83465ca855a1c
 SHA256: ded26e5dc96e07958714b3a90aee4fdf4207507fa5582f656571f2eb4459ad29
+Section: Development
+Priority: optional
+Homepage: http://www.gtkpod.org/libgpod.html
+Description: iPod data access library
+Author: Jorg Schuler <jcsjcs@users.sourceforge.net>
+
+Package: libgpod
+Version: 0.6.0-1
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 288
+Depends: glib
+Filename: ./debs/libgpod_0.6.0-1_darwin-arm.deb
+Size: 70774
+MD5sum: 41c3080d0fc448279c78aaa08c540671
+SHA1: 09d7296d61f8023bc2f08c9a8faae2561152702c
+SHA256: ab8772452e705954f109518dc1f3900982b80b6756540ebc059f42736a33c63e
 Section: Development
 Priority: optional
 Homepage: http://www.gtkpod.org/libgpod.html
@@ -5682,24 +5844,6 @@ Name: iPhone-Patch's Source
 
 Package: mtr
 Version: 0.73-1
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 244
-Depends: ncurses
-Filename: ./debs/mtr_0.73-1_darwin-arm.deb
-Size: 78490
-MD5sum: 054c0f24dc06de4ad2b83b5cc911a5ad
-SHA1: e6b10518428d65eb8861125056a1204caf05a07d
-SHA256: 5663db9ee1503aa443b59464113c638fdb63b69df17ee8218e81a10ded4194b4
-Section: Networking
-Priority: optional
-Homepage: http://www.bitwizard.nl/mtr/
-Description: traceroute "on steroids"
-Author: Matt Kimball <mkimball@xmission.com>
-Name: My TraceRoute
-
-Package: mtr
-Version: 0.73-1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 244
@@ -5709,6 +5853,24 @@ Size: 79240
 MD5sum: 796346c8c48c091cf62269710ca3d8b9
 SHA1: ef5997482b65c71a30000cf89cbc49827916165f
 SHA256: 846b4eb36224e7aebf9efd223ba8a74f2a3300023dc2f36a6130aa89ebe1f1a1
+Section: Networking
+Priority: optional
+Homepage: http://www.bitwizard.nl/mtr/
+Description: traceroute "on steroids"
+Author: Matt Kimball <mkimball@xmission.com>
+Name: My TraceRoute
+
+Package: mtr
+Version: 0.73-1
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 244
+Depends: ncurses
+Filename: ./debs/mtr_0.73-1_darwin-arm.deb
+Size: 78490
+MD5sum: 054c0f24dc06de4ad2b83b5cc911a5ad
+SHA1: e6b10518428d65eb8861125056a1204caf05a07d
+SHA256: 5663db9ee1503aa443b59464113c638fdb63b69df17ee8218e81a10ded4194b4
 Section: Networking
 Priority: optional
 Homepage: http://www.bitwizard.nl/mtr/
@@ -5891,6 +6053,27 @@ SHA256: ac488a6140508fba8fa19df01fc7fd3927ca6ee4cca62cf4f182b200bcccb6fd
 Section: Networking
 Priority: standard
 Description: HTTP and WebDAV client library
+
+Package: net.angelxwind.appsyncunified
+Version: 100.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.7.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_100.0.deb
+Size: 58314
+MD5sum: d9d27173cc6130c5d230851d80ffd618
+SHA1: 56d334823c0dd7ef192a489ea8ec332041ce108a
+SHA256: c560fa196cd3fb244edb72f2a3943c7ead59979c300f9ecdceefc713439a8454
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
 
 Package: net.angelxwind.appsyncunified
 Version: 4.3-1
@@ -6259,21 +6442,6 @@ Name: Ogg
 
 Package: openntpd
 Version: 4.2-1
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 80
-Filename: ./debs/openntpd_4.2-1_darwin-arm.deb
-Size: 20874
-MD5sum: e42d9e6f50fbaf3430db93b94e80c3cd
-SHA1: 7cb9238a0fb7239e0eb954a8a43a36346f4e468a
-SHA256: 16e91e52d7702452bd18fefda179e38bb03a4e3b486e0659ca58561dedee042a
-Section: Networking
-Priority: optional
-Description: designed /specifically/ for OpenBSD
-Name: OpenNTPD
-
-Package: openntpd
-Version: 4.2-1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 80
@@ -6282,6 +6450,21 @@ Size: 20878
 MD5sum: f2b826e2fbca506f49b6a57f2ee74bf9
 SHA1: af6e70e8c5e636fb1bb72bc25fd26d144761bc7a
 SHA256: f76f1dbd881feed76208b41b4026b3752e3a7f49ad9753f62a11666f81796114
+Section: Networking
+Priority: optional
+Description: designed /specifically/ for OpenBSD
+Name: OpenNTPD
+
+Package: openntpd
+Version: 4.2-1
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 80
+Filename: ./debs/openntpd_4.2-1_darwin-arm.deb
+Size: 20874
+MD5sum: e42d9e6f50fbaf3430db93b94e80c3cd
+SHA1: 7cb9238a0fb7239e0eb954a8a43a36346f4e468a
+SHA256: 16e91e52d7702452bd18fefda179e38bb03a4e3b486e0659ca58561dedee042a
 Section: Networking
 Priority: optional
 Description: designed /specifically/ for OpenBSD
@@ -6530,6 +6713,22 @@ Name: OpenSSH
 
 Package: openssh
 Version: 4.7p1-3
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1796
+Depends: openssl
+Filename: ./debs/openssh_4.7p1-3_iphoneos-arm.deb
+Size: 744726
+MD5sum: 19580b1d08f3f92dc27343560db872f2
+SHA1: 3b38454c32f85bfaf41f2862d20bda1de85232be
+SHA256: 79acb348c450cbdd45195d4165b868fdda50351f5882944cfae2b7c042e2f704
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Name: OpenSSH
+
+Package: openssh
+Version: 4.7p1-3
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -6547,22 +6746,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: openssh
-Version: 4.7p1-3
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 1796
-Depends: openssl
-Filename: ./debs/openssh_4.7p1-3_iphoneos-arm.deb
-Size: 744726
-MD5sum: 19580b1d08f3f92dc27343560db872f2
-SHA1: 3b38454c32f85bfaf41f2862d20bda1de85232be
-SHA256: 79acb348c450cbdd45195d4165b868fdda50351f5882944cfae2b7c042e2f704
-Section: Networking
-Priority: important
-Description: secure remote access between machines
-Name: OpenSSH
 
 Package: openssh
 Version: 4.7p1-4
@@ -6949,6 +7132,22 @@ Name: OpenSSL
 
 Package: openssl
 Version: 0.9.8g-3
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 8824
+Filename: ./debs/openssl_0.9.8g-3_iphoneos-arm.deb
+Size: 2814116
+MD5sum: 26174ae12654f29bd71f11154f1effcf
+SHA1: e530b8c6958673a4f90e78804acc9e1b69d90bb2
+SHA256: c35fce13b3390d459cda59c65a059e95c1da92029161a55def6a845ecfa7df3c
+Section: Security
+Priority: required
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: openssl
+Version: 0.9.8g-3
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -6965,22 +7164,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: openssl
-Version: 0.9.8g-3
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 8824
-Filename: ./debs/openssl_0.9.8g-3_iphoneos-arm.deb
-Size: 2814116
-MD5sum: 26174ae12654f29bd71f11154f1effcf
-SHA1: e530b8c6958673a4f90e78804acc9e1b69d90bb2
-SHA256: c35fce13b3390d459cda59c65a059e95c1da92029161a55def6a845ecfa7df3c
-Section: Security
-Priority: required
-Description: SSL library and cryptographic tools
-Name: OpenSSL
 
 Package: openssl
 Version: 0.9.8g-4
@@ -7125,7 +7308,7 @@ Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 9052
-Filename: ./debs/340839_openssl_0.9.8i-6_iphoneos-arm.deb
+Filename: ./debs/openssl_0.9.8i-6_iphoneos-arm.deb
 Size: 2853126
 MD5sum: 42c92bc73a7755bafd6de8d13c62febc
 SHA1: 65d02268fe056e7b0b08694edb6ff8cdb1610043
@@ -7141,7 +7324,7 @@ Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 9052
-Filename: ./debs/openssl_0.9.8i-6_iphoneos-arm.deb
+Filename: ./debs/340839_openssl_0.9.8i-6_iphoneos-arm.deb
 Size: 2853126
 MD5sum: 42c92bc73a7755bafd6de8d13c62febc
 SHA1: 65d02268fe056e7b0b08694edb6ff8cdb1610043
@@ -7303,6 +7486,50 @@ Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 Name: Auxo
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: org.thebigboss.auxo
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
+Size: 1818854
+MD5sum: 11753f550e6b4cab730a5eb55bbd8dab
+SHA1: 846623888fe869f3930bf63ffb9d200cabf83dbb
+SHA256: a63e4aab3d823fe957337b1b5c3a70fa9e86dd485c9f38e4b75265ce8c1cc4ad
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Description: A fantastic re-imagined multitasking bar!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo (iOS 5 & 6)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.auxopad
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 805
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch, gsc.ipad
+Filename: ./debs/org.thebigboss.auxopad_1.0.2-1_iphoneos-arm.deb
+Size: 601434
+MD5sum: 57ae18b412d039c237ca25903a4e7a98
+SHA1: c58a6e2be1323ed5f86e82a5e51de038cee4c336
+SHA256: 7c2348ce74c08b5b042764a106b41dd6ef413a092d40bb0c7ae488cf0e7eb266
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxopadDp
+Description: A fantastic re-imagined multitasking bar!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxopadDp
+Dev: a3tweaks
+Icon: file:///Library/PreferenceBundles/Auxo.bundle/AuxoIcon@2x.png
+Name: Auxo for iPad
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.thebigboss.repo.icons
 Version: 1.0
 Architecture: iphoneos-arm
@@ -7336,6 +7563,21 @@ Description: XBMC Multimedia Center for 4.x iOS
 Author: TeamXBMC
 Icon: file:///Applications/Cydia.app/Sources/mirrors.xbmc.org.png
 Name: XBMC-iOS
+
+Package: p7zip
+Version: 4.57-3p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4328
+Filename: ./debs/p7zip_4.57-3p_iphoneos-arm.deb
+Size: 1595788
+MD5sum: 80396bec09f94e23cd1d59fe818cbf5f
+SHA1: ee4d0b30cb5628a31830cab89df3764cdfb27015
+SHA256: 72035b550c364ca25362a7f2dbf67254950da2c5989347a40f860eb56508816e
+Section: Archiving
+Priority: optional
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
 
 Package: p7zip
 Version: 4.57-4
@@ -7639,6 +7881,26 @@ Tag: purpose::library, role::developer
 Author: Thomas Moore <iphone-developer@sbcglobal.net>
 Depiction: http://cydia.saurik.com/info/preferenceloader/
 Name: PreferenceLoader (old)
+
+Package: preferenceloader
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA1: c1d547036234756c5e75a633393d4ffa791b1126
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Sam Bingner <maintainer@sbdhi.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
 
 Package: pri.ee
 Version: 0-1
@@ -8226,22 +8488,6 @@ Package: saffron-jailbreak-ipad1.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPad1,1-8F190-2.deb
-Size: 38090
-MD5sum: 548039b87e5c6dd643d8937912d6d3c6
-SHA1: 1a0b98450922a24a571d87c2beca6107a1232593
-SHA256: b773de1c39a7c2b31f28451cb02ba9cfef04412cd2fae09829c179c88592948e
-Section: System
-Priority: required
-Description: support files for JailbreakMe 3.0
-Tag: role::cydia
-Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8F190 iPad1,1 JailbreakMe 3.0
-
-Package: saffron-jailbreak-ipad1.1-8f190
-Version: 2
-Architecture: iphoneos-arm
-Maintainer: comex <comexk@gmail.com>
 Filename: ./debs/saffron-jailbreak-iPad1,1-8F190-2.~srk1.deb
 Size: 38096
 MD5sum: 734eb981d15293d5bfde76cfdddbb919
@@ -8254,15 +8500,31 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8F190 iPad1,1 JailbreakMe 3.0
 
+Package: saffron-jailbreak-ipad1.1-8f190
+Version: 2
+Architecture: iphoneos-arm
+Maintainer: comex <comexk@gmail.com>
+Filename: ./debs/saffron-jailbreak-iPad1,1-8F190-2.deb
+Size: 38090
+MD5sum: 548039b87e5c6dd643d8937912d6d3c6
+SHA1: 1a0b98450922a24a571d87c2beca6107a1232593
+SHA256: b773de1c39a7c2b31f28451cb02ba9cfef04412cd2fae09829c179c88592948e
+Section: System
+Priority: required
+Description: support files for JailbreakMe 3.0
+Tag: role::cydia
+Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
+Name: 8F190 iPad1,1 JailbreakMe 3.0
+
 Package: saffron-jailbreak-ipad1.1-8g4
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPad1,1-8G4-2.deb
-Size: 38082
-MD5sum: 231b49d2806dbb5d1e0bbbf17ba4d12f
-SHA1: aa4410a8d4199b792c46610e99839eab117c00b8
-SHA256: 4ff7d6bb18cfc25d73cfedee1f7098c90de7aa1014ec80c8bb2a8537ef9c3329
+Filename: ./debs/saffron-jailbreak-iPad1,1-8G4-2.~srk1.deb
+Size: 38088
+MD5sum: 5d3b345648fdc4c1cead4445f05dfdce
+SHA1: 0bc4bcd52d66d1047b565c438f32f58dd8364d33
+SHA256: 0155298aae16b65ed7acf8ab6e0a9b96295b7a40368f4f38c2ed09a1986cc7da
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8274,11 +8536,11 @@ Package: saffron-jailbreak-ipad1.1-8g4
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPad1,1-8G4-2.~srk1.deb
-Size: 38088
-MD5sum: 5d3b345648fdc4c1cead4445f05dfdce
-SHA1: 0bc4bcd52d66d1047b565c438f32f58dd8364d33
-SHA256: 0155298aae16b65ed7acf8ab6e0a9b96295b7a40368f4f38c2ed09a1986cc7da
+Filename: ./debs/saffron-jailbreak-iPad1,1-8G4-2.deb
+Size: 38082
+MD5sum: 231b49d2806dbb5d1e0bbbf17ba4d12f
+SHA1: aa4410a8d4199b792c46610e99839eab117c00b8
+SHA256: 4ff7d6bb18cfc25d73cfedee1f7098c90de7aa1014ec80c8bb2a8537ef9c3329
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8386,22 +8648,6 @@ Package: saffron-jailbreak-ipad2.2-8j2
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPad2,2-8J2-2.deb
-Size: 38080
-MD5sum: 44f6b0def95900d45b74c999aab44c9d
-SHA1: 534afa1409683b66c4156e5b0328dc20703cc7db
-SHA256: 3d81ab75a185791b55f664108c9bddcab82753eb2fea6cd512e51a056ee24b96
-Section: System
-Priority: required
-Description: support files for JailbreakMe 3.0
-Tag: role::cydia
-Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8J2 iPad2,2 JailbreakMe 3.0
-
-Package: saffron-jailbreak-ipad2.2-8j2
-Version: 2
-Architecture: iphoneos-arm
-Maintainer: comex <comexk@gmail.com>
 Filename: ./debs/saffron-jailbreak-iPad2,2-8J2-2.~srk1.deb
 Size: 38086
 MD5sum: 4c075383543cfdabb212bf302186ba1f
@@ -8414,21 +8660,21 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8J2 iPad2,2 JailbreakMe 3.0
 
-Package: saffron-jailbreak-ipad2.3-8j2
+Package: saffron-jailbreak-ipad2.2-8j2
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPad2,3-8J2-2.deb
-Size: 38078
-MD5sum: 3c12a945ac5a8c7d858e6f460120fdd1
-SHA1: d09b9196fe8b5a21ed708ff0b8b9e6c4a98f1cdd
-SHA256: fd9e012e8da46fc160cf8cf49cdb42816bd83e78b709378f08b6637f99eddeb8
+Filename: ./debs/saffron-jailbreak-iPad2,2-8J2-2.deb
+Size: 38080
+MD5sum: 44f6b0def95900d45b74c999aab44c9d
+SHA1: 534afa1409683b66c4156e5b0328dc20703cc7db
+SHA256: 3d81ab75a185791b55f664108c9bddcab82753eb2fea6cd512e51a056ee24b96
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
 Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8J2 iPad2,3 JailbreakMe 3.0
+Name: 8J2 iPad2,2 JailbreakMe 3.0
 
 Package: saffron-jailbreak-ipad2.3-8j2
 Version: 2
@@ -8446,15 +8692,31 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8J2 iPad2,3 JailbreakMe 3.0
 
+Package: saffron-jailbreak-ipad2.3-8j2
+Version: 2
+Architecture: iphoneos-arm
+Maintainer: comex <comexk@gmail.com>
+Filename: ./debs/saffron-jailbreak-iPad2,3-8J2-2.deb
+Size: 38078
+MD5sum: 3c12a945ac5a8c7d858e6f460120fdd1
+SHA1: d09b9196fe8b5a21ed708ff0b8b9e6c4a98f1cdd
+SHA256: fd9e012e8da46fc160cf8cf49cdb42816bd83e78b709378f08b6637f99eddeb8
+Section: System
+Priority: required
+Description: support files for JailbreakMe 3.0
+Tag: role::cydia
+Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
+Name: 8J2 iPad2,3 JailbreakMe 3.0
+
 Package: saffron-jailbreak-iphone2.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone2,1-8F190-2.deb
-Size: 38080
-MD5sum: ca747fef307c3e41486cd5726ea77773
-SHA1: 0b23b00d32e95d158b9c959b2c319f64f7e1dfdd
-SHA256: 9153ec7c23593f3ce6516096ad27e892449756d938287774d588709530e93406
+Filename: ./debs/saffron-jailbreak-iPhone2,1-8F190-2.~srk1.deb
+Size: 38086
+MD5sum: cd7a7ac274d1c39db96c8401229004e0
+SHA1: 6c03425d2219d0ec9aec201b411fdb9502b9cad7
+SHA256: 3ead5e4680aa808329f672e3e6ce11de250135d3863d3337709f5b39d9dfca76
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8466,11 +8728,11 @@ Package: saffron-jailbreak-iphone2.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone2,1-8F190-2.~srk1.deb
-Size: 38086
-MD5sum: cd7a7ac274d1c39db96c8401229004e0
-SHA1: 6c03425d2219d0ec9aec201b411fdb9502b9cad7
-SHA256: 3ead5e4680aa808329f672e3e6ce11de250135d3863d3337709f5b39d9dfca76
+Filename: ./debs/saffron-jailbreak-iPhone2,1-8F190-2.deb
+Size: 38080
+MD5sum: ca747fef307c3e41486cd5726ea77773
+SHA1: 0b23b00d32e95d158b9c959b2c319f64f7e1dfdd
+SHA256: 9153ec7c23593f3ce6516096ad27e892449756d938287774d588709530e93406
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8514,11 +8776,11 @@ Package: saffron-jailbreak-iphone2.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone2,1-8H7-2.deb
-Size: 38084
-MD5sum: 6f1c392b5147da8e411339a101770dc8
-SHA1: af08aa998ff265f0c341bfffab2de774abf0809e
-SHA256: 57115a99fcc5cf01392b94b19e0bcdf867fcb436f3524e8b3542d3421d71f019
+Filename: ./debs/saffron-jailbreak-iPhone2,1-8H7-2.~srk1.deb
+Size: 38094
+MD5sum: 5582f8610dd595773c3cd7261ff62d7a
+SHA1: ffb935cb9fa710fc2ba7227f9bdf09ffd92a24a3
+SHA256: 1100c45f1fd566e979f9ad84894a4ba06c175871d7e03a1180124a4ddb254eb0
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8530,11 +8792,11 @@ Package: saffron-jailbreak-iphone2.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone2,1-8H7-2.~srk1.deb
-Size: 38094
-MD5sum: 5582f8610dd595773c3cd7261ff62d7a
-SHA1: ffb935cb9fa710fc2ba7227f9bdf09ffd92a24a3
-SHA256: 1100c45f1fd566e979f9ad84894a4ba06c175871d7e03a1180124a4ddb254eb0
+Filename: ./debs/saffron-jailbreak-iPhone2,1-8H7-2.deb
+Size: 38084
+MD5sum: 6f1c392b5147da8e411339a101770dc8
+SHA1: af08aa998ff265f0c341bfffab2de774abf0809e
+SHA256: 57115a99fcc5cf01392b94b19e0bcdf867fcb436f3524e8b3542d3421d71f019
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8642,11 +8904,11 @@ Package: saffron-jailbreak-iphone3.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone3,1-8H7-2.deb
-Size: 38086
-MD5sum: c2b3fab99e5550079ec4dd2dfeeaef1a
-SHA1: 7bebc008e294781876d102398e156e3bb1b70210
-SHA256: 1bd682aae87fd19bda5de2e01ed41c53e4797d30e6398f613190b962bbb9d276
+Filename: ./debs/saffron-jailbreak-iPhone3,1-8H7-2.~srk1.deb
+Size: 38092
+MD5sum: 1478fcdbea2e4c7bd81f603f92c2df1d
+SHA1: 1ab268f9488cf7c984d2ca2248d314eddc636e92
+SHA256: 4ba09bfdf088fbc7ea954155805eb7fab94ade518f65e8163074f168db429225
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8658,11 +8920,11 @@ Package: saffron-jailbreak-iphone3.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone3,1-8H7-2.~srk1.deb
-Size: 38092
-MD5sum: 1478fcdbea2e4c7bd81f603f92c2df1d
-SHA1: 1ab268f9488cf7c984d2ca2248d314eddc636e92
-SHA256: 4ba09bfdf088fbc7ea954155805eb7fab94ade518f65e8163074f168db429225
+Filename: ./debs/saffron-jailbreak-iPhone3,1-8H7-2.deb
+Size: 38086
+MD5sum: c2b3fab99e5550079ec4dd2dfeeaef1a
+SHA1: 7bebc008e294781876d102398e156e3bb1b70210
+SHA256: 1bd682aae87fd19bda5de2e01ed41c53e4797d30e6398f613190b962bbb9d276
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8706,11 +8968,11 @@ Package: saffron-jailbreak-iphone3.3-8e200
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone3,3-8E200-2.deb
-Size: 37800
-MD5sum: fc8dde438587043ce3bb054e02de274b
-SHA1: 7e19229304fae6a11b99377e2610fc1732bf8beb
-SHA256: 9b4ab40e2ddf5ae96658d066a640f29c094db36e55b4998de5606ad739fc7cf4
+Filename: ./debs/saffron-jailbreak-iPhone3,3-8E200-2.~srk1.deb
+Size: 37808
+MD5sum: 9fa83f46077051fe05fc5bb400205769
+SHA1: 8200d1a184169eea9c7b901a7c3ca5efd2c509a9
+SHA256: 3f553e39aed4ef71f339108253bb8dc361b287dbcbaae2c2ecdd22d7c5d210ab
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8722,11 +8984,11 @@ Package: saffron-jailbreak-iphone3.3-8e200
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPhone3,3-8E200-2.~srk1.deb
-Size: 37808
-MD5sum: 9fa83f46077051fe05fc5bb400205769
-SHA1: 8200d1a184169eea9c7b901a7c3ca5efd2c509a9
-SHA256: 3f553e39aed4ef71f339108253bb8dc361b287dbcbaae2c2ecdd22d7c5d210ab
+Filename: ./debs/saffron-jailbreak-iPhone3,3-8E200-2.deb
+Size: 37800
+MD5sum: fc8dde438587043ce3bb054e02de274b
+SHA1: 7e19229304fae6a11b99377e2610fc1732bf8beb
+SHA256: 9b4ab40e2ddf5ae96658d066a640f29c094db36e55b4998de5606ad739fc7cf4
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8850,22 +9112,6 @@ Package: saffron-jailbreak-ipod3.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod3,1-8F190-2.deb
-Size: 38088
-MD5sum: 76aa2a5f320f6188b755aef0349ac210
-SHA1: e080c5540cadf2caf844911b03e4c14c6e189a53
-SHA256: b522f060331b7ac28521cd1936a2e987d0f0c9c62929d59f138a6b29f2176462
-Section: System
-Priority: required
-Description: support files for JailbreakMe 3.0
-Tag: role::cydia
-Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8F190 iPod3,1 JailbreakMe 3.0
-
-Package: saffron-jailbreak-ipod3.1-8f190
-Version: 2
-Architecture: iphoneos-arm
-Maintainer: comex <comexk@gmail.com>
 Filename: ./debs/saffron-jailbreak-iPod3,1-8F190-2.~srk1.deb
 Size: 38094
 MD5sum: 5f201e17dc4073ae31fdc9b2b8909952
@@ -8878,21 +9124,21 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8F190 iPod3,1 JailbreakMe 3.0
 
-Package: saffron-jailbreak-ipod3.1-8h7
+Package: saffron-jailbreak-ipod3.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod3,1-8H7-2.deb
-Size: 38082
-MD5sum: 32e164e4b07bbcba0782a8b9d7a8ce73
-SHA1: a5e8cfe3f92a34c65c39e26601dd159876abd1df
-SHA256: dd3f5673f00146099a043e98bf771fecf62ae7d1c21eda8ebb5e68b837b2fe08
+Filename: ./debs/saffron-jailbreak-iPod3,1-8F190-2.deb
+Size: 38088
+MD5sum: 76aa2a5f320f6188b755aef0349ac210
+SHA1: e080c5540cadf2caf844911b03e4c14c6e189a53
+SHA256: b522f060331b7ac28521cd1936a2e987d0f0c9c62929d59f138a6b29f2176462
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
 Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8H7 iPod3,1 JailbreakMe 3.0
+Name: 8F190 iPod3,1 JailbreakMe 3.0
 
 Package: saffron-jailbreak-ipod3.1-8h7
 Version: 2
@@ -8910,21 +9156,21 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8H7 iPod3,1 JailbreakMe 3.0
 
-Package: saffron-jailbreak-ipod3.1-8j2
+Package: saffron-jailbreak-ipod3.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod3,1-8J2-2.deb
-Size: 38084
-MD5sum: 16f429d55d02116a188a1b6eee379369
-SHA1: 612e69208529dd1e368b25dc6a7463efd85ad1c8
-SHA256: 54bf534f69f55f40d05cc1da4ec97f8f8546b5a207312655f09c6ad398ef398c
+Filename: ./debs/saffron-jailbreak-iPod3,1-8H7-2.deb
+Size: 38082
+MD5sum: 32e164e4b07bbcba0782a8b9d7a8ce73
+SHA1: a5e8cfe3f92a34c65c39e26601dd159876abd1df
+SHA256: dd3f5673f00146099a043e98bf771fecf62ae7d1c21eda8ebb5e68b837b2fe08
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
 Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
-Name: 8J2 iPod3,1 JailbreakMe 3.0
+Name: 8H7 iPod3,1 JailbreakMe 3.0
 
 Package: saffron-jailbreak-ipod3.1-8j2
 Version: 2
@@ -8942,15 +9188,31 @@ Tag: role::cydia
 Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
 Name: 8J2 iPod3,1 JailbreakMe 3.0
 
+Package: saffron-jailbreak-ipod3.1-8j2
+Version: 2
+Architecture: iphoneos-arm
+Maintainer: comex <comexk@gmail.com>
+Filename: ./debs/saffron-jailbreak-iPod3,1-8J2-2.deb
+Size: 38084
+MD5sum: 16f429d55d02116a188a1b6eee379369
+SHA1: 612e69208529dd1e368b25dc6a7463efd85ad1c8
+SHA256: 54bf534f69f55f40d05cc1da4ec97f8f8546b5a207312655f09c6ad398ef398c
+Section: System
+Priority: required
+Description: support files for JailbreakMe 3.0
+Tag: role::cydia
+Depiction: http://cydia.saurik.com/info/saffron-jailbreak/
+Name: 8J2 iPod3,1 JailbreakMe 3.0
+
 Package: saffron-jailbreak-ipod4.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod4,1-8F190-2.deb
-Size: 38084
-MD5sum: 10dcda6287784db8b9a67edb4445273a
-SHA1: ce6f647c9bd5273d109d8d846ed7f50d9daa8206
-SHA256: 466f9c17cf929a624c9a6424658619d935e52eb931ac84320a7cbaa7fe8a8a06
+Filename: ./debs/saffron-jailbreak-iPod4,1-8F190-2.~srk1.deb
+Size: 38092
+MD5sum: 6ddf11b266bf0c2a5890c1f043d40ad4
+SHA1: c6290473b583c9fc30a762f577558611ea91298e
+SHA256: 6a98fcd14ecd759c3fc7ef18939ee1f890c95d5f30cccbdb7d83b4ad98ee8b78
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -8962,11 +9224,11 @@ Package: saffron-jailbreak-ipod4.1-8f190
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod4,1-8F190-2.~srk1.deb
-Size: 38092
-MD5sum: 6ddf11b266bf0c2a5890c1f043d40ad4
-SHA1: c6290473b583c9fc30a762f577558611ea91298e
-SHA256: 6a98fcd14ecd759c3fc7ef18939ee1f890c95d5f30cccbdb7d83b4ad98ee8b78
+Filename: ./debs/saffron-jailbreak-iPod4,1-8F190-2.deb
+Size: 38084
+MD5sum: 10dcda6287784db8b9a67edb4445273a
+SHA1: ce6f647c9bd5273d109d8d846ed7f50d9daa8206
+SHA256: 466f9c17cf929a624c9a6424658619d935e52eb931ac84320a7cbaa7fe8a8a06
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -9010,11 +9272,11 @@ Package: saffron-jailbreak-ipod4.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod4,1-8H7-2.deb
-Size: 38086
-MD5sum: 1fbc77b542b84a741dd5a9e51d561ade
-SHA1: d51503b5aa7697314978fbfb34745a9f59768f40
-SHA256: e39549e57bdec4396a30732449eb8a888bf0bc9a1e9ca5e13b9522ba5c9ff127
+Filename: ./debs/saffron-jailbreak-iPod4,1-8H7-2.~srk1.deb
+Size: 38094
+MD5sum: 837a1c5755ae4f2bb8307fdd8762836a
+SHA1: e6a377ad31db81315bd3866d83b79b04d0a57031
+SHA256: b87e09ce0b7c2186561dcce1b364ed0f80136e98fe8d055c142e563b156091d6
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -9026,11 +9288,11 @@ Package: saffron-jailbreak-ipod4.1-8h7
 Version: 2
 Architecture: iphoneos-arm
 Maintainer: comex <comexk@gmail.com>
-Filename: ./debs/saffron-jailbreak-iPod4,1-8H7-2.~srk1.deb
-Size: 38094
-MD5sum: 837a1c5755ae4f2bb8307fdd8762836a
-SHA1: e6a377ad31db81315bd3866d83b79b04d0a57031
-SHA256: b87e09ce0b7c2186561dcce1b364ed0f80136e98fe8d055c142e563b156091d6
+Filename: ./debs/saffron-jailbreak-iPod4,1-8H7-2.deb
+Size: 38086
+MD5sum: 1fbc77b542b84a741dd5a9e51d561ade
+SHA1: d51503b5aa7697314978fbfb34745a9f59768f40
+SHA256: e39549e57bdec4396a30732449eb8a888bf0bc9a1e9ca5e13b9522ba5c9ff127
 Section: System
 Priority: required
 Description: support files for JailbreakMe 3.0
@@ -9467,23 +9729,6 @@ Name: Ste's Source
 
 Package: stealthmac
 Version: 0.1-1
-Architecture: darwin-arm
-Maintainer: Chris Baker (extremis) <extremis@exploit.org>
-Installed-Size: 44
-Depends: grep
-Filename: ./debs/stealthmac_0.1-1_darwin-arm.deb
-Size: 1438
-MD5sum: 37c4ad066d9135b47ee03e8ec4718235
-SHA1: 4114742468aebdce3726932c98f0ddb0f1220518
-SHA256: 1ccf04a084f8b7b5a1868f739f4c52e54b230ac924e606267c3f77605787730a
-Section: Security
-Priority: optional
-Description: set arbitrary wireless mac address on boot
-Name: Stealth MAC
-Website: http://iphone.exploit.org/stealthmac.html
-
-Package: stealthmac
-Version: 0.1-1
 Architecture: iphoneos-arm
 Maintainer: Chris Baker (extremis) <extremis@exploit.org>
 Installed-Size: 44
@@ -9493,6 +9738,23 @@ Size: 1436
 MD5sum: 56cec32207c8afa9ed4e33acb6fa6a4c
 SHA1: 1900d830439453c1650eaf975c8f4411863d9d89
 SHA256: 1c3ca4aaf88e6a464ef9690cd959ef954d9158d1d9a9c3e8b7be8646c80b8a84
+Section: Security
+Priority: optional
+Description: set arbitrary wireless mac address on boot
+Name: Stealth MAC
+Website: http://iphone.exploit.org/stealthmac.html
+
+Package: stealthmac
+Version: 0.1-1
+Architecture: darwin-arm
+Maintainer: Chris Baker (extremis) <extremis@exploit.org>
+Installed-Size: 44
+Depends: grep
+Filename: ./debs/stealthmac_0.1-1_darwin-arm.deb
+Size: 1438
+MD5sum: 37c4ad066d9135b47ee03e8ec4718235
+SHA1: 4114742468aebdce3726932c98f0ddb0f1220518
+SHA256: 1ccf04a084f8b7b5a1868f739f4c52e54b230ac924e606267c3f77605787730a
 Section: Security
 Priority: optional
 Description: set arbitrary wireless mac address on boot
@@ -10154,6 +10416,20 @@ Description: de-compresses files in rar format
 
 Package: unzip
 Version: 5.52-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 304
+Filename: ./debs/unzip_5.52-1_iphoneos-arm.deb
+Size: 141178
+MD5sum: 721b84e8b8bebef48ea816d8130fe968
+SHA1: e4271b06133731236e1f8e2c3f065fa286f5e9f3
+SHA256: 4b8d68aed55b87482279f8dca39eee7df418427c90f7abf8756ddcd70f070574
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: unzip
+Version: 5.52-1
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -10170,20 +10446,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: unzip
-Version: 5.52-1
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 304
-Filename: ./debs/unzip_5.52-1_iphoneos-arm.deb
-Size: 141178
-MD5sum: 721b84e8b8bebef48ea816d8130fe968
-SHA1: e4271b06133731236e1f8e2c3f065fa286f5e9f3
-SHA256: 4b8d68aed55b87482279f8dca39eee7df418427c90f7abf8756ddcd70f070574
-Section: Archiving
-Priority: important
-Description: de-compesses files in zip format
 
 Package: unzip
 Version: 5.52-2
@@ -10287,6 +10549,20 @@ Description: de-compesses files in zip format
 
 Package: unzip
 Version: 5.52-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 316
+Filename: ./debs/unzip_5.52-5_iphoneos-arm.deb
+Size: 148620
+MD5sum: 0b0d1792d1a910651a1a89573c4fe68e
+SHA1: 2f9c7041f6bdb50a0e64048419db337931b36122
+SHA256: cea34a826ca178b4a5063e1cd1bc46d7de0f6642f0c053750345c096ef287a74
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: unzip
+Version: 5.52-5
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -10297,20 +10573,6 @@ MD5sum: 2d34038da7ecbf81db4888358f64c676
 SHA1: 505674b46ef1e1f7008815386ec4cb8fe3a5f4ab
 SHA256: 78f08de4c6fbf6a8034398b704f411e141a7330e902198dc75343d405328f003
 Section: archive
-Priority: important
-Description: de-compesses files in zip format
-
-Package: unzip
-Version: 5.52-5
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 316
-Filename: ./debs/unzip_5.52-5_iphoneos-arm.deb
-Size: 148620
-MD5sum: 0b0d1792d1a910651a1a89573c4fe68e
-SHA1: 2f9c7041f6bdb50a0e64048419db337931b36122
-SHA256: cea34a826ca178b4a5063e1cd1bc46d7de0f6642f0c053750345c096ef287a74
-Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
 
@@ -10509,20 +10771,6 @@ Name: VFDecrypt
 
 Package: vfdecrypt
 Version: 0-2
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/vfdecrypt_0-2_darwin-arm.deb
-Size: 6384
-MD5sum: 648bad56108199638377e53ba06a14fb
-SHA1: c9a98f2dad1ebab30f68bf8f03a7f9deaaca5107
-SHA256: c8c7e1098fb4cb4baff2e69cd877cb6274d4bfb781004a296f018826a954410f
-Section: Security
-Priority: optional
-Description: decryption utility for iPhone images
-Name: VFDecrypt
-
-Package: vfdecrypt
-Version: 0-2
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 40
@@ -10538,16 +10786,14 @@ Description: decryption utility for iPhone images
 Name: VFDecrypt
 
 Package: vfdecrypt
-Version: 0-3
+Version: 0-2
 Architecture: darwin-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 40
-Depends: openssl
-Filename: ./debs/vfdecrypt_0-3_darwin-arm.deb
-Size: 6204
-MD5sum: f430ec294f6b6edbaa52aa9f61b41fd0
-SHA1: 92e095fea55a85cb5d12729e0d54cfcb8bd3c28a
-SHA256: 27fa3ddbd03fc225449367874453a17bca1336e735309408d8d68d65a790ede1
+Filename: ./debs/vfdecrypt_0-2_darwin-arm.deb
+Size: 6384
+MD5sum: 648bad56108199638377e53ba06a14fb
+SHA1: c9a98f2dad1ebab30f68bf8f03a7f9deaaca5107
+SHA256: c8c7e1098fb4cb4baff2e69cd877cb6274d4bfb781004a296f018826a954410f
 Section: Security
 Priority: optional
 Description: decryption utility for iPhone images
@@ -10564,6 +10810,22 @@ Size: 6568
 MD5sum: 797466502b293514e8574ba2a9bd2ed4
 SHA1: 653b4d61aa7a670da0249cb2ab23075a50cc3508
 SHA256: 4b7c0c94b9aaa2f05c6256bb558e15d528dac97d13a3da2e6fc8e4dd026e8d1c
+Section: Security
+Priority: optional
+Description: decryption utility for iPhone images
+Name: VFDecrypt
+
+Package: vfdecrypt
+Version: 0-3
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 40
+Depends: openssl
+Filename: ./debs/vfdecrypt_0-3_darwin-arm.deb
+Size: 6204
+MD5sum: f430ec294f6b6edbaa52aa9f61b41fd0
+SHA1: 92e095fea55a85cb5d12729e0d54cfcb8bd3c28a
+SHA256: 27fa3ddbd03fc225449367874453a17bca1336e735309408d8d68d65a790ede1
 Section: Security
 Priority: optional
 Description: decryption utility for iPhone images
@@ -12481,19 +12743,6 @@ Description: core library used by X applications
 
 Package: x264
 Version: 20080226-2245-1
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/x264_20080226-2245-1_darwin-arm.deb
-Size: 458104
-MD5sum: fab7ee475f343490d2d161287cdb8f83
-SHA1: 73b457130baffcb0b0da9a7850ef19e48c6ca371
-SHA256: f2569235e19adcd635195db7b7b016b47362031697d9aafe2a602bf7784e26c3
-Section: Multimedia
-Priority: optional
-Description: open source implementation of x264
-
-Package: x264
-Version: 20080226-2245-1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 1752
@@ -12502,6 +12751,19 @@ Size: 750018
 MD5sum: 602748ba5a5ef859f38574f89bf36ec8
 SHA1: 2d4a95cb4c50b43a54e5cf5259a3b3fbfb6f3e6f
 SHA256: 6e27bd57d3a2ffa6b0a6a2da8b75f02550e0f535317f2d20bc9a0cb3aad5493d
+Section: Multimedia
+Priority: optional
+Description: open source implementation of x264
+
+Package: x264
+Version: 20080226-2245-1
+Architecture: darwin-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/x264_20080226-2245-1_darwin-arm.deb
+Size: 458104
+MD5sum: fab7ee475f343490d2d161287cdb8f83
+SHA1: 73b457130baffcb0b0da9a7850ef19e48c6ca371
+SHA256: f2569235e19adcd635195db7b7b016b47362031697d9aafe2a602bf7784e26c3
 Section: Multimedia
 Priority: optional
 Description: open source implementation of x264
@@ -12647,6 +12909,21 @@ Description: X authetication protocol library
 
 Package: xau
 Version: 1.0.3-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 60
+Depends: xproto
+Filename: ./debs/xau_1.0.3-2_iphoneos-arm.deb
+Size: 6928
+MD5sum: 1097c6015bb1d3d2d1102123064acda3
+SHA1: f913afb31820931f9ac1c2ecdf0660e98c1db8c4
+SHA256: 937141bfa52275f319b688928a11bf8197534f7f3fb8f58f662a6bd72495ce31
+Section: X_Window_System
+Priority: optional
+Description: X authetication protocol library
+
+Package: xau
+Version: 1.0.3-2
 Architecture: darwin-arm
 Essential: no
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -12665,21 +12942,6 @@ Description: this package isn't described yet
  kinds of bookkeeping issues, like copyright notifications, all in their
  correct places, and descriptions just aren't the most important thing
  he could be working on. If this is a problem, please come back later.
-
-Package: xau
-Version: 1.0.3-2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 60
-Depends: xproto
-Filename: ./debs/xau_1.0.3-2_iphoneos-arm.deb
-Size: 6928
-MD5sum: 1097c6015bb1d3d2d1102123064acda3
-SHA1: f913afb31820931f9ac1c2ecdf0660e98c1db8c4
-SHA256: 937141bfa52275f319b688928a11bf8197534f7f3fb8f58f662a6bd72495ce31
-Section: X_Window_System
-Priority: optional
-Description: X authetication protocol library
 
 Package: xau
 Version: 1.0.3-3
