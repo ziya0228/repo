@@ -235,6 +235,25 @@ Priority: required
 Description: any advanced packaging tool from Debian
 Name: APT 0.6 Transitional
 
+Package: apt.cydiaba.Clutch1111
+Version: 2.0.4
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: KJCracks
+Installed-Size: 1120
+Filename: ./debs/apt.cydiaba.Clutch1111_2.0.4_iphoneos-arm.deb
+Size: 454588
+MD5sum: b17e71e2c9ab7538f166c725adf55d6c
+SHA1: 8fc70eb0a1c5ffcc280165526cf14920cdc0946d
+SHA256: 50fda95fc4c9d3900fec06135a3a5373a9e3d6512c11a6906f323db394d4b378
+Section: TB-工具
+Priority: standard
+Tag: role::enduser
+Author: KJCracks
+Name: 去掉正版APP签名ID
+Section1: iOS10
+Sponsor: KJCracks
+
 Package: apt.cydiaba.appsyncunified2222222
 Version: 31.1-1
 Architecture: iphoneos-arm
@@ -292,6 +311,26 @@ Author: Min
 Name: DEB打包备份
 Sponsor: Fish <1423924@qq.com>
 
+Package: apt.cydiaba.cninfinidock
+Version: 2.1.2-1
+Architecture: iphoneos-arm
+Installed-Size: 212
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
+Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Provides: com.saurik.iphone.fid, com.macciti.6icondock
+Filename: ./debs/apt.cydiaba.cninfinidock_2.1.2-1_iphoneos-arm.deb
+Size: 62366
+MD5sum: 63cfe8cbdb5c7ef6e6eafafe8a331553
+SHA1: f30b19c108c7a235c3e996c6057b00e085eec368
+SHA256: 6437fbcd067e227e63ec81c423adb7726b4bce08451ab0e56f33ef51f7404e36
+Section: TB-工具
+Tag: purpose::extension
+Author: chpwn
+Icon: file:///Library/PreferenceLoader/Preferences/Infinidock.png
+Name: Infinidock 无限底栏图标
+
 Package: apt.cydiaba.cnpeek-a-boo1
 Version: 10.0.2
 Architecture: iphoneos-arm
@@ -328,6 +367,24 @@ Tag: role::enduser
 Author: 老文出品
 Name: 迅雷-5.20会员离线加速破解版
 Sponsor: Fish <1423924@qq.com>
+
+Package: apt.cydiaba.cydownjbb
+Version: 6.2.7
+Architecture: iphoneos-arm
+Essential: no
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (>= 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/apt.cydiaba.cydownjbb_6.2.7_iphoneos-arm.deb
+Size: 1568952
+MD5sum: dc6693ebec36c2c661ca7910b74ee37d
+SHA1: 7ef941eb0a13a67fd8ebf0e2ad267aebb8110d83
+SHA256: 9e655fbbfe75f32e5eb4f3e409bbfc4efc908c354bd6b0753645598a5d87981a
+Section: TB-工具
+Priority: standard
+Tag: role::enduser
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown【自用iPad正常跳转版】
+Section1: iOS10
 
 Package: apt.cydiatieba.topdpkg191
 Version: 1.14.25-9
