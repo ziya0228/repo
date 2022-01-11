@@ -1044,6 +1044,26 @@ Author: Chronic-Dev Team <info@chronic-dev.com>
 Depiction: http://cydia.saurik.com/info/com.chronic-dev.greenpois0n.rocky-racoon/
 Name: Rocky Racoon 5.1.1 Untether
 
+Package: com.cydiabc.dumpdecrypter
+Version: 1.2-9.4
+Architecture: iphoneos-arm
+Maintainer: Ai-小苹果™
+Installed-Size: 1072
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.cydiabc.dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 331354
+MD5sum: 38e1f0d6f69359ea8c238dc2b3b49066
+SHA1: 15beab0dfa8122ef543374ff28a659a6e10d359c
+SHA256: 8ee49b52974fb2dbddd1cf3e20b57a3de1719aa4020da8ccb2f98d08da676dc2
+Section: 工具
+Description: DumpDecrypter是基于dumpdecrypted的修改封装<br>使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用<br>在dumpdecrypted基础上增加可选删除小组件可选删除手表组件，可选删除版本限制，可选删除设备限制<br>解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks等
+A12: 1
+Author: Netskao
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: DumpDecrypter砸壳工具
+Sponsor: Ai-小苹果™
+
 Package: com.cydiabc.noctis12
 Version: 1.8.9.6
 Architecture: iphoneos-arm
