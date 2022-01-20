@@ -3724,6 +3724,21 @@ Priority: optional
 Description: Hebrew language support packages
 Name: HebDev
 
+Package: hk.org.iphone.mobileinstallation
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: javacom <javacomhk@yahoo.com>
+Pre-Depends: ldid
+Depends: firmware (<= 2.2.1)
+Filename: ./debs/hk.org.iphone.mobileinstallation_2.2.1_iphoneos-arm.deb
+Size: 5938
+MD5sum: fa90f5fe1aca0fa149ec1cca80190d70
+SHA1: 342cddb127ec4cb6e829659d4463060af1aa21a3
+SHA256: b18ef0f7a1dd283717318e1b26991172d76e3e4f3741d2ecfcedb549b998d69d
+Section: Tweaks
+Description: For firmware 2.0/2.0.1/2.0.2/2.1/2.2/2.2.1
+Name: MobileInstallation Patch
+
 Package: howett.net
 Version: 0-1
 Architecture: iphoneos-arm
