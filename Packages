@@ -503,6 +503,24 @@ Priority: optional
 Description: continually reconnects an ssh session
 Name: Automatic SSH
 
+Package: backtodeb.178
+Version: 0.9b7
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Depends: grep, coreutils, sed
+Filename: ./debs/5952.deb
+Size: 98138
+MD5sum: 0690f7cbf76624d68ff033331af5a4dd
+SHA1: a9eee82d534ada3e0b7b44a4d6483113312678a5
+SHA256: db9d192281e0badb22f1fe3ba14f79bf512514f80a0b1357e11e0338013972fc
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2011/1018/iphone5952.shtml
+Description: 您安装过的deb，反打包成deb到//var/mobile/BackToDeb。兼容4.3.x
+Author: Redenfire <redenfire@gmail.com>
+Depiction: http://apt.178.com/html/2011/1018/iphone5952.shtml
+Name: BacktoDeb deb反打包
+Sponsor: conglin123
+
 Package: base
 Version: 1-9
 Architecture: darwin-arm
@@ -518,6 +536,23 @@ Section: System
 Priority: required
 Description: underlying system directory structure
 Name: Base Structure
+
+Package: bash
+Version: 4.0.17-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 572
+Depends: grep, ncurses, readline (>= 6.0-7), sed
+Filename: ./debs/bash_4.0.17-13_iphoneos-arm.deb
+Size: 314436
+MD5sum: e12cc7f5da68aeb24af2009035a9d98e
+SHA1: 34f5578282bc298a508cb1a0d494055f61ab68d4
+SHA256: 9975d18e85bdfe0f26c8a0e829de1de5cc4b51156e97e2ff520a602fb07c3093
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever, written by Brian Fox
+Name: Bourne-Again SHell
 
 Package: basic-cmds
 Version: 48-7
@@ -705,6 +740,21 @@ Priority: optional
 Homepage: http://www.daemonology.net/bsdiff/
 Description: binary is to text, as bsdiff is to diff
 Author: Colin Percival <cperciva@alumni.sfu.ca>
+
+Package: bzip2
+Version: 1.0.5-7
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 76
+Filename: ./debs/bzip2_1.0.5-7_iphoneos-arm.deb
+Size: 22158
+MD5sum: dee2ba29b18efd0342f2e11db83cb9aa
+SHA1: 698e7f76e678e8dc6681c967b76b0b3364434000
+SHA256: 4203a21737a3703cef93b75a13711ca1a9a031a153aebc6b9d0935a6c7531b91
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
 
 Package: bzip2
 Version: 1.0.5-8
@@ -1292,6 +1342,22 @@ Icon: https://repo.pulandres.me/CydiaIcon.png
 Name: SafeShutdown Cracked
 Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1116
 
+Package: com.raisoo
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Raisoo <Raisoo@sina.com>
+Depends: mobilesubstrate (>= 0.9.3000-1), libstatusbar, openssl
+Filename: ./debs/com.raisoo_2.0.0_iphoneos-arm.deb
+Size: 1073646
+MD5sum: 6ece541ce26a8e55bfb85e7540f18ff0
+SHA1: 5a570eef8119b38c82656f11f9352139ddc5032c
+SHA256: 81759805be0f531248038d684012bbfe07753d0eede1e372abd8c784d596088b
+Section: phone
+Homepage: http://www.Raisoo.com
+Description: Raisoo turn your touch into iphone dual sim dual standby ;turn your iphone supports 3 card;
+Author: Raisoo <Raisoo@sina.com>
+Name: Raisoo
+
 Package: com.saurik.afc2d
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1744,6 +1810,26 @@ Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
 
 Package: coreutils
+Version: 8.12-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6536
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: ./debs/coreutils_8.12-12_iphoneos-arm.deb
+Size: 628868
+MD5sum: d7c377af64a081af979e611ad321f3d1
+SHA1: 0dec31f145c496a072326e74c664fe6159514c31
+SHA256: 36e4cb148a5e242a8b24e425a2b176f0b745063cbdd19810fa2ffc4e906c5f6f
+Section: Utilities
+Priority: standard
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
+Package: coreutils
 Version: 8.12-13
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -1762,6 +1848,25 @@ Priority: standard
 Homepage: http://www.gnu.org/software/coreutils/
 Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
+
+Package: coreutils-bin
+Version: 8.12-7
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 2980
+Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
+Provides: dirname, kill, mktemp, su
+Filename: ./debs/coreutils-bin_8.12-7_iphoneos-arm.deb
+Size: 729170
+MD5sum: 2c9df788581f6e2492faf902042c90eb
+SHA1: 595fa0664b6ba8d8d075384932abbb166467e084
+SHA256: c2ba44948cb06a5adb70d315147f811e85055182952b4607d45281c0ab0ecdbd
+Section: Utilities
+Priority: required
+Homepage: http://www.gnu.org/software/coreutils/
+Description: just the /bin folder from GNU coreutils
+Name: Core Utilities (/bin)
 
 Package: coreutils-bin
 Version: 8.12-9
@@ -2176,6 +2281,23 @@ Description: TCP over DNS (unconfigured, just software)
 Author: Olivier Dembour <olivier.dembour@hsc.fr>
 
 Package: dpkg
+Version: 1.14.25-9
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 828
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: ./debs/dpkg_1.14.25-9_iphoneos-arm.deb
+Size: 250134
+MD5sum: 9280e37a5f5ffa31e1717d0000f70d15
+SHA1: d776b2904b6c1d6c41703baaf0e722ac56f7d75c
+SHA256: d21a51c5b9dc15b220c7568e6ddc94d56a59aa88864909fe230a6aeb92794421
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: dpkg
 Version: 1.18.10-12
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -2409,6 +2531,23 @@ SHA256: 80f8889db3bd710b06d161b53d09c84e9f287d6f2a149f4df5331e8696c81c46
 Section: Utilities
 Priority: important
 Description: chflags, compress, ipcrm, ipcs, pax
+
+Package: findutils
+Version: 4.2.33-6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 436
+Depends: bash, sed
+Filename: ./debs/findutils_4.2.33-6_iphoneos-arm.deb
+Size: 157936
+MD5sum: 2f602f0684524967b2ac4ce843c41563
+SHA1: ca11f2331502fdf5bd2341193722d50c7b0dfa7e
+SHA256: e24c8558b8a09b13e614b74dddf7aa5e00e4f96a7f8edf11db5530dbfa422baa
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+Name: Find Utilities
 
 Package: findutils
 Version: 4.2.33-7
@@ -3629,6 +3768,22 @@ SHA1: b74e5bc2d9696836fb9754cb40075280e2e51abd
 SHA256: 24188f6807f9f185d6b254efa294950ce2e41acd528fa77d745b07052e6612c3
 Section: Archiving
 Priority: required
+Description: the standard Unix compression algorithm
+
+Package: gzip
+Version: 1.3.12-6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 184
+Depends: grep, sed
+Filename: ./debs/gzip_1.3.12-6_iphoneos-arm.deb
+Size: 60732
+MD5sum: baa867306452c60db9d23f3081d95c43
+SHA1: 041ebfd227e56faab34cb9de1e6516b50b0fa89b
+SHA256: f05d5d7d2db4283827173298abfc7dec9949c69c9d20e6c95c445c5e3385b4df
+Section: Archiving
+Priority: required
+Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
 Package: gzip
@@ -5699,6 +5854,23 @@ Name: Diary 📖
 Sileodepiction: https://repo.litten.love/depictions/dry/dry.json
 
 Package: lzma
+Version: 4.32.7-4
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 276
+Depends: grep, sed
+Filename: ./debs/lzma_4.32.7-4_iphoneos-arm.deb
+Size: 90754
+MD5sum: 23255cbbc030de0470c7c9a8b1d704bf
+SHA1: b673d35b49c7ee39903bc03a960502880357f832
+SHA256: 0d6cc353514e964fc7d14c8acb663a6bcc9433592948719ebd97b22389f6c76b
+Section: Archiving
+Priority: important
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Name: LZMA Utils
+
+Package: lzma
 Version: 4.32.7-5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -6111,6 +6283,22 @@ SHA256: e09ad0ce1e1f9fc95d9bcce68b2a2e0dcb1ea688f010b428bdc96ee257aa653a
 Section: Networking
 Priority: standard
 Description: the best ftp client known to man
+
+Package: ncurses
+Version: 5.7-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 2452
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/ncurses_5.7-12_iphoneos-arm.deb
+Size: 318886
+MD5sum: df02d557042ad3c4f51aa6649ce8e6ef
+SHA1: aa83d0d667f1635b7d3ac7e544c74410d28a8b0a
+SHA256: b506b797623ae80b5570b23ec46d2d2c4d73ca6d867f911393b68ecc2f996018
+Section: System
+Priority: required
+Description: feature-complete terminal library
+Name: New Curses
 
 Package: ncurses
 Version: 5.7-15
@@ -8314,6 +8502,22 @@ Homepage: http://www.rdesktop.org/
 Description: remotely access windows machines
 
 Package: readline
+Version: 6.0-7
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 332
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: ./debs/readline_6.0-7_iphoneos-arm.deb
+Size: 103964
+MD5sum: 65d22f2f7d3380e8c25b852989350a5e
+SHA1: 9f88718f30d27b87d0e9fc336a3bf8c53a64a0f8
+SHA256: 464b579001944e8f5e5bd9ffd18746459ed9cb396415ce89ac2c4caf384ac90c
+Section: Development
+Priority: required
+Description: command-line history management
+
+Package: readline
 Version: 6.0-8
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -9494,6 +9698,22 @@ Description: multiplexes a terminal into many
 Name: Screen
 
 Package: sed
+Version: 4.1.5-7
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 192
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/sed_4.1.5-7_iphoneos-arm.deb
+Size: 69560
+MD5sum: 86107db947302c9f24bbea81abddc88c
+SHA1: 95080db603b2d3440577cea14a5fe4588692c168
+SHA256: 6083ec3087de7aab135d16498058f0a329620b22d6e95508b85c92e621365f9f
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: sed
 Version: 4.1.5-8
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -10127,6 +10347,23 @@ Depiction: http://www.taig.com/cydia/update8.html
 Name: TaiG 8.1.3-8.x Untether
 
 Package: tar
+Version: 1.19-8
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 392
+Depends: bzip2, gzip, lzma
+Filename: ./debs/tar_1.19-8_iphoneos-arm.deb
+Size: 212792
+MD5sum: a90a941637fd442e68a68e6bf87e8f55
+SHA1: 608c295fdc84a1b1ccdb0fc16897f4b20e9c535f
+SHA256: fa4de1a00f5c95001d9c6fee29351308bdafedebb54a5210a229d3591cbb0887
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives
+Name: Tape Archive
+
+Package: tar
 Version: 1.29-10
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -10189,6 +10426,22 @@ Section: Administration
 Priority: optional
 Description: do _not_ install this (test) package
 Name: Test (Fail!)
+
+Package: tf.festival.rescale2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sniper_GER <sniperger@festival.tf>
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/tf.festival.rescale2_1.0.deb
+Size: 85508
+MD5sum: b0d667560fc7d7cf279f0b38a2875eb5
+SHA1: 02e4a56063193f1fcf31cda076fc422b94188ad6
+SHA256: ec39a74da5c1dc63be1ced5bd19f9ed92dc8c10acc6f9865a5d82d6307288e59
+Section: Tweaks
+Description: A modern (and safe) Upscale alternative!
+Author: Sniper_GER <sniperger@festival.ml>
+Name: Re:Scale 2
 
 Package: tiff
 Version: 3.8.2-5
