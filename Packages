@@ -1290,14 +1290,14 @@ Sponsor: im099.com <http://www.im099.com>
 Package: com.iphone5.kdfu
 Version: 7.1.1
 Architecture: iphoneos-arm
-Filename: ./debs/com.iphone5.kdfu_7.1.1_iphoneos-arm(1).deb
-Size: 52312
-MD5sum: 01360ff577a99d7120d5efda10999163
-SHA1: d553a7857777391ba09c0ae0ae6bd1f99b01f373
-SHA256: 6a9013395bf0669d280224105c2a1b04ce81e8d481e70c403d1c45a83a1cefb7
+Filename: ./debs/com.iphone5.kdfu_7.1.1_iphoneos-arm.deb
+Size: 52326
+MD5sum: 39baf5a932bedc2f6a49076e64352b98
+SHA1: a704a7de5fc85081fec47ec1922fd9b5a03be7a6
+SHA256: c917f740336610eeee81aba6ffe7187eb7e442ea73c4034ab2262e1d56132cdf
 Section: [系统]
 Author: iOS
-Name: iphone5,1一键进入KDFU模式
+Name: iphone5,2一键进入KDFU模式
 
 Package: com.michael.generatorautosetter
 Version: 0.5.11
