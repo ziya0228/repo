@@ -5833,6 +5833,41 @@ Priority: optional
 Description: seriously. really. but it's beta ;P.
 Name: GNU C Compiler
 
+Package: love.litten.batterybuddy
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 192
+Depends: mobilesubstrate
+Filename: ./debs/love.litten.batterybuddy_1.0.2_iphoneos-arm.deb
+Size: 11154
+MD5sum: 6bf6c895a54c885cf2a036ecbf41e0d5
+SHA1: 22901c5083fe21bbc282744d8d2ee1f4ff6ce4f1
+SHA256: bcc489157e29d354e17b51fc3f6ed28a40a55ffe10a438a61b0474e951f605dd
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Litten & neilsardesai
+Depiction: https://repo.litten.love/depictions/BatteryBuddy/index.html
+Icon: https://repo.litten.love/depictions/BatteryBuddy/assets/icon.png
+Name: BatteryBuddy ⚡️
+Sileodepiction: https://repo.litten.love/depictions/BatteryBuddy/index.json
+
+Package: love.litten.batterybuddy
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 252
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13)
+Filename: ./debs/love.litten.batterybuddy_1.0.2_iphoneos-arm-swift.deb
+Size: 30496
+MD5sum: 49ebaef35446029ef3f7ab2b3678b549
+SHA1: 8d6fe2ba11b7ed16d8813c7599a2bbb18338bee7
+SHA256: 63080aaa9c0da1aba48a968ee092774a9a54e10aefdd478eb9c51cfc7452dbc2
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Litten
+Name: Battery Buddy ⚡️
+
 Package: love.litten.diary
 Version: 1.0-1168+debug
 Architecture: iphoneos-arm
