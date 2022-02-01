@@ -1287,15 +1287,15 @@ Author: Jackie099 <Jackie099@me.com>
 Name: iShutdown
 Sponsor: im099.com <http://www.im099.com>
 
-Package: com.ipad2，5.kdfu
+Package: com.ipadmini.kdfu
 Version: 6.1.3
 Architecture: iphoneos-arm
-Filename: ./debs/com.ipad2，5.kdfu_6.1.3_iphoneos-arm.deb
-Size: 52198
-MD5sum: 8569443bb62a2905f0dc361447949ac6
-SHA1: 74fa3198e75ea7bb2e41de63c82d6c5de1e6faef
-SHA256: 68fa84e7087875d4904ba941b337cc263df2631abe341c50b43d645f63ed807d
-Section: [系统]
+Filename: ./debs/com.ipadmini.kdfu_6.1.3_iphoneos-arm.deb
+Size: 52194
+MD5sum: 8927090286297ea4a7648505be2291f5
+SHA1: c50352a9c8a9b25a50c48eeda06938bb59d69e5a
+SHA256: 8e7691e52e529fa5ae8a6ffbd06eada2ab75daf33afe4f466633cae3beaf15f7
+Section: 系统
 Author: iOS
 Name: ipad2，5一键进入KDFU模式
 
