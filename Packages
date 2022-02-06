@@ -131,6 +131,29 @@ Depiction: http://apt.so/index.php?r=cydia&id=549be9bb0e1d1550228b4b4b
 Name: Auxo 3 (iOS 8)
 Sponsor: Feng.com <http://www.feng.com>
 
+Package: app.weiphone.teiron.pphelperns
+Version: 3.0.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Feng.com <support@office.feng.com>
+Installed-Size: 10240
+Replaces: app.weiphone.teiron.pphelperns,com.teiron.pphelperns.178
+Filename: ./debs/pphelper.deb
+Size: 14133666
+MD5sum: 6c9ec0396df8072578ef532098b6ecb1
+SHA1: cd53e6716faa4a815da53556514672c3db1f4a20
+SHA256: 120873e68ab676d566684d49d3e8675dfe3fccbf22a6ce1f694232241aa2a82a
+Section: [威锋源-应用工具]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=55939dee0e1d159f5d8b49fa
+Description: 完美兼容iOS8.4越狱的苹果助手应用。
+Tag: role::enduser
+Author: Jun<support@office.feng.com>
+Depiction: http://apt.so/index.php?r=cydia&id=55939dee0e1d159f5d8b49fa
+Icon: file:///Applications/PPHelperNS.app/AppIcon57x57@2x.png
+Name: PP助手3.0
+Sponsor: Feng.com <http://www.feng.com>
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
