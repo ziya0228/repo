@@ -1739,6 +1739,27 @@ Author: Elias Limneos <iphone@limneos.net>
 Depiction: http://cydia.saurik.com/info/com.teehanlax.element/
 Name: Element
 
+Package: com.unthreadedjb.unthredera1n
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debs/com.unthreadedjb.unthredera1n_1.0.deb
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
+Section: System
+Priority: standard
+Homepage: http://unthreadedjb.com/
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Tag: role::enduser
+Author: UnthreadedJB
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Name: Unthredera1n
+
 Package: com.weiphone.wallpaper.ipad-scenery6
 Version: 1.0
 Architecture: iphoneos-arm
