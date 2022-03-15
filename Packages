@@ -131,6 +131,29 @@ Depiction: http://apt.so/index.php?r=cydia&id=549be9bb0e1d1550228b4b4b
 Name: Auxo 3 (iOS 8)
 Sponsor: Feng.com <http://www.feng.com>
 
+Package: app.weiphone.teiron.pphelperns
+Version: 3.0.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Feng.com <support@office.feng.com>
+Installed-Size: 10240
+Replaces: app.weiphone.teiron.pphelperns,com.teiron.pphelperns.178
+Filename: ./debs/pphelper.deb
+Size: 14133666
+MD5sum: 6c9ec0396df8072578ef532098b6ecb1
+SHA1: cd53e6716faa4a815da53556514672c3db1f4a20
+SHA256: 120873e68ab676d566684d49d3e8675dfe3fccbf22a6ce1f694232241aa2a82a
+Section: [威锋源-应用工具]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=55939dee0e1d159f5d8b49fa
+Description: 完美兼容iOS8.4越狱的苹果助手应用。
+Tag: role::enduser
+Author: Jun<support@office.feng.com>
+Depiction: http://apt.so/index.php?r=cydia&id=55939dee0e1d159f5d8b49fa
+Icon: file:///Applications/PPHelperNS.app/AppIcon57x57@2x.png
+Name: PP助手3.0
+Sponsor: Feng.com <http://www.feng.com>
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
@@ -1715,6 +1738,27 @@ Tag: purpose::extension, role::enduser
 Author: Elias Limneos <iphone@limneos.net>
 Depiction: http://cydia.saurik.com/info/com.teehanlax.element/
 Name: Element
+
+Package: com.unthreadedjb.unthredera1n
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debs/com.unthreadedjb.unthredera1n_1.0.deb
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
+Section: System
+Priority: standard
+Homepage: http://unthreadedjb.com/
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Tag: role::enduser
+Author: UnthreadedJB
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Name: Unthredera1n
 
 Package: com.weiphone.wallpaper.ipad-scenery6
 Version: 1.0
