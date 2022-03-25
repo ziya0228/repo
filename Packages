@@ -8278,6 +8278,28 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preference
 Dev: dustinhowett
 Name: PreferenceLoader
 
+Package: preferenceloader-armv6
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <dustin@howett.net>
+Installed-Size: 28
+Depends: mobilesubstrate
+Conflicts: preferenceloader, cy+cpu.arm64, cy+cpu.armv7
+Provides: preferenceloader
+Filename: ./debs/preferenceloader-armv6_2.1.1-1.deb
+Size: 9774
+MD5sum: 47b7e1772f01d975822a08e582a8272a
+SHA1: 3da32504a996b0ef3eadd5375c326be7a530c16f
+SHA256: 43f59ef3197caeaeb2c6c192fd211e4a2afa91e087f9354b711585a50d60cfec
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <dustin@howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader (armv6)
+
 Package: pri.ee
 Version: 0-1
 Architecture: iphoneos-arm
@@ -10583,6 +10605,23 @@ Section: Development
 Priority: standard
 Description: aspect-oriented compiler compiler compiler
 
+Package: trevir.Discord
+Version: 0.8.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./debs/trevir.Discord_0.8.2.deb
+Size: 809152
+MD5sum: 336ea13fc34e95839f3592fe30198611
+SHA1: 557b417327e62f97c5cb56773a6a657ed8e2831d
+SHA256: d86bb4b6b678d879bb6e88ad07039ae0ed4a09fe2e9ba3aa3a82836cd5e8c24c
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png
+Name: Discord Classic
+
 Package: uicaboodle
 Version: 1.0.2475-2
 Architecture: iphoneos-arm
@@ -10670,6 +10709,174 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/uikittools/
 Name: UIKit Tools
 
+Package: uk.invoxiplaygames.alternatemusicicon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: ./debs/uk.invoxiplaygames.alternatemusicicon_1.0.deb
+Size: 25152
+MD5sum: 97d59e87ed470148c3e9a539a6db3dc9
+SHA1: 4eb7ea7bf36282753645e8a9083f1f45ba6bdac2
+SHA256: 22ef9ad6f6caf9619c9746fcb27f41e47e66c9393226cf7af7b935107110f3f1
+Section: Themes
+Description: Alternate Apple Music icon
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/alternatemusicicon.php
+Name: Alternate Music Icon
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.cydiahttpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (<< 4.0)
+Filename: ./debs/uk.invoxiplaygames.cydiahttpatch_1.0.deb
+Size: 2842
+MD5sum: 2100205abecf06d1a7d72d2636e770c4
+SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
+SHA256: 2c6ff66a0498eea88f786a17b8ca79400ae311a2f5f80d97eaeed44d4fe9d9bf
+Section: Tweaks
+Description: Removes HTTPS from Cydia to use on iOS 3.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/cydiahttpatch.php
+Name: Cydia HTTPatch
+
+Package: uk.invoxiplaygames.doubletweetlength
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 132
+Depends: mobilesubstrate
+Filename: ./debs/uk.invoxiplaygames.doubletweetlength_1.0.deb
+Size: 3846
+MD5sum: ab2729f312783c053b1eb988527f7a58
+SHA1: 3e1b1b8b6f3178a68c548388dc05d21a1e352f54
+SHA256: 7eec117003654d433a2f1c83e22fa3205f40791f1307273fd6a5424fdcf13611
+Section: Tweaks
+Description: Lets you tweet (and see) 280 character tweets on older versions of Twitter.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/doubletweetlength.php
+Name: DoubleTweetLength
+Sileodepiction: http://cydia.invoxiplaygames.uk/dp/doubletweetlength.json
+
+Package: uk.invoxiplaygames.googlesigninfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 52
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./debs/uk.invoxiplaygames.googlesigninfix_1.0.deb
+Size: 3430
+MD5sum: 813eb007f8623bc3651382562e1334af
+SHA1: 5ecc059d779e443882d37af48f62a4bc0dbdf58a
+SHA256: 73c8713552d77e304095b17392f70f91ebd1442bc3b06c820f351586ba15c0d4
+Section: Tweaks
+Description: Fixes Google-owned app login on iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Name: GSignInFix
+
+Package: uk.invoxiplaygames.gradiento
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: ./debs/uk.invoxiplaygames.gradiento_1.2.deb
+Size: 587894
+MD5sum: 386f67d785eee5ea1096d367158b31d6
+SHA1: 1a6d9cb9394fcb8fab011c96466fb52f035c689b
+SHA256: f6dc9350a804460ff6ef8a482229b74c3b43ef5854d500a3f6445fc6e37ef7a6
+Section: Themes
+Description: Simple gradient theme for iOS
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/gradiento.php
+Icon: file:///Library/Themes/Gradiento.theme/Icon.png
+Name: Gradiento
+
+Package: uk.invoxiplaygames.guitarherolie
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 116
+Depends: firmware (>=8.1), mobilesubstrate
+Filename: ./debs/uk.invoxiplaygames.guitarherolie_1.0.deb
+Size: 2828
+MD5sum: 263ba0f1a490db8e9c1eeb4ac9accea6
+SHA1: 1f72338eef09153f21bfd0a0fccf18101ff896e0
+SHA256: e5c5f76ec0f3cb809b4017d82f94e1bad076e81746c980fa0ad5e19e8a9f6b2b
+Section: Tweaks
+Description: Allows GuitarHeroLive to run on all unsupported devices.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: https://cydia.invoxiplaygames.uk/dp/guitarherolie.php
+Name: GuitarHeroLie
+
+Package: uk.invoxiplaygames.imessagercepatch
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (<< 12.4.1)
+Filename: ./debs/uk.invoxiplaygames.imessagercepatch_1.1.deb
+Size: 4166
+MD5sum: 76dbdcd9f4c87b09ab409c14c0bb608c
+SHA1: a83bfb4ca3ac47bf4b3f512dfa0ad3d64a7dc024
+SHA256: 0a11230370ef6ae21409377418e9759a7d987411000065b3c88556fc13347507
+Section: Tweaks
+Description: Mitigates the iMessage RCE vulnerability in iOS 12.4 and below.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: https://cydia.invoxiplaygames.uk/dp/imessagercepatch.php
+Name: iMessage RCE Patch
+
+Package: uk.invoxiplaygames.simalertsuppression
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 132
+Depends: mobilesubstrate, firmware (>=5.0)
+Conflicts: uk.invoxiplaygames.letmestealinpeace
+Filename: ./debs/uk.invoxiplaygames.simalertsuppression_1.0.deb
+Size: 2810
+MD5sum: 93cd24e6c82108068e54435453587ac4
+SHA1: 9eff439f4635d83fffbd9565ca926612d08f2bf9
+SHA256: 4f6fb6fc8743d1f1902513fcda5ba96c3cb189a4fe550b735262e268e78baab4
+Section: Tweaks
+Description: Removes SIM-related alerts from SpringBoard
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
+Name: SIM Alert Suppression
+Sileodepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (<=5.1.1) | com.tekwik.youtube
+Filename: ./debs/uk.invoxiplaygames.tubefixer_1.1.deb
+Size: 894
+MD5sum: 10955db2ddb81393bb34291216331bc7
+SHA1: a7bf0a8692380f211b72f0c8463054c390e3a065
+SHA256: 5c1dea24dd4321a3b8a0a5528075e2f700978d7e54b412b121510f69afdc5a9f
+Section: Utilities
+Description: A simple little fixer for the good ol' YouTube app from iOS 1 to iOS 5! Now has experimental support for iOS 6.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: TubeFixer
+
 Package: uk.invoxiplaygames.tubefixer
 Version: 2.0-152+debug
 Architecture: iphoneos-arm
@@ -10678,6 +10885,26 @@ Installed-Size: 136
 Pre-Depends: dpkg (>= 1.13.25-5)
 Depends: mobilesubstrate, firmware (>= 2.0)
 Filename: ./debs/tubefixer-2.0-152-RC1.deb
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+Section: Tweaks
+Homepage: http://tubefixer.ovh/
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Name: TubeFixer for iOS
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-152+debug
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/uk.invoxiplaygames.tubefixer_2.0-152+debug.deb
 Size: 27972
 MD5sum: 3099d5610e8e73426a947fcf646fffcf
 SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
