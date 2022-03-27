@@ -131,6 +131,27 @@ Depiction: http://apt.so/index.php?r=cydia&id=549be9bb0e1d1550228b4b4b
 Name: Auxo 3 (iOS 8)
 Sponsor: Feng.com <http://www.feng.com>
 
+Package: app.weiphone.fronts005
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Installed-Size: 18376
+Filename: ./debs/10150832_浪漫雅园.deb
+Size: 9169932
+MD5sum: af25f50662f66e2f97e60a144fd03e7f
+SHA1: 6129b7c427c8aaabdae6038a6a699ec96a85e77a
+SHA256: 37446745d10bab98d35d21fb27eca9f7f4d210e4997959e8b2dc25d86ff2364f
+Section: [威锋源-系统字体]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52d0e6e6319a394f658b498b
+Description: 浪漫雅园字体
+Tag: role::enduser
+Author: WeiPhone.com <support@office.weiphone.com>
+Depiction: http://apt.so/index.php?r=cydia&id=52d0e6e6319a394f658b498b
+Name: 浪漫雅园
+Sponsor: WeiPhone.com <http://www.weiphone.com>
+
 Package: app.weiphone.teiron.pphelperns
 Version: 3.0.2
 Architecture: iphoneos-arm
