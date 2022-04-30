@@ -2286,6 +2286,57 @@ Author: UnthreadedJB
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Name: Unthredera1n
 
+Package: com.vsz.localssh
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: openssh
+Filename: ./debs/com.vsz.localssh_1.0-3_iphoneos-arm.deb
+Size: 1616
+MD5sum: a3002c47afd3a1757bb47727dc3c4e11
+SHA1: be3a4b085358b3bd343f044cd1f1c5487dfc3247
+SHA256: b3e6110e397923dcfdac6327928e4cf06fdbc00fbf1abfb2916db8bdc71f05dd
+Section: Utilities
+Priority: extra
+Description: Enable ssh to localhost for appstore terminal clients such as Prompt 2 or Server Auditor.After installing a new ssh port 50022 will be activated, which should be used when using the Terminal client to log in. To connect through Prompt 2 or Server Auditor, enter the host address as 127.0.0.1 and port as 50022.
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.localssh
+Name: LocalSSH
+
+Package: com.vsz.redeb
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.2_iphoneos-arm.deb
+Size: 4340
+MD5sum: c617d3310d724024a081fc0b163daf03
+SHA1: 62ff4b9cc7b3fa6468c3e73001f888731cc668b4
+SHA256: 3035b4d53fe9049242f323606b58191cc75cf7e7393e399af3a5212f93ee1dae
+Section: Utilities
+Priority: extra
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
+Name: redeb
+
+Package: com.vsz.redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3572
+MD5sum: b5aa8718f90044be937b72d9f4e7a1f5
+SHA1: 912a6cf3cea1c725df51bb54ad4f849f27bdfa08
+SHA256: 5ec1491fdf630cdb2cbf218a10557d45e5a23271e775b066553cea543cf31c80
+Section: Utilities
+Priority: extra
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
+Name: redeb
+
 Package: com.weiphone.wallpaper.ipad-scenery6
 Version: 1.0
 Architecture: iphoneos-arm
