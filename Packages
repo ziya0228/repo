@@ -9063,6 +9063,92 @@ Icon: file:///Library/PreferenceBundles/Auxo.bundle/AuxoIcon@2x.png
 Name: Auxo for iPad
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: org.thebigboss.ayecon
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 39981
+Depends: firmware (>= 4.0), mobilesubstrate, winterboard, org.thebigboss.2x2foldericons, org.thebigboss.ayeconspringboard, org.thebigboss.ayeconothertheme, org.thebigboss.ayeconwallpaper, org.thebigboss.ayeconaddon
+Filename: ./debs/org.thebigboss.ayecon_1.3.5_iphoneos-arm.deb
+Size: 820
+MD5sum: 3cf90b7ba8ef31bbe39eb46fd3d88804
+SHA1: 410b954b9d19518cdda3c52e4709e55a4f4b2e1c
+SHA256: 6da1d7525a8bf0d9269429129a914f0b607ccec0e9924f600c429b43a84e21b2
+Section: Themes (Complete)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconDp
+Description: A benchmark iOS theme.
+Tag: cydia::commercial
+Author: Surenix <surenix@surenix.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconDp
+Dev: surenix
+Name: ayecon (iOS 5 & 6)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.ayeconios7
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 21020
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), winterboard (>= 0.9.3914), org.thebigboss.ayekit
+Conflicts: gsc.ipad, org.thebigboss.ayecon
+Filename: ./debs/org.thebigboss.ayeconios7_1.1.1_iphoneos-arm.deb
+Size: 12230076
+MD5sum: 55ed4aeeac36be61229352e59fe9e36b
+SHA1: 23f258a725160201424bc29e96dd0239a4c2cb0d
+SHA256: dea7e74b4398dc2dbd24b7ddfa40fcb5b785983a7dabbc65452ab69e2b632490
+Section: Themes (Complete)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+Description: A benchmark theme for iOS. Again.
+Tag: cydia::commercial, ios7support::1, ios8support::1
+Author: Surenix <surenix@surenix.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+Dev: surenix
+Name: ayecon (iOS 7+)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.ayeconipad
+Version: 1.3.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 89181
+Depends: firmware (>= 5.0), winterboard, gsc.ipad, org.thebigboss.ayeconipadspringboard, org.thebigboss.ayeconipadwallpaper, org.thebigboss.ayeconipadother, org.thebigboss.ayeconipaddylib, org.thebigboss.ayeconipadwallpaperhd
+Filename: ./debs/org.thebigboss.ayeconipad_1.3.2-1_iphoneos-arm.deb
+Size: 814
+MD5sum: 333f2f683228712d2a1c418d6086923f
+SHA1: fa665119e3a132c9c0cc8fedc0ca829d37d82c08
+SHA256: 796bf0c41e073bd9dfb12011f5c279b6027b35a080faf675db145ca6b5a762c5
+Section: Themes (Complete)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconipadDp
+Description: A benchmark iOS theme for iPad
+Tag: cydia::commercial
+Author: Surenix <surenix@surenix.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconipadDp
+Dev: surenix
+Name: ayecon for iPad (iOS 5 & 6)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.ayeconipadios7
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 34020
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), winterboard (>= 0.9.3914), gsc.ipad, org.thebigboss.ayekit
+Conflicts: org.thebigboss.ayeconipad
+Filename: ./debs/org.thebigboss.ayeconipadios7_1.1.1_iphoneos-arm.deb
+Size: 23565032
+MD5sum: 2a2c407155a5f7d9b755361432523b78
+SHA1: 1d4a6764f1792645e7842dcb46471169c6954376
+SHA256: 9a6d41b28111c1c753ba875c09f97d12f52b0593a24bae7235f5643da3ea54c2
+Section: Themes (Complete)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconipadios7Dp
+Description: A benchmark theme for iOS. Again.
+Tag: cydia::commercial, ios7support::1, ios8support::1
+Author: Surenix <surenix@surenix.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconipadios7Dp
+Dev: surenix
+Name: ayecon for iPad (iOS 7+)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.thebigboss.repo.icons
 Version: 1.0
 Architecture: iphoneos-arm
