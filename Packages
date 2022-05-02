@@ -1663,6 +1663,29 @@ Description: Morandi - Pay tribute to my favorite painter
 Author: Rowandesign
 Name: Morandi
 
+Package: com.rpetrich.fullforce
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 312
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9), cy+model.iphone | cy+model.ipod
+Conflicts: com.kindadev.goodfit
+Replaces: com.kindadev.goodfit
+Filename: ./debs/com.rpetrich.fullforce_1.1.4_iphoneos-arm(1).deb
+Size: 110636
+MD5sum: 2154f775e741bc12c8b930ecb2cee7c1
+SHA1: 1e3ce335ae6f1c4868cd91e9745f522aac9d0bfe
+SHA256: 4572c00d1d068325e6c2a219d843f38a4f5a22241fc33f6ca2626979e5db5785
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/fullforceforphone/
+Description: Force applications to show in fullscreen mode
+Tag: purpose::extension, cydia::commercial
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/fullforceforphone/
+Dev: rpetrich
+Name: FullForce for Phone
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.10~beta1
 Architecture: iphoneos-arm
