@@ -1218,6 +1218,22 @@ Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: com.fabius.utils
+Version: 0.0.1-38
+Architecture: iphoneos-arm
+Maintainer: Fabius
+Pre-Depends: sed
+Depends: mobilesubstrate
+Filename: ./debs/com.fabius.utils_0.0.1-38_iphoneos-arm.deb
+Size: 4580
+MD5sum: c100b7fc9a7b2b88d573fe80ac00854a
+SHA1: 289292e21db0861fce3a589593d7a680002f3c06
+SHA256: e9734fbad84153066090bdb230c92da0a24c630dc5e56d5dd1f556d0cd10a1aa
+Section: Tweaks
+Description: This is an tool used in several Fabius cracks, like MewSeek, OverBoard, Display Recorder, and others... THIS IS NOT AN AUTO-CRACKING TOOL! THIS WILL NOT CRACK INTELLISCREENX NOR ANYTHING ELSE!!!
+Author: Fabius
+Name: Fabius Utils
+
 Package: com.filippobiga.glyphpatch
 Version: 0.1-6
 Architecture: iphoneos-arm
