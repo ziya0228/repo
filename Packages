@@ -1100,6 +1100,54 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.bigboss.patchsafari2/
 Name: file:// for MobileSafari
 
+Package: com.brend0n.gtaiii60fps
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 296
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/GTAⅢ_60FPS.deb
+Size: 17320
+MD5sum: 97d03e3425e908d2cd19c7f59e1a471e
+SHA1: 2c8dfe5560f69435dd15603ff6665c94717664dd
+SHA256: 32190e81d0f686df622c9e720f44f309c5d92c76f710f7dd481f940111af2235
+Section: Tweaks
+Description: only compatible with version==1.5 and binary==arm64
+Author: Brend0n <brendonjkding@126.com>
+Name: gtaIII60fps
+
+Package: com.brend0n.gtasa60fps
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 436
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/GTASA_60FPS.deb
+Size: 79278
+MD5sum: 9cc95b478804262d16e9663647bf3f3c
+SHA1: 7837455abbb3c9c705e9a6f77e24c4e70f72e2d0
+SHA256: 07dcfe59bbb82ee9ca94fdfc1b08a400c4ca01cc7d311d20ee2cb6be8daf6055
+Section: Tweaks
+Description: only compatible with version==2.2 and binary==arm64
+Author: Brend0n <brendonjkding@126.com>
+Name: gtasa60fps
+
+Package: com.brend0n.gtavc60fps
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 288
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/GTAVC_60FPS.deb
+Size: 10012
+MD5sum: 4cab9a77d2ea8e863782d1bb8f8c1ae1
+SHA1: 380c9840802d1d23e32748b34426c125f4e5d73e
+SHA256: f75c85a14d4ad99e8b7e7fa890c375e5adc18f46405597ad28640d2a7f27fd1c
+Section: Tweaks
+Description: only compatible with version==1.8 and binary==arm64
+Author: Brend0n <brendonjkding@126.com>
+Name: gtavc60fps
+
 Package: com.chronic-dev.greenpois0n.rocky-racoon
 Version: 1.0-3
 Architecture: iphoneos-arm
