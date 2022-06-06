@@ -862,6 +862,1090 @@ Priority: optional
 Description: open source implementation of Java
 Name: Classpath
 
+Package: cn.agricu.3dnetworkfixer
+Version: 1.1-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 592
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/cn.agricu.3dnetworkfixer_1.1-6_iphoneos-arm.deb
+Size: 196684
+MD5sum: 51a7a362871b5365acd979caaf254929
+SHA1: ba9471c9da8a9a01b328eb63e868cdfee893c734
+SHA256: e26a443b0d1d082d3cfea7e73281686fa430abc2743b51e3c4b239803d569a25
+Section: Tweaks
+Description: 长按桌面图标唤出应用菜单，快捷修复该应用的联网权限，支持iOS10-iOS14
+Author: Netskao
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.3dnetworkfixer
+Name: 3DNetworkFixer
+
+Package: cn.agricu.4dfu
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 6.0)
+Filename: ./debs/cn.agricu.4dfu_1.0_iphoneos-arm.deb
+Size: 52760
+MD5sum: 92143dfc5dd6d9dd1b41d2928f54753c
+SHA1: bd78820216603fd280ce7f94a48c520b539e9eb3
+SHA256: eb847c54c95d87a50460d2d6617837b01d00d86a874bd1870c4bc973a21c54de
+Section: System
+Description: iPhone4s进入KDFU降级模式
+Author: HongV
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.4dfu
+Name: 进入降级DFU模式
+
+Package: cn.agricu.5dfu
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0)
+Filename: ./debs/cn.agricu.5dfu_1.0_iphoneos-arm.deb
+Size: 55144
+MD5sum: 929d2f8ed7d42be96dd68b12c69acb54
+SHA1: ebb354a4914bb8211008e6f066eaef088a02a85f
+SHA256: eb2ac273e3e7e6404970ce09ce3bdd753a6a74eb3c9228858acf54dfc4442131
+Section: System
+Description: iPhone5进入KDFU降级模式
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.5dfu
+Name: 5进入降级模式
+
+Package: cn.agricu.addsource
+Version: 2.3.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: yuosaf01 & 3bod_syr
+Installed-Size: 336
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: ./debs/cn.agricu.addsource_2.3.2-1+debug_iphoneos-arm.deb
+Size: 73104
+MD5sum: f51a8c01865a0e8b8d6f30dfdd8b75d8
+SHA1: cc3ed625018093e8abb512df69a570672859e79f
+SHA256: 31777d357e79e72b0667b3fe49cea3c7e56362dc6cb4b43a0ae0d91db995d414
+Section: Tweaks
+Description: Cydia自动检测剪切板的URL地址，由Agricu精简，原版提供于BigBoss源:addsource
+Author: yuosaf01 & 3bod_syr
+Name: Cydia自动添加源
+
+Package: cn.agricu.afc2d-arm64
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 539
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/cn.agricu.afc2d-arm64_1.1.6-1_iphoneos-arm.deb
+Size: 21800
+MD5sum: 6b246dc17c34f58ce33f11cd885a8a5e
+SHA1: e933fe915377c3d828807f5b5079787929c0565e
+SHA256: 9a39ff0a7bac422bd81e44ab936c71d3132862c5bdb6cf53189335920dbf3c88
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Tag: purpose::daemon
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.afc2d-arm64
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cn.agricu.album
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 172
+Depends: mobilesubstrate, cn.agricu.lmsecurityscreen
+Filename: ./debs/cn.agricu.album_2.3_iphoneos-arm.deb
+Size: 32722
+MD5sum: 9b5c83167d1b79ac8b51e5826ca57108
+SHA1: 14ce950bb401cd41d2991bcedb3cce622ad09d30
+SHA256: 751d3680eeccf1cd630f0bc2a52cda8d83a27b09318449ca4e286e2ed568b2eb
+Section: Tweaks
+Description: Delete photos without confirmation and unlimited zooming in, Show resolution and file size at the top of the photo，Support for arm64e devices。
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.album
+Name: 相册™助手
+
+Package: cn.agricu.amap
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 404
+Depends: mobilesubstrate, cn.agricu.lmsecurityscreen
+Filename: ./debs/cn.agricu.amap_1.0_iphoneos-arm.deb
+Size: 111400
+MD5sum: 140ddf5aee64dde0e152c40dc7b3bc3a
+SHA1: 89939f4f163db4d6141359c378d6d0ebd7c5f6e2
+SHA256: 83fd4a9c2e952f3c8f00d87d25952dcb68de5d1f5b07619e7ec07cc47e74e8c0
+Section: Tweaks
+Description: 去除广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.amap
+Name: 高德地图™助手
+
+Package: cn.agricu.appstore
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 72
+Depends: mobilesubstrate,firmware (>= 11.0)
+Filename: ./debs/cn.agricu.appstore_0.0.1_iphoneos-arm.deb
+Size: 5586
+MD5sum: fdd28b713146cc4cf2b799f0d8dfb153
+SHA1: 7d1c0ab9d788e1147383f6df5a2c4032dbf9e0b5
+SHA256: 32562ea7865e32beb20c6b7e0da33548c1155d60ac0e9508c49b05a150fb2de5
+Section: Tweaks
+Description: AppStore++简体中文，部分汉化
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appstore
+Name: AppStore++_中文简体包
+
+Package: cn.agricu.appstoreplusplus
+Version: 0.9.14-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/cn.agricu.appstoreplusplus_0.9.14-2_iphoneos-arm.deb
+Size: 1237084
+MD5sum: 7c33718d336573c8287bae768d8d03a2
+SHA1: 9779637b42f764c0a239491cf7b6e9e2c2f456be
+SHA256: 9a608fd438dc2c0a700d4d7409354a9b2263736a5949c4c767e0a0c9f603a99f
+Section: Tweaks
+Description: AppStore应用降级，软件详情页长安按钮即可弹出插件选项，长按AppStore个人头像，即可进入高级设置，最后一个没广告的版本
+Author: CokePokes
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appstoreplusplus
+Name: AppStore++
+
+Package: cn.agricu.appsyncunified
+Version: 104.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/cn.agricu.appsyncunified_104.0_iphoneos-arm.deb
+Size: 89628
+MD5sum: 7300ddae8225a9012ec7af83fda4d316
+SHA1: c9f1716f5e1b93adefd8b4d28725431c9009ffc8
+SHA256: 68879910784e032ea6202a24251960a14baad7e0202d96b008517c4d773cc693
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appsyncunified
+Name: AppSync Unified
+
+Package: cn.agricu.bankabc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.bankabc_1.0_iphoneos-arm.deb
+Size: 112714
+MD5sum: a5a43bc5b4821005dbd85148eaff4555
+SHA1: 3366fc146304673432773b2135af261d42bd05ec
+SHA256: a8b27a692c4f35c542c3c9f27f093e81a3600b77dc04819bdb6aa939e44954ee
+Section: Tweaks
+Description: 去除启动广告及越狱提示关闭
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.bankabc
+Name: 农业银行™助手
+
+Package: cn.agricu.boot
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Depends: firmware (>= 6.0)
+Filename: ./debs/cn.agricu.boot_0.1_iphoneos-arm.deb
+Size: 956
+MD5sum: 45073483d579126bda5b004201f670c2
+SHA1: a69102074877172c6867ad0c86ccf7cca972771b
+SHA256: ba08c1a24ead906d422685c45ab658e2dc8052b22fd2a6c38ddfc2a55f17e773
+Section: Utilities
+Priority: optional
+Description: iOS7.1.X的iBoot降级恢复正常，终端命令：nvram -d boot-ramdisk
+Author: Agricu
+Name: Boot-ramdisk
+
+Package: cn.agricu.chelaile
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate, firmware (>= 13)
+Filename: ./debs/cn.agricu.chelaile_1.0_iphoneos-arm.deb
+Size: 112512
+MD5sum: 2c87525a1a3056110f553f66d4ef9df1
+SHA1: 6cc3e0b7cbe12234faa8f2bb597df0f279523580
+SHA256: 12f1ba4d89f85f13267e7fd3840d94328036417b85d677a50f15ed7f5d0b5c49
+Section: Tweaks
+Description: 去除启动广告及内部其他广告、快手视频流广告无法去除(没实力)
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.chelaile
+Name: 车来了™助手
+
+Package: cn.agricu.classdump
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1828
+Filename: ./debs/cn.agricu.classdump_1.0-1_iphoneos-arm.deb
+Size: 835232
+MD5sum: 601762d21bd0e3a628cf708ce2eb9f47
+SHA1: d914d63003041f2ed9a8b11049bec195e264922a
+SHA256: 9bc498a21855c6e7f2dda90281c0a33e5928d943af2a79ad2179ba18d428a5c5
+Section: Tweaks
+Homepage: https://github.com/nygard/class-dump
+Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. Support iOS
+Author: Steve Nygard
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.classdump
+Name: class-dump
+
+Package: cn.agricu.cqwallet
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 404
+Depends: mobilesubstrate, cn.agricu.lmsecurityscreen
+Filename: ./debs/cn.agricu.cqwallet_1.0_iphoneos-arm.deb
+Size: 113868
+MD5sum: 3722d745cdd06a84a1bd988968d53010
+SHA1: 19f2503a50fda4aa0d26335da910fc08a784a987
+SHA256: 43c0ff2d070c9bea7e28f2ff658ff1663347062436d766474d36f7ff126a398e
+Section: Tweaks
+Description: 去除启动广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.cqwallet
+Name: 重庆市民通™助手
+
+Package: cn.agricu.cydia
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 200
+Depends: mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/cn.agricu.cydia_2.1.1_iphoneos-arm.deb
+Size: 16524
+MD5sum: d1a31ee819d2e3180acfd021fbd477c8
+SHA1: c32dfb982b11cfb150bdaf99db18843acba39acb
+SHA256: 3c416bb06fb7e09db4675023c1045c8a8e901d7912d30bd2a5827a16b429ef7a
+Section: Tweaks
+Description: 开启Cydia后台刷新及插件安装完成后关闭按钮
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.cydia
+Name: Cydia™助手
+
+Package: cn.agricu.cydown
+Version: 7.1.2
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/cn.agricu.cydown_7.1.2_iphoneos-arm.deb
+Size: 4259870
+MD5sum: 27b854b323939b99e8b2a1cd587de0ea
+SHA1: 87e56f5417020aa0e52347777be1033f8a0edd0b
+SHA256: 857a06c7aef56b41b65252d36ea6a7e5ceb7c60cfe5aa92d7f53c7a9f6966c51
+Section: Tweaks
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: cn.agricu.cynoup
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.agricu.cynoup_0.0.1-1_iphoneos-arm.deb
+Size: 4290
+MD5sum: 430151e7ac80ffaba48807726efb6a24
+SHA1: 2513a8554a24dd8d676a1e46e8cb88902fd3e0f2
+SHA256: aec1408f50a17338ebc73bd6ea4e45738ab18a52c96a9bf2d50a0a465b073eae
+Section: Tweaks
+Description: Get rid of the updated version prompt of Cydown.
+Author: Agricu
+Name: Cydown Tips Version
+
+Package: cn.agricu.daymaster
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate,firmware (>= 9.3)
+Filename: ./debs/cn.agricu.daymaster_1.0_iphoneos-arm.deb
+Size: 111260
+MD5sum: bdb7de638a3e89b76a79b5a8b6b6f40e
+SHA1: fa552ad13ac2811067e011add0c21f445f2ee5c2
+SHA256: 9331423dcd5ec93aa99755726a71844609355e9b9c234e43e1cd3b050fb7b119
+Section: Tweaks
+Description: Days Master开启高级版权限
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.daymaster
+Name: DaysMaster Crack
+
+Package: cn.agricu.dianping
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.dianping_1.0_iphoneos-arm.deb
+Size: 84148
+MD5sum: 07f745794bd8dea8dcb9379375f7583f
+SHA1: fd34de48192c1251d239cec30ec021144200025d
+SHA256: aeb4404210094eb0cca8fe45824b3ca33f81f8e0b8fec1364bcff123e24385e1
+Section: Tweaks
+Description: 大众点评视频下载
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dianping
+Name: 大众点评™助手
+
+Package: cn.agricu.dingtalkhelper
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.dingtalkhelper_1.0.0-1_iphoneos-arm.deb
+Size: 44246
+MD5sum: 6fcb95ef1968c5d4727ffa772f4dcca7
+SHA1: 1c97c6cdd9bc7996e9868ea793376c90b8812100
+SHA256: b3a314dcf44b82247ed9336348cfdf62cfe385790dbe32c4dba1ae7c8400656b
+Section: Tweaks
+Description: 可自定义设置wifi或定位远程打卡的钉钉助手
+Author: Agricu
+Name: 钉钉™助手
+
+Package: cn.agricu.douyin
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 620
+Depends: mobilesubstrate, cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.douyin_2.0_iphoneos-arm.deb
+Size: 193986
+MD5sum: 6416271af53e1fe4d409b6f35d0ad7e7
+SHA1: 7199ef79c815e677dbbc44a29da074952d7b4d81
+SHA256: d6f50d225b601df33feb30e1fd4c2f4117621b1af03fffdf1d20633bb672c659
+Section: Tweaks
+Description: 抖音视频去启动广告、视频流广告;开启自动播放功能、保存无版权视频等。
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.douyin
+Name: 抖音™助手
+
+Package: cn.agricu.downloadvideo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.agricu.downloadvideo_1.0_iphoneos-arm.deb
+Size: 28962
+MD5sum: 273aaa249dfa4cf2770ee422366aa2cc
+SHA1: 9418c2a86d5410b3e609eeb249f0cacfab193035
+SHA256: 5903d67d85d6930e3975dc9cf0221571210a29d87383434859dfed359bb4e2cd
+Section: Tweaks
+Description: 视频下载插件图标依赖
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.downloadvideo
+Name: VideoDown™icon
+
+Package: cn.agricu.dumpdecrypter
+Version: 1.1-9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 11.0), mobilesubstrate
+Replaces: netskao.bfdecrypt
+Filename: ./debs/cn.agricu.dumpdecrypter_1.1-9_iphoneos-arm.deb
+Size: 303474
+MD5sum: f23188c82e4767f4072b805816cf59ac
+SHA1: 128e3b14f1f330e0b5fa1d3cb7ed6f5512266a49
+SHA256: 7468f1e319b9932ffcc94e911d3b5fc879f9102189ae72b92f9cb366af14d965
+Section: Tweaks
+Description: Dump Decrypter是一个针对bfdecrypt砸壳程序封装，主要对Odyssey环境支持，十分类似于CrackerXI，通过桌面的Dump Decrypter应用程序选择需要解密的应用
+Author: BishopFox / Netskao
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dumpdecrypter
+Name: Dump Decrypter
+
+Package: cn.agricu.filza
+Version: 3.8.1-22
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 32112
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/cn.agricu.filza_3.8.1-22_iphoneos-arm.deb
+Size: 12944354
+MD5sum: 9e66a5364972c7dfcd70bac362069608
+SHA1: 0cb8beb6e45a05693dac407da50455979950396a
+SHA256: 55936503e7b6eb556ecb06e8ae6a66c2b28cf1908964d3231ad3449c22ac1faf
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.filza
+Name: Filza File Manager
+
+Package: cn.agricu.filzacrack
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.filzacrack_1.1-4_iphoneos-arm.deb
+Size: 16652
+MD5sum: 86fc82602f40fc72b0ba94b35a893ea3
+SHA1: 6b61f02457a1125fbb7dee8eadcf90bd2f7f1d16
+SHA256: 3b93d22c0d7537b35aba9f077c5c00078739d8217135fcec69b2985ad34e6845
+Section: Tweaks
+Description: Filza破解全功能插件，主程序官方源安装，支持所有机型，如提示需要激活请激活即可，国行激活失败请自行修复联网，点击“更多信息”跳转官方源https://tigisoftware.com/cydia/
+Author: Netskao
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.filzacrack
+Name: Filza Crack
+
+Package: cn.agricu.fingertouch
+Version: 0.0.6b2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 257
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0)
+Filename: ./debs/cn.agricu.fingertouch_0.0.6b2_iphoneos-arm.deb
+Size: 25880
+MD5sum: cbf829944f0f065ca5b666e338740691
+SHA1: dfd43ad1c44b69cd9db1a661c5fa1425cd680530
+SHA256: fcf1ff00e40b627c48a0e7f304f712f0a7ab714d33341d77d0a95e86a702a60d
+Section: Tweaks
+Priority: optional
+Description: 虚拟home键，保护home键
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Author: Michele Primavera <support@dreamcode.it>
+Dev: dreamcode
+Icon: file:///Library/PreferenceBundles/fingertouchprefs.bundle/icon@2x.png
+Name: FingerTouch
+
+Package: cn.agricu.flexlist
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 4440
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cn.agricu.flexlist_1.3-1_iphoneos-arm.deb
+Size: 1873572
+MD5sum: 9cc80e34f044c804bca86a54627b69c4
+SHA1: 47cebd1fdf3fd64738e0b5ee998411328e463a3d
+SHA256: 65daf80530664306b995a73d23990e8dfbf0b1c81b8527941aa5460a6d1970fb
+Section: Utilities
+Description: FlexList是调用FLEX进行应用分析的工具，支持状态栏快捷唤出，3D桌面图标快捷启用/禁用，设置列表启用/禁用
+Author: Netskao
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.flexlist
+Name: FlexList
+
+Package: cn.agricu.fqys
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/cn.agricu.fqys_1.0_iphoneos-arm.deb
+Size: 111266
+MD5sum: fbbd0df099957e19f1a368f647fc09a0
+SHA1: 81470534402b774ae4d269c1e7b42badaca88db9
+SHA256: c331abb5cc5e4867d118a2cb07915efdc766568d2e151983a8bc83a20a2c6257
+Section: Tweaks
+Description: FQ二维码(番茄影视)伪装上架版去广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.fqys
+Name: 番茄影视™伪装上架版去广告
+
+Package: cn.agricu.ios10lstu
+Version: 0.0.1-13+debug
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate, firmware (<= 10.3.3)
+Filename: ./debs/cn.agricu.ios10lstu_0.0.1-13+debug_iphoneos-arm.deb
+Size: 6384
+MD5sum: 62e06f2e713a6ef9c7b401e45b4691d1
+SHA1: 6ce84f35996c57e5c6ae68207684c8f6686d3612
+SHA256: 08812a4fc73996a308dbb7b3bd741fdcb904f5d13ad7608cb8d58435849fc25f
+Section: Tweaks
+Description: 重回iOS9滑动解锁
+Author: CP Digital Darkroom
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.ios10lstu
+Name: LegacySlideToUnlock
+
+Package: cn.agricu.jianshu
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.jianshu_1.0_iphoneos-arm.deb
+Size: 112934
+MD5sum: 6e64e9af1f8ca0e8a757ef02cbeda868
+SHA1: e6ef616a6b3899cefa6d0c005b566df29c720ba0
+SHA256: e35a603d9b692661feba595ccec0e00878d7c313e66708bb03d9609e592f9ea4
+Section: Tweaks
+Description: 去除启动广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.jianshu
+Name: 简书™助手
+
+Package: cn.agricu.json290
+Version: 2.90
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Filename: ./debs/cn.agricu.json290_2.90_iphoneos-arm.deb
+Size: 86182
+MD5sum: d833bf0e4b0c7f555caa6de477649da7
+SHA1: be1a3b7dddb2bff76a87f37d0de3a0f271a73351
+SHA256: 75a6f1c0c83cd7582330f35a79949ddd6d33ca6e63af67af4acbe394152efd71
+Section: System
+Priority: optional
+Description: JSON-2.90
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.json290
+Name: JSON-2.90
+Sponsor: Agricu <http://repo.agricu.cn>
+
+Package: cn.agricu.kbappdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 1276
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.kbappdock_1.0.1_iphoneos-arm.deb
+Size: 730622
+MD5sum: c4bf7352f75707ac67f91fce52d7d49a
+SHA1: a07e827bcac83da3a288bb1eb6fd468e1a951466
+SHA256: c69fe4fb5c8a8ca7fa7e246eaf7c5fec7dc5bdd4ea65836c335c42f0d50c2325
+Section: Tweaks
+Description: 键盘底部优化
+Tag: compatible_min::ios13.0, compatible_max::ios14.3
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.kbappdock
+Icon: file:///Library/PreferenceBundles/KBAppDock.bundle/icon@2x.png
+Name: KBAppDock
+
+Package: cn.agricu.kuwomusic
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.kuwomusic_1.0.1_iphoneos-arm.deb
+Size: 91130
+MD5sum: 12b98f181c72519e0188aa1d5a26f907
+SHA1: 9041158bb8f1da3481a3a2566ba26c7fa37c02bd
+SHA256: 6a55dd180b3d57c762cde30f54c230018f695dffee06329f21e1404e296b3316
+Section: Tweaks
+Description: 酷我音乐VIP歌曲在线完整听以及短视频下载至系统相册
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.kuwomusic
+Name: 酷我音乐™助手
+
+Package: cn.agricu.lmsecurityscreen
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 280
+Depends: firmware (>= 9.0)
+Filename: ./debs/cn.agricu.lmsecurityscreen_0.0.1_iphoneos-arm.deb
+Size: 19276
+MD5sum: 3666c5951bcdcf7547c1cc948a1cc1fc
+SHA1: 434022b127a59d23a6bedf37d71467ce9eb481b3
+SHA256: 1217ffdffc54bc45a5be02e976e455d4f8f3fb256f503574741cbfc42cfcc22e
+Section: System
+Description: 插件依赖
+Tag: role::developer
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.lmsecurityscreen
+Name: LMSecurityScreen
+
+Package: cn.agricu.mterminal
+Version: 1.4-6
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: ./debs/cn.agricu.mterminal_1.4-6_iphoneos-arm.deb
+Size: 118634
+MD5sum: ad8734cfd7437f4b2e6b140eefe350a3
+SHA1: be95ab35d2477a6a58ee5eae3505aeaa2537eca5
+SHA256: b30c015455d7774d98d6bf301af0420b011e4888e28edfc96337e46da993ba67
+Section: Utilities
+Priority: standard
+Description: 运行在iOS 上的手机终端
+Author: lordscotland <admin@officialscheduler.com>
+Name: MTerminal 手机终端
+Sponsor: Agricu <http://repo.agricu.cn>
+
+Package: cn.agricu.netease
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.netease_1.0.1_iphoneos-arm.deb
+Size: 85526
+MD5sum: 3bebc32e1caaa82d546f0c76104170a0
+SHA1: 635e2780365a90fdfc81fd3bf95d07072941029f
+SHA256: 5b7ecd075e5aa32cdcf3e81f2cafb7fa48981bf1258236a0cbdfcdf5527bd3ef
+Section: Tweaks
+Description: 云村视频界面长按呼出下载界面
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.netease
+Name: 网易云音乐™助手
+
+Package: cn.agricu.nosim
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 200
+Depends: firmware (>= 8.0), firmware (<= 11.4.1), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.agricu.nosim_0.0.1-1_iphoneos-arm.deb
+Size: 5750
+MD5sum: d8e7945e430e3077f208f40648f8c9d2
+SHA1: b4631c73ad6270e99b33b8d13814db8da6018f2e
+SHA256: 23d5995d36d10c952666a39b9eed3c6cf340f635f453d3f7d1e44330f5e99ace
+Section: Tweaks
+Description: 屏蔽SIM卡未插卡提示，支持iOS8~iOS11
+Author: Agricu
+Name: 屏蔽SIM卡未插卡提示
+
+Package: cn.agricu.oray
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.oray_1.0_iphoneos-arm.deb
+Size: 112496
+MD5sum: d064d6975574367b6fc6c9f9a7862a9b
+SHA1: c735ea8f5b141105abb95028145c53a38d398f70
+SHA256: 6f38791005194104f9bd3ee0585a86b7d97e0088c6b457b585929eb8b2d5b376
+Section: Tweaks
+Description: 去除启动广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.oray
+Name: 向日葵™助手
+
+Package: cn.agricu.pncbank
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.pncbank_1.0_iphoneos-arm.deb
+Size: 112590
+MD5sum: b266f3d4f13b927defb3aeb5f92e33cd
+SHA1: acff2e4a6b1fe0af3513a3131a9c4e77a1a290d3
+SHA256: 254e5da173c0690cdbe17e27fb23d21287c222209a52c5f760bdd9968b2da20d
+Section: Tweaks
+Description: 去除启动广告及越狱提示关闭
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.pncbank
+Name: 浦发银行™助手
+
+Package: cn.agricu.powerdown
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 316
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: ./debs/cn.agricu.powerdown_1.3.2_iphoneos-arm.deb
+Size: 99688
+MD5sum: f9d23ec8301b0252a54f11e9b7550473
+SHA1: 12e00bd4ed5d576467cbecd862ce325c07c73435
+SHA256: 8627c0cba2662ef765488119257a0db7893b0ebca51759253e50f40f624ad2ec
+Section: Tweaks
+Description: PowerDown rewritten for iOS，本插件算是致敬Majun的Power down插件，本插件兼容iOS8~iOS12。仅在iOS8.4.1(iPhone5)、iOS9.2(iPhone5)、iOS10.3.3(iPhone5，5s)、iOS12.1.1(iPad mini4)上测试通过！
+Author: Agricu
+Name: PowerDown电源开关增强
+
+Package: cn.agricu.qqmusic
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.qqmusic_1.0_iphoneos-arm.deb
+Size: 5386
+MD5sum: 06294c67b570b67a11b21cf6b0baff0d
+SHA1: 3a123218d12f420175e89e585f9f5941aa41be6c
+SHA256: 812e84fed5c28bed9911fe15512ee6ea1fcec46f2ea8d85f5cafba855c9aa4bc
+Section: Tweaks
+Description: QQ音乐->扑嗵视频界面长按呼出下载界面；去除大部分广告流。
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.qqmusic
+Name: QQ音乐™助手
+
+Package: cn.agricu.qqmusicdesktoplyrics
+Version: 0.3.0r2
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 2456
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), preferenceloader
+Filename: ./debs/cn.agricu.qqmusicdesktoplyrics_0.3.0r2_iphoneos-arm.deb
+Size: 881030
+MD5sum: 162d524e6a88061bd9bc7709e46ab472
+SHA1: b574dbd64af0330b2ca3b9f6cd3f5b968e7d2606
+SHA256: 462e9e6bc1f3a3cd706d9416f6853b74ea25fb7b8d01f76522b683babd606001
+Section: Tweaks
+Description: show lyrics anywhere
+ 国区支持企鹅、网易、酷狗家族、咪咕、酷我、虾米(含各自ipad版)。外区支持spotify。
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.qqmusicdesktoplyrics
+Name: DesktopLyrics 桌面歌词
+
+Package: cn.agricu.quickrun
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate,firmware (>= 10.0)
+Filename: ./debs/cn.agricu.quickrun_1.0_iphoneos-arm.deb
+Size: 111404
+MD5sum: b8f85fc99016b233a876fabf7fa0f865
+SHA1: 103c28b64388e1afec579645164f0dea44d2d182
+SHA256: 52c4bc330d0748428c7078abf1d4399e492b4c0b7d3f5bf5616d319aa8ef9f37
+Section: Tweaks
+Description: QuickRun VPN开启部分高级版权限
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.quickrun
+Name: QuickRun VPN Crack
+
+Package: cn.agricu.qzvideodown
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 208
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.qzvideodown_1.0_iphoneos-arm.deb
+Size: 69150
+MD5sum: 1ee11254f2fa8f5e651e2a9ed65fdd8c
+SHA1: b71b0c095d1e8eb40e0169f8e2103653119a35b9
+SHA256: f85ae4b14ca85c9951b2d7445871b771e60eed84b945a73a2662bc05e7bef2d7
+Section: Tweaks
+Description: QQ看点视频下载
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.qzvideodown
+Name: QQ™视频助手
+
+Package: cn.agricu.realcc
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 102
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.agricu.realcc_1.0.2_iphoneos-arm.deb
+Size: 6636
+MD5sum: 7c36d571bb30463548d424b9942c53f6
+SHA1: 9c67ed39c6f1f5fc3f2593aacddf269ff8c7f223
+SHA256: 709c691ea3189cbd253a9f334ab63b4113723bacf7efa9872805bb431855b5a2
+Section: Tweaks
+Description: 真实的关闭控制中心的蓝牙及WiFi
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Jake James <jakeashacks@gmail.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.realcc
+Name: RealCC真实控制中心
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cn.agricu.stepnumber
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/cn.agricu.stepnumber_1.0-6_iphoneos-arm.deb
+Size: 27212
+MD5sum: d4256629411ebbe0fc4d4f8b230eef87
+SHA1: e68da155af8606c296e8863da932fc8ae714ca41
+SHA256: c4cfc8b5246edfc402868831821e858676ec8f9c73c53ca4c36ad7ca4bec3d20
+Section: Tweaks
+Description: A Health step count tweak.
+Author: Agricu
+Name: StepNumber™助手
+
+Package: cn.agricu.sysinfo
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 264
+Depends: mobilesubstrate,firmware (>= 5.0)
+Filename: ./debs/cn.agricu.sysinfo_0.0.1_iphoneos-arm.deb
+Size: 19458
+MD5sum: eb37ff508de92378c5bd7c2f7ac7f33a
+SHA1: 80606578ab3a1d4cdb230e5cf6a3ecf6dba1756c
+SHA256: a48d09ba238a3b5e0ce8c10855b59fa88bf47dccc7b83da82e69fe0c4ab6839f
+Section: Tweaks
+Description: SystemInfo_简体中文，部分汉化
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.sysinfo
+Name: SystemInfo_中文简体包
+
+Package: cn.agricu.taobao
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.taobao_1.0_iphoneos-arm.deb
+Size: 79582
+MD5sum: d3304fa90c9cf966f4ceacf0238efccd
+SHA1: 22beb71577aa9f9ac82a6d573e2c49b7cce985e8
+SHA256: 39d3afb40dda08ba87659927834de3155762f3171a5d0b66999b76044cb5d3d0
+Section: Tweaks
+Description: 淘宝视频保存
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.taobao
+Name: 手机淘宝™助手
+
+Package: cn.agricu.theosdevtool
+Version: 2.6
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Depends: mobilesubstrate, clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Filename: ./debs/cn.agricu.theosdevtool_2.6_iphoneos-arm.deb
+Size: 1206
+MD5sum: bbf4190149e2fda4b9203be249f0decd
+SHA1: 82d9c745c1f0b0e24f17e4717985a8e92919792a
+SHA256: e9a6f9d9005b3a983cc3bb419cb9e0f275b379a404e8f7bb885259b5687fc7dc
+Section: Development
+Description: 自用iOS插件开发工具，以root权限执行theosinstall
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.theosdevtool
+Name: iOS TheosDevtool
+
+Package: cn.agricu.theosfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Depends: firmware (>= 11.0)
+Filename: ./debs/cn.agricu.theosfix_1.0_iphoneos-arm.deb
+Size: 1184
+MD5sum: dd6a4b036e6dde6580d3aeb9195d8a06
+SHA1: 30be50b8c75c8384bba29f30ef53bd9791039072
+SHA256: 259a8b8073ff0e8748279b3b13d9269e5bbc0c3d927659629e5a3d091e4f2fa9
+Section: Tweaks
+Description: 修复theos编译时打包deb出错，
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.theosfix
+Name: Theos-repair
+
+Package: cn.agricu.touchflow
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 820
+Pre-Depends: firmware (>= 11.0), mobilesubstrate | com.ex.libsubstitute
+Depends: com.creaturesurvive.libcscolorpicker
+Filename: ./debs/cn.agricu.touchflow_1.0.6_iphoneos-arm.deb
+Size: 211640
+MD5sum: 95755d7d67d76bf0fd3c539a2eda09c2
+SHA1: 92f60844a3b0242bc95704234e97695a7836f033
+SHA256: 20307537b828d4d18d1d1ce0f1047568d4166bd33b3a68008151a17cbe341ae7
+Section: Tweaks
+Priority: optional
+Description: Show your touches on the screen
+ customizable tool to show your touches on the screen
+    allows for showing touch force on supported devices
+Tag: purpose::extension, compatible_min::iosiOS11
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.touchflow
+Name: TouchFlow触摸轨迹
+
+Package: cn.agricu.tvplayer
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 372
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.tvplayer_2.0_iphoneos-arm.deb
+Size: 120946
+MD5sum: e5f46c7ec23c24ba96e01fceab0dd2e0
+SHA1: 71275c7bad15ab2b40156692abe1f201b5821464
+SHA256: b6e88cfc78ffcc4ff90803a77639e18d582c2dff0cd886582997a796b4b4e8d5
+Section: Tweaks
+Description: 主要是去除腾讯、爱奇艺启动广告、播放广告及暂停广告，附带芒果及优酷(部分去广告失效)。
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.tvplayer
+Name: 视频™助手
+
+Package: cn.agricu.twitter
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.twitter_1.0_iphoneos-arm.deb
+Size: 87178
+MD5sum: e52f6eae04bdefafd3ad30a30a7b83a3
+SHA1: f69feeb78b46d0e269e70024265ed668f182017f
+SHA256: f6410a5e3612e52226bafefcc2c17be4b7d854cad9a2612e62cfe358f58a81ed
+Section: Tweaks
+Description: Twitter视频下载保存至相册
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.twitter
+Name: Twitter™助手
+
+Package: cn.agricu.virtualstep
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: agricu
+Installed-Size: 320
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/cn.agricu.virtualstep_1.0.0_iphoneos-arm.deb
+Size: 18942
+MD5sum: f740b72507fa41399d254811998a039f
+SHA1: e606d09283bcb3673c99bb663bda64ae7eb1d5fe
+SHA256: 48ea295b621f5935db419beb615978b87fdcf4e671751d2b5decc60210fa11d4
+Section: Tweaks
+Description: 设置健康APP 的行走步数
+Author: kinken
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.virtualstep
+Name: VirtualStep 健康步数
+
+Package: cn.agricu.vpnmaster
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 372
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.vpnmaster_1.0_iphoneos-arm.deb
+Size: 115342
+MD5sum: 71c70e14639d7bd8ad64a7d16d2b13f1
+SHA1: b3cd2ea8cd4d3c7994c4b0e57c578b25310435b4
+SHA256: 3ee9cfd734f33bd95387eb1ec3154d2ab601830d9f6b09e4c7c97676676f9480
+Section: Tweaks
+Description: 去除区域限制、开启VIP权限，时间结束至2099-5-1
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vpnmaster
+Name: VPN Master™助手
+
+Package: cn.agricu.vsz.redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: T.Herak
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
+Filename: ./debs/cn.agricu.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3620
+MD5sum: 29088d17cbb85325cc83020636b5708d
+SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
+SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
+Section: Utilities
+Priority: extra
+Description: 已安装的DEB文件提取插件
+Author: T.Herak
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
+Name: Redeb 提取本地插件
+
+Package: cn.agricu.wechat
+Version: 1.2.9
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 524
+Depends: cn.agricu.lmsecurityscreen, mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.wechat_1.2.9_iphoneos-arm.deb
+Size: 189034
+MD5sum: 6f5c02e135d371f37d0d1bedb99b0bc2
+SHA1: b400bb04a4213605d7233998570e89d82acdd89e
+SHA256: aa5f3d546c2d2b59c70b44e10d58be96200f4027b684ae7bbad25f6b25111205
+Section: Tweaks
+Description: 微信多功能插件、具体功能自行体会
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.wechat
+Name: 微信™助手
+
+Package: cn.agricu.wifiallinonekey
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.wifiallinonekey_1.0.1_iphoneos-arm.deb
+Size: 87138
+MD5sum: be6030221d886fbb2c00df5130255ca4
+SHA1: a8f7d0a7941d8841154e5cbb670b21bbbeb2d680
+SHA256: 1e4b4c42c952019a9b8d6f603cf31f496668cf68fc33085b9a8bb99a6d22dbcd
+Section: Tweaks
+Description: 视频界面长按呼出下载界面
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.wifiallinonekey
+Name: WiFi万能钥匙™助手
+
+Package: cn.agricu.wpforumclient
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.wpforumclient_1.0.1_iphoneos-arm.deb
+Size: 112990
+MD5sum: 6d13c58b28cc128ed9ee889e94549d64
+SHA1: 1ecb865480e7c44fb5be606310c27f66133659bd
+SHA256: 2b10bd202c6fe982f5ac62ec909139c59d5b82fd67f9b06485cefb1e18536704
+Section: Tweaks
+Description: 去除广告
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.wpforumclient
+Name: 威锋™助手
+
+Package: cn.agricu.xhs
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 524
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.agricu.xhs_0.0.1_iphoneos-arm.deb
+Size: 163566
+MD5sum: 71c35099cedd722c598133bdb1096478
+SHA1: 673e7ce33e51dd305add353c1b764c59cb48d626
+SHA256: 676bd4054e02471f897570b826ff35c8d04de5281f0f1d030e051a6f47b36549
+Section: Tweaks
+Description: 自用营养快线
+Tag: cydia::commercial
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.xhs
+Name: 小黄书™助手
+
+Package: cn.agricu.xiaohongshu
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.xiaohongshu_1.0_iphoneos-arm.deb
+Size: 159588
+MD5sum: 9cb911978db7ff071cefe4d9ad97c56d
+SHA1: afdc90b4097bb9447106a518d18ddb99580e599a
+SHA256: 893bfe104c88518c3c8be345ed792792a161c12978d8d41b5b190b544efa0087
+Section: Tweaks
+Description: 视频界面长按弹出窗口，开启小红书无水印保存视频;
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.xiaohongshu
+Name: 小红书™助手
+
+Package: cn.agricu.youguo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debs/cn.agricu.youguo_1.0_iphoneos-arm.deb
+Size: 158996
+MD5sum: 95b60dd84f5b28a99d908aab98a410db
+SHA1: 63faf13d5f81fde09e1fd8a6859df97ae22e24e5
+SHA256: 554167bcc66ffbd01cdba93190ddd67e008d2602f639e009e994d955b2c67650
+Section: Tweaks
+Description: 视频界面长按呼出下载界面
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.youguo
+Name: 油果™助手
+
 Package: cn.yttxcs.aod
 Version: 3.7
 Architecture: iphoneos-arm
@@ -1047,10 +2131,10 @@ Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockf
 Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
 Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
 Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
-Size: 300972
-MD5sum: 516996c64c4bc054b5b4a67fcfba5a9c
-SHA1: d17d8a66c9d05739dbedc7255530462bdbc4863f
-SHA256: 2dab7e1ee02a638d49342b956b554c24fb4191168e43c91f57b3394926566ed6
+Size: 611934
+MD5sum: bc5004446d31015130fcb149db92c018
+SHA1: e4d41247006718ef894b33af2268753237116e75
+SHA256: 39e2e6baa8b1ac60a7aa312de232a49ce1342d0a2ffd13f96eb8edf3c75325dc
 Section: System
 Homepage: https://rpetrich.com/cydia/flipswitch/
 Description: Centralized toggle system for iOS
@@ -1061,53 +2145,28 @@ Dev: flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 Name: Flipswitch
 
-Package: com.abcydia.detailedpowerusage
-Version: 1.0.0
+Package: com.arx.instanttouchid
+Version: 0.0.2
 Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 9.0), mobilesubstrate
-Conflicts: org.thebigboss.detailedbatteryusage
-Filename: ./debs/com.abcydia.detailedpowerusage_1.0.0_iphoneos-arm.deb
-Size: 56596
-MD5sum: 5db0a1b5f4961199f83775b9f350e5dd
-SHA1: 78205fadb923f22f6f1ecc05655fbadd00820dee
-SHA256: b88bda7aba6a456191103ed3ade4145c8cd02fdfd02759e28fee7b5e99c0794c
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 302
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.arx.instanttouchid_0.0.2_iphoneos-arm.deb
+Size: 42630
+MD5sum: 83c2819e25ef55b2509935d3fc73f54c
+SHA1: bd35def84f9cf57fef73fa21478d0bc3c5a2ad7f
+SHA256: d90dadc75cf786ec64723385bf4cc8e6460d160194c43896820ac1e230b97af8
 Section: Tweaks
-Author: TheComputerWhisperer
-Icon: file:///Library/Application Support/DPUTweakResources/kTCWIcon.png
-Name: DetailPowerU 电量详情
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.downgrade10x2841
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10.0)
-Filename: ./debs/com.abcydia.downgrade10x2841_1.0.0_iphoneos-arm.deb
-Size: 888
-MD5sum: cc306ee5a2a9d9aaf66082e8b5bcec52
-SHA1: fe8888e725617a04496e7e7ade28b1313d9157b4
-SHA256: 045643495946938228c4fa1e456ce24ea43536e600e8360279b44091fd686138
-Section: System
-Author: FTiOS <admin@abcydia.com>
-Name: DownHelper 降级辅助
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.netfix
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10.2.1)
-Filename: ./debs/com.abcydia.netfix_1.0-1_iphoneos-arm.deb
-Size: 836
-MD5sum: b59773d949a4b136c8867a5c63b48d10
-SHA1: ea560d746991ba923dc15da4309e9b726f3125b3
-SHA256: 4fe48407991672265785633ede9c6c1b8d268bae66d6f8acfe715400ca50193f
-Section: System
-Description: 修复Cydia越狱后不能联网问题
-Author: ABCydia <admin@abcydia.com>
-Name: Netfix Cydia联网修正
-Sponsor: ABCydia <http://www.abcydia.com>
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=instanttouchidDp
+Description: Unlock with TouchID from black screen
+Tag: purpose::extension, compatible::ios9
+Author: Joshua Rutschmann <joshua.rutschmann@gmx.de>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=instanttouchidDp
+Dev: arx
+Icon: file:///Library/PreferenceBundles/InstantTouchID.bundle/InstantTouchID@2x.png
+Name: InstantTouchID
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.bigboss.patchsafari2
 Version: 2.0.2587-1
@@ -1209,6 +2268,29 @@ Description: untethered jailbreak based on pod2g and planetbeing exploits
 Author: Chronic-Dev Team <info@chronic-dev.com>
 Depiction: http://cydia.saurik.com/info/com.chronic-dev.greenpois0n.rocky-racoon/
 Name: Rocky Racoon 5.1.1 Untether
+
+Package: com.clezz.powerdown
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 474
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.gjbsoftware.gpowerpro
+Filename: ./debs/com.clezz.powerdown_1.0.5_iphoneos-arm.deb
+Size: 36966
+MD5sum: b203cc4c1ce9ef056835f13ca9e4bbb1
+SHA1: 5a600fbc92cd04651b88f36b00fd0654d454520a
+SHA256: 455ade7f3a61ec579d9fd032520aebb738fdfaaa80fc4a891d43938e63e13d23
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=powerdownquickdoDp
+Description: Show power down view via gestures and add reboot, respring, safe mode slider to power down view.
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Ma Jun <majun3@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=powerdownquickdoDp
+Dev: clezz
+Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
+Name: PowerDown
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.deusty.kissxml
 Version: 0.9.26-1
@@ -1352,6 +2434,53 @@ Author: Various Developers
 Name: MobileTerminal
 Sponsor: Xsellize.com
 
+Package: com.hackyouriphone.applocker
+Version: 2.5-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist (>= 1.4)
+Filename: ./debs/com.hackyouriphone.applocker_2.5-1_iphoneos-arm.deb
+Size: 156508
+MD5sum: 4c6d9b308146b6f55869dd9ffb266d43
+SHA1: 4a958378a12b0ab8fa0c2c82357f15fbc1c28b5c
+SHA256: 331f8cb903a6ac2686260c603821024c92611cf27ec131a94ad2255590507241
+Section: Tweaks
+Description: Simple and cheap app-locking solution!
+Author: Ori Kadosh <repo@hackyouriphone.org>
+Name: Applocker
+
+Package: com.hackyouriphone.btc-mouse
+Version: 1.9.3
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000), ch.ringwald.bluetoothcompanion (>= 1.9.3), jp.ashikase.mousesupport (>= 1:1.0)
+Filename: ./debs/com.hackyouriphone.btc-mouse_1.9.3.deb
+Size: 15278
+MD5sum: 25a562743da18ef30f9a508282fb21bc
+SHA1: 7ecf1a1d5f1fee5cf398ff87ee378a57d53eaba1
+SHA256: 2d82faece09fc6f8194a1200ecb3b8ca386e010ff79f4be8794a142709f9eb56
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=btc-mouse
+Description: Bluetooth Mouse & Trackpad support for official iOS Bluetooth Stack
+Author: Matthias Ringwald <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=btc-mouse
+Name: BTC Mouse & Trackpad
+
+Package: com.hackyouriphone.datameter
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.hackyouriphone.datameter_1.4-3_iphoneos-arm.deb
+Size: 381220
+MD5sum: 2e03a797cdde13ce70921fc38ac31ca3
+SHA1: c3dce54ce9c288dc68da557754e713d409b0fbe0
+SHA256: 11294c778bfbd009d2624d5baaf197144d9b4f03c63a8558fbcd42a655758b61
+Section: Tweaks
+Description: DataMeter for iOS 7-10 Notification Center
+Author: Minuit <repo@hackyouriphone.org>
+Name: DataMeter流量记录
+
 Package: com.hongv.dfu
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1461,6 +2590,23 @@ Icon: file:///Library/PreferenceBundles/AccentPreferences.bundle/icon@2x.png
 Name: Accent
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.kinkenyuen.virtualstep
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kinken <yuenkinken@icloud.com>
+Installed-Size: 320
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/com.kinkenyuen.virtualstep_1.0.0_iphoneos-arm.deb
+Size: 18966
+MD5sum: 045aca2e1ab03caba505d651a5cd4544
+SHA1: 3d42a28cb29ef932353dca75aaf4a9d919b8f2cd
+SHA256: 48cdb123863d6187d21bf47b0a9a3f82c26764cc13fa47981edaa32286421828
+Section: Tweaks
+Description: 修改健康App步数
+Author: kinken <yuenkinken@icloud.com>
+Depiction: https://kkyuen.github.io/repo/depictions/?p=com.kinkenyuen.virtualstep
+Name: VirtualStep
+
 Package: com.laughingquoll.prefixui
 Version: 1.3.1
 Architecture: iphoneos-arm
@@ -1499,6 +2645,28 @@ Author: Linus Yang <laokongzi@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
 Dev: laokongzi
 Name: Locale Profiles in UTF-8
+
+Package: com.malcolmhall.wifipasswords
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4112
+Depends: firmware (>= 6.0)
+Filename: ./debs/com.malcolmhall.wifipasswords_3.0.1_iphoneos-arm.deb
+Size: 851520
+MD5sum: c343f3b61169b5ebb122a06911d7d204
+SHA1: 1288ca075f3d22d8bd619c09f1fca184928cd1ea
+SHA256: 912d66b8455232842ce2dcd99ae98aad4cce17ba878cde48ce2e0f45ba545d58
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordsData
+Description: shows previously entered wifi passwords
+ This app displays every WiFi password you have ever entered. Very handy if you forgot a password and need to connect another device, or tell a friend the password for a coffee shop without asking that embarrassing question again. Tap hold on the password to copy it to the clipboard. Requires iOS 3.0 or later.
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordsData
+Dev: malcolmhall
+Icon: file:///Applications/WiFiPasswords.app/Icon.png
+Name: WiFi Passwords
 
 Package: com.marcosinghof.noslowanimations
 Version: 5.2.1
@@ -1771,6 +2939,31 @@ Description: Morandi - Pay tribute to my favorite painter
 Author: Rowandesign
 Name: Morandi
 
+Package: com.rpetrich.flipcontrolcenter
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 876
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15)
+Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Filename: ./debs/com.rpetrich.flipcontrolcenter_1.0.4_iphoneos-arm.deb
+Size: 135838
+MD5sum: d839bb22d7de88a9fd83ba970f10e2c7
+SHA1: 0e63fc4f1f7b64d9af31628c7c4278282a82cad4
+SHA256: bd3a8d0b08a9645927068b1bdf00a53bdfe21ef2f4e0f1898d70cfb850ed9506
+Section: Tweaks
+Priority: optional
+Homepage: http://rpetri.ch/cydia/flipcontrolcenter/
+Description: Customizable Control Center Switches
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
+Depiction: http://rpetri.ch/cydia/flipcontrolcenter/
+Dev: rpetrich
+Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
+Name: FlipControlCenter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.rpetrich.fullforce
 Version: 1.1.4
 Architecture: iphoneos-arm
@@ -1973,6 +3166,26 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
 Icon: file:///Applications/Eraser.app/Icon-60.png
 Name: Cydia Eraser
+
+Package: com.saurik.impactor10
+Version: 0.9.43.1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 10.2.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debs/com.saurik.impactor10_0.9.43.1_iphoneos-arm.deb
+Size: 520152
+MD5sum: c284a3b792c7794ac6d5df6585f5a58c
+SHA1: 7a7ef955a03daf36efa645f89844a64fe02926b9
+SHA256: bff91eead7aa865dce73c6dd3594c7efd16233725a96733969ebe1249bb2c13d
+Section: Utilities
+Priority: optional
+Description: specific utility to unjailbreak most devices
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Name: Cydia Eraser(iOS 10.3.X)
 
 Package: com.saurik.iphone.cve-2010-1797
 Version: 1.0.3244-1
@@ -2396,27 +3609,6 @@ Icon: file:///Applications/Filza.app/AppIcon57x57.png
 Name: Filza File Manager
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.unthreadedjb.unthredera1n
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: ichitaso
-Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
-Conflicts: repo.weiphone.unthredera1n
-Replaces: com.unthreadedjb.unthredera1n
-Filename: ./debs/com.unthreadedjb.unthredera1n_1.0.deb
-Size: 155366
-MD5sum: d8b325819101a28a7ac1b4de043a19f7
-SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
-SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
-Section: System
-Priority: standard
-Homepage: http://unthreadedjb.com/
-Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
-Tag: role::enduser
-Author: UnthreadedJB
-Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
-Name: Unthredera1n
-
 Package: com.vsz.localssh
 Version: 1.0-3
 Architecture: iphoneos-arm
@@ -2543,6 +3735,21 @@ SHA256: 16ec9f93f64e6242187fb60c7af1d6f1f4fc79ff6646e0ead784fd0adbd99bc8
 Section: Tweaks
 Description: better visual voicemail for any carrier
 Name: YouMail
+
+Package: com.yourepo.ibreak.allowkeyboard
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.ibreak.allowkeyboard_1.6_iphoneos-arm.deb
+Size: 9532
+MD5sum: 85f1de5f4a6c8594fc6a085b8c1fca75
+SHA1: 488c333e34a6730bc5e334342120db326c8ddf5f
+SHA256: 736484e29440f7f31ef5d40dc6c78dc0a3a2f337e52ef6948008a0ddfe361042
+Section: System
+Description: 输入密码的时候，允许第三方键盘获取优先级权限・
+Author: iBreak <ibreak2019@qq.com>
+Name: Allow KeyBoard
 
 Package: com.ziya.repo
 Version: 1.0
@@ -5052,6 +6259,23 @@ Author: Pangu <axe@pangu.io>
 Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
 Name: Pangu 8.0-8.1.x Untether
 
+Package: io.pangu.xuanyuansword8
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 8.0), firmware (<= 8.1)
+Filename: ./debs/io.pangu.xuanyuansword8_0.5_iphoneos-arm.deb
+Size: 456978
+MD5sum: 4aaf6a47faf4896d73955980eaa9c078
+SHA1: c6b1673b646a5a72a92232210bf3fb4c44dba9ce
+SHA256: 16ebfa004be2825288121560a73b67729fcc6721e6fca83c7963db812d934e96
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
+Name: Pangu 8.0-8.1 Untether
+
 Package: iokittools
 Version: 76-8
 Architecture: darwin-arm
@@ -5716,6 +6940,25 @@ Description: Java/Objective-C connection library
 Depiction: http://cydia.saurik.com/info/jocstrap/
 Name: JocStrap
 
+Package: jp.soh.reprovision
+Version: 0.8.3~release
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/jp.soh.reprovision_0.8.3~release_iphoneos-arm.deb
+Size: 15477492
+MD5sum: 4ecea265b0b74c772bc94ab49a36e923
+SHA1: 21547146376e041b6ead427f1b53456f2bec4eab
+SHA256: eb1ec319ce0fab9584917eb3e8505121496c62b1f4826f6e7db60c6314661a21
+Section: Utilities
+Priority: optional
+Description: Re-sign applications on your device
+Author: Soh Satoh, Matt Clarke
+Dev: Matt Clarke
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision Reborn
+
 Package: jpeg
 Version: 6b-1
 Architecture: iphoneos-arm
@@ -5747,6 +6990,26 @@ Section: Administration
 Priority: important
 Description: tools that work with kernel extensions
 Name: Kernel Extension Tools
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: ./debs/kloader_1.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
 
 Package: krb5
 Version: 1.6.3-1
@@ -5948,6 +7211,22 @@ Section: Development
 Priority: optional
 Description: GnuPG's inter-process communication
 Name: Assuan
+
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: ./debs/libcrippy-1.0.0_1.0.deb
+Size: 15858
+MD5sum: d0057e3946594ac6c18b7112383955e5
+SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
+SHA256: f1f3253d43601acbacd12071e1de880a83b2b987b6238a131fc84ef813928465
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
 
 Package: libdict
 Version: 0.9-6
@@ -6321,6 +7600,22 @@ Section: Archiving
 Priority: optional
 Description: reed-solomon error correcting file format
 Author: Francois Lesueur <flesueur@users.sourceforge.net>
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: ./debs/libpartialzip-1.0.0_1.0.deb
+Size: 6830
+MD5sum: ab609167a1653beda05eb2876f2500bd
+SHA1: cf24410d852a756df9869e99dc3e0075baed092d
+SHA256: 2a0417afeaf3368285d409c396492158632a6c44e8051bc12f2bdb7b8ff0f1d6
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
 
 Package: libpcap
 Version: 1.0.0-5
@@ -7715,6 +9010,146 @@ Dev: limneos
 Name: libbulletin
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: net.tihmstar.etasonuntether
+Version: 1.3.1
+Architecture: iphoneos-arm
+Depends: firmware (= 8.4.1)
+Conflicts: cy+cpu.arm64, net.tihmstar.daemonloader
+Filename: ./debs/iOS8.4.1-32完美越狱.deb
+Size: 87484
+MD5sum: 762010191bc23aaffca652fdb394cf39
+SHA1: dad2ca193e486b1aa4ca90ac60c312fd8c1a429a
+SHA256: 0457e069e0f72c49ce17e5f8795f5b8f23e6bc34ba3637a147b357ebacdef83e
+Section: System
+Priority: required
+Description: Untether for 8.4.1 32bit
+ <br>
+ Etason Untether is an untether package for 32bit devices running 8.4.1
+ <p>It exploits the Pegasus jsc bug and bootstraps Etason jailbreak.
+ <br>
+ CHANGELOG:
+ <p>v1.3.1 fixes deamonload bug
+ <p>v1.3 adds support for iPad4
+ <p>v1.2 adds support for iPhone5
+ <p>v1.1 fixed icon cache bug
+ <br>
+ Features:
+ Logging is disabled by default, however you can enable it by creating a file at
+ <p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+ <br>
+ <p>Also there is an attempt of making a "bootloop protection"
+ <p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt
+ <p>which contains the number of times the exploit failed.
+ <p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+ <p>On every successfull boot the file is deleted.
+ <p>If you want to deactivate untether then run:
+ <p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+ <br>
+Author: tihmstar
+Dev: tihmstar
+Name: Etason untether
+Provices: net.tihmstar.daemonloader
+
+Package: net.tihmstar.untetherhomedepot
+Version: 1.4.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64
+Replaces: net.tihmstar.betterhomedepot
+Filename: ./debs/iOS9-32完美越狱.deb
+Size: 22650
+MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
+SHA1: 375628b9348b730bf75108e5675ed74295909b28
+SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
+Section: System
+Priority: optional
+Description: Untether for 9.1-9.3.4 32bit
+ <br>
+ UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
+ <p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
+ <br>
+ <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+ <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+ <br>
+ KNOWN BUGS:
+ <p>- openssh daemon doesn't start
+ <br>
+ CHANGELOG:
+ <p>v1.4 added support for 9.2.1
+ <p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
+ <p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
+ <p>v1.2 fixed a bug where having a passcode would disable untether
+ <p>v1.1 fixed deepsleep bug
+ <br>
+ Currently supported device:
+ <p>iPhone4,1: 9.3.4
+ <br>
+ Features:
+ Logging is disabled by default, however you can enable it by creating a file at
+ <p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+ <br>
+ <p>Also there is an attempt of making a "bootloop protection"
+ <p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt
+ <p>which contains the number of times the exploit failed.
+ <p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+ <p>On every successfull boot the file is deleted.
+ <p>If you want to deactivate untether then run:
+ <p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+ <br>
+ There is an offsets.json file in /untether
+ <p>You should really not touch any of the files shipped with this package!
+ <p>However if you don't care about your device bootlooping, you
+ <p>might want to try your luck and add offsets to the file.
+ <p>But please keep in mind:
+ <p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
+ <br>
+ FINAL WARNING:
+ <p>INSTALL AT YOUR OWN RISK!!!!!
+Author: tihmstar
+Dev: tihmstar
+Name: UntetherHomeDepot
+
+Package: net.tihmstar.untetherhomedepotoffsets
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
+Conflicts: cy+cpu.arm64
+Filename: ./debs/iOS9-32完美越狱依赖.deb
+Size: 2330
+MD5sum: f284b5c82faca2168f79752d66631e70
+SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
+SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
+Section: System
+Priority: optional
+Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+Description: Community Offsets for UntetherHomeDepot
+ <br>
+ UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
+ <p>However it only ships with configuration for iPhone4,1 on 9.3.4
+ <p>This Package was created by the jailbreak community with the
+ <p>great initiative of @stek29 and aims to add offsets for every
+ <p>other device/ios combination.
+ <br>
+ <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+ <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+ <br>
+ Many of the offsets were tested by the community, however
+ <p>some of them are still untested (but should work).
+ <p>For more information on which offsets have been tested
+ <p>and whether you help is needed, please check following gist:
+ <p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+ <br>
+ Info:
+ <p>If this package bootloops your device, try triggering bootloopprotection
+ <p>by rebooting at least 10 times!
+ <br>
+ FINAL WARNING:
+ <p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
+ <p>INSTALL AT YOUR OWN RISK!!!!!
+Author: stek29
+Name: Community Offsets
+
 Package: netatalk
 Version: 2.0.3-1
 Architecture: darwin-arm
@@ -7764,6 +9199,44 @@ SHA256: 5a0c274c5d1d76c10d5825b9c46b11292692f010878c505c9024e3f728e8e3d6
 Section: Networking
 Priority: important
 Description: simple socket manipulation tool
+
+Package: netskao.dumpdecrypter
+Version: 1.2-9.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1330
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 323902
+MD5sum: f78e7a06a08fa67db73cfdaf9191adba
+SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
+SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
+ 程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Dev: netskao
+Name: DumpDecrypter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/netskao.goodwifi_0.0~beta6_iphoneos-arm.deb
+Size: 137058
+MD5sum: 9d0185d2c9a1b43e64ded2c361535bb0
+SHA1: bf6b9b8aac5de445e600f5b9f92bda01a9f49c6c
+SHA256: 8844457a235a164e3fdbf67b81228bbbf01205fbeeebc1d266f2a9dba397c17b
+Section: System
+Description: GoodWiFi简体中文汉化版
+Author: julioverne
+Name: GoodWiFi
 
 Package: network-cmds
 Version: 307.0.1-7
@@ -9194,6 +10667,27 @@ Depiction: https://justgetflux.com/cydia/
 Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
 Name: f.lux
 
+Package: org.swift.libswift
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 183124
+Depends: firmware (>= 7.0)
+Filename: ./debs/org.swift.libswift_5.0_iphoneos-arm.deb
+Size: 34559404
+MD5sum: 7a5f1ce4acf4277fd5e23217d53d9c4f
+SHA1: 7b49c7cceb60d95f9aeb121b2695a38a6c7bea2a
+SHA256: d78153853892d427f7bb55281dbee97f42835c654389d27834682aceb37af88a
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Dev: kabiroberai
+Name: libswift (stable)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.thebigboss.auxo
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -9346,6 +10840,27 @@ Dev: surenix
 Name: ayecon for iPad (iOS 7+)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: org.thebigboss.dismissprogress
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 150
+Depends: mobilesubstrate, firmware (>= 3.0), cydia (>= 1.1.19)
+Filename: ./debs/org.thebigboss.dismissprogress_1.0.3_iphoneos-arm.deb
+Size: 6030
+MD5sum: 23b3321aeab6d8efddf51918b013001a
+SHA1: f810aa48be46e6e2355bf075000312c41e7b9ee3
+SHA256: c8cff6ed98b629e0ecbd4138eb57f5aeba9a974e4d4d62edb2d6d2dff8e5854c
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Description: Dismiss Cydia'a installation window without closing cydia.
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: PoomSmart <poomst@hotmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Dev: poomst
+Name: DismissProgress
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.thebigboss.ios6completetheme
 Version: 2.0
 Architecture: iphoneos-arm
@@ -9383,6 +10898,31 @@ Priority: optional
 Description: locally cached package icons from BigBoss
 Name: BigBoss Icon Set
 
+Package: org.tihmstar.kDFUApp
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
+Filename: ./debs/org.tihmstar.kDFUApp_1.0.2.deb
+Size: 80458
+MD5sum: d2fb236c946705c835a08f844527f0c1
+SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
+SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+ kDFUApp is an easy way to get into kDFU mode
+ simply activate all switches and press the button
+ <br>
+ <br>Currently compatible with:
+ <br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
+ <br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
+ <br>
+ <br>NOT COMPATIBLE WITH 64BIT DEVICES!
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
+
 Package: org.xbmc.xbmc-ios
 Version: 12.3-1
 Architecture: iphoneos-arm
@@ -9400,53 +10940,6 @@ Description: XBMC Multimedia Center for 4.x iOS
 Author: TeamXBMC
 Icon: file:///Applications/Cydia.app/Sources/mirrors.xbmc.org.png
 Name: XBMC-iOS
-
-Package: p7zip
-Version: 16.02-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 9080
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: ./debs/p7zip_16.02-1_iphoneos-arm.deb
-Size: 930130
-MD5sum: 6661ea346cd9f07b626384869fbab414
-SHA1: 1f1bd63961328c1a33096abaacdf1f8ca7934eb8
-SHA256: cda97749c51a46b56f41276b792496492e5dc9f1fed3efed2963f121ceff99af
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Description: claims to be a good compressor
-Name: 7-zip (POSIX)
-
-Package: p7zip
-Version: 4.57-3p
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4328
-Filename: ./debs/p7zip_4.57-3p_iphoneos-arm.deb
-Size: 1595788
-MD5sum: 80396bec09f94e23cd1d59fe818cbf5f
-SHA1: ee4d0b30cb5628a31830cab89df3764cdfb27015
-SHA256: 72035b550c364ca25362a7f2dbf67254950da2c5989347a40f860eb56508816e
-Section: Archiving
-Priority: optional
-Description: claims to be a good compressor
-Name: 7-zip (POSIX)
-
-Package: p7zip
-Version: 4.57-4
-Architecture: darwin-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4168
-Filename: ./debs/p7zip_4.57-4_darwin-arm.deb
-Size: 1531036
-MD5sum: d8e4a9f32d4262feb05f8458dac2804f
-SHA1: d708745fb4b2a7ae82015eba9c295508451284ac
-SHA256: 0f9b2e3c9930aa41ccd7ccf6719a1ebebaf55d7f6f2cf35fd091696826c1397e
-Section: Archiving
-Priority: optional
-Description: claims to be a good compressor
-Name: 7-zip (POSIX)
 
 Package: pam
 Version: 32.1-1
@@ -9718,65 +11211,6 @@ Section: Administration
 Priority: important
 Description: command line power status monitoring/control
 Name: PowerManagement Tools
-
-Package: preferenceloader
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/preferencesloader_1.0-2_iphoneos-arm.deb
-Size: 688
-MD5sum: 771e47d325b98840e68fbed85a36ca51
-SHA1: 6623d882a8c0424aec68ac29b82a00303cb8000f
-SHA256: e84a02269714527f9bfe4e8c1b5d45fc17dd7437ac2774a819dcfe086ad49dbf
-Section: Development
-Priority: optional
-Description: this package has been deprecated
-Tag: purpose::library, role::developer
-Author: Thomas Moore <iphone-developer@sbcglobal.net>
-Depiction: http://cydia.saurik.com/info/preferenceloader/
-Name: PreferenceLoader (old)
-
-Package: preferenceloader
-Version: 2.2.6
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 526
-Depends: mobilesubstrate
-Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
-Size: 36414
-MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
-SHA1: c1d547036234756c5e75a633393d4ffa791b1126
-SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Description: load preferences in style
-Tag: role::hacker, purpose::library
-Author: Sam Bingner <maintainer@sbdhi.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Dev: dustinhowett
-Name: PreferenceLoader
-
-Package: preferenceloader-armv6
-Version: 2.1.1-1
-Architecture: iphoneos-arm
-Maintainer: Dustin Howett <dustin@howett.net>
-Installed-Size: 28
-Depends: mobilesubstrate
-Conflicts: preferenceloader, cy+cpu.arm64, cy+cpu.armv7
-Provides: preferenceloader
-Filename: ./debs/preferenceloader-armv6_2.1.1-1.deb
-Size: 9774
-MD5sum: 47b7e1772f01d975822a08e582a8272a
-SHA1: 3da32504a996b0ef3eadd5375c326be7a530c16f
-SHA256: 43f59ef3197caeaeb2c6c192fd211e4a2afa91e087f9354b711585a50d60cfec
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Description: load preferences in style
-Tag: role::hacker, purpose::library
-Author: Dustin Howett <dustin@howett.net>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Dev: dustinhowett
-Name: PreferenceLoader (armv6)
 
 Package: pri.ee
 Version: 0-1
@@ -10305,6 +11739,46 @@ Priority: important
 Description: "mistakes were made" (on iOS 8)
 Name: Router Advisement Daemon
 
+Package: ru.rejail.bioprotectx
+Version: 3.1-68k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1212
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11), ru.rejail.limneosos
+Conflicts: net.limneos.bioprotect
+Filename: ./debs/ru.rejail.bioprotectx_3.1-68k_iphoneos-arm.deb
+Size: 468552
+MD5sum: 62237d88446e4fd4deec2557fcf01263
+SHA1: 2812482bd068b3ba3665dc7f24479caafdc2802b
+SHA256: b9485a8e6021d34d2962bb633d59b98c9aac9c2907505689d3f35a28eb5e9695
+Section: Tweaks
+Description: Защитите свои приложения с Touch/Face ID
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=bioprotectx
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect X (iOS 11) Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=bioprotectx
+
+Package: ru.rejail.bioprotectxs
+Version: 4.5-14k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2027
+Depends: mobilesubstrate, preferenceloader, ru.rejail.limneosos
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/ru.rejail.bioprotectxs_4.5-14k_iphoneos-arm.deb
+Size: 578438
+MD5sum: 69b9c13c391266185cc85d048810cdc7
+SHA1: 033fb13e625cbd32ad505e7700609299faaec0e1
+SHA256: 584f583d3c089721b690e220216831284e06ed9c4d47b9e08792b0cb7f359483
+Section: Tweaks
+Description: Защитите свои приложения с Touch/Face ID
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect XS (iOS 12/13/14)
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=bioprotectxs
+
 Package: ru.rejail.cconandoff
 Version: 0.0.1.1
 Architecture: iphoneos-arm
@@ -10323,6 +11797,25 @@ Author: PoomSmart
 Depiction: https://rejail.ru/depiction.php?file=cconandoff
 Name: CC On & Off
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=cconandoff
+
+Package: ru.rejail.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36136
+MD5sum: 6ec16266c2c69837ef8c6f7c2e971cb4
+SHA1: ac27bdbf05125c0b64edec6df5e4b55251892ea6
+SHA256: 1c7f0df074f5ccd0d3c9524a1ebe65a8a4d0357732208bcf68b1c56f4879de5d
+Section: Tweaks
+Priority: optional
+Description: limne源插件破解工具
+Author: ReJail <rejail@rejail.ru>
+Depiction: https://rejail.ru/depiction.php?file=limneosos
+Name: Limneosos
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
 
 Package: ru.rejail.prysm
 Version: 1.9.1k
@@ -15545,6 +17038,22 @@ Section: Development
 Description: A collection of classes used in my tweaks.
 Author: ItzNebbs
 Name: libnebbs
+
+Package: xyz.xninja.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Depends: mobilesubstrate
+Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
+Size: 427612
+MD5sum: 26267e8c4797962bd17d57670951021b
+SHA1: 54b7685148da7e599f42429d3a7d4d721b9a8aad
+SHA256: 7b27623082c52e8ce6a2dd990169b49f6f3445e6d95012384b461c8e4b9a20cc
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Name: System Info
 
 Package: yellowsn0w.com
 Version: 0-1
