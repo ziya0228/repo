@@ -1500,6 +1500,28 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8
 Dev: laokongzi
 Name: Locale Profiles in UTF-8
 
+Package: com.marcosinghof.noslowanimations
+Version: 5.2.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 358
+Depends: firmware (>= 7.0.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.marcosinghof.noslowanimations_5.2.1_iphoneos-arm.deb
+Size: 28264
+MD5sum: 7e128b7b8b43e8391bbadfea6e529992
+SHA1: 30858e76efcb429e2b42f5698244d6e72283dccb
+SHA256: 3f6ec3fbbc5c9a65b47d127d8c1a07e9cdbf2321f39ed86e38f30aa0150f36a7
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=noslowanimationsDp
+Description: speed up slow animations in iOS 7+
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Marco Singhof <singhofmarco@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=noslowanimationsDp
+Dev: marcosinghof
+Icon: file:///Library/PreferenceBundles/NoSlowAnimationsSettings.bundle/NoSlowAnimationsSettings@2x.png
+Name: NoSlowAnimations
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.matdev.neofetch-ios
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1514,6 +1536,28 @@ Section: Tweaks
 Description: NeoFetch for iOS. Display system information in command-line!
 Author: MatDev
 Name: NeoFetch-iOS
+
+Package: com.merdok.unlocksound7
+Version: 1.2.11
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 508
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 7.0)
+Filename: ./debs/com.merdok.unlocksound7_1.2.11_iphoneos-arm.deb
+Size: 73326
+MD5sum: fc581568ebc26c3678be7ae3f2cab87d
+SHA1: 77562c64d28540187f8d8b700e40c92a4e1d7e2c
+SHA256: 4299b5ea597dad1ce41bcb826f98e5a58138232877ef60e00ce218d50dce8052
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=unlocksound7Dp
+Description: Unlock Sound on iOS 7 - 13
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: merdok <merdok87@o2.pl>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=unlocksound7Dp
+Dev: merdok
+Icon: file:///Library/PreferenceBundles/unlocksound7prefs.bundle/unlocksound7@2x.png
+Name: UnlockSound
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.michael.generatorautosetter
 Version: 0.5.11
@@ -2462,6 +2506,27 @@ Description: Advanced Theming Platform. Radically change your home screen
 Author: Andrew Liu <wynd07@gmail.com>
 Depiction: http://wynd07.appspot.com/depict/dreamboard
 Name: DreamBoard
+
+Package: com.xtm3x.sixbar
+Version: 0.0.4-29
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.xtm3x.sixbar_0.0.4-29_iphoneos-arm.deb
+Size: 37396
+MD5sum: ac2f86597b373f4ac0d37a22ed72e87e
+SHA1: e3f6a1b9cde292e121691519d1ebbe4863fd39db
+SHA256: e851e80c3d3dff148091cf408217f3ca8e2053d39c4de48fee1dd0ac0e1f57ac
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sixbarDp
+Description: Bring back the old iOS 6 Status Bar
+Tag: purpose::extension
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sixbarDp
+Dev: xtm3xyt
+Icon: file:///Library/PreferenceBundles/sixbar.bundle/SixBar@2x.png
+Name: SixBar
 
 Package: com.youmail.ios.voicemail
 Version: 0.9-1
@@ -9065,6 +9130,51 @@ Priority: standard
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
+Package: org.coolstar.classicdock
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 375
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.anemonetheming.anemone
+Filename: ./debs/org.coolstar.classicdock_2.0_iphoneos-arm.deb
+Size: 359228
+MD5sum: 11d393a80ecade4d7ee5856d27e74856
+SHA1: ff95a876f347d133a0e1e1eeba57e5abf6acb52c
+SHA256: 13db17206a997f8f9a6aac3b743541ad6ed6264f1981ee91578e04d2bac52564
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classicdockDp
+Description: Bring back iOS 6 dock to iOS 7/8
+Tag: purpose::extension, compatible::ios7, compatible::ios8
+Author: CoolStar & sharedRoutine <coolstarorganization@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classicdockDp
+Dev: coolstar
+Icon: file:///Library/PreferenceBundles/ClassicDockPrefs.bundle/classicdock@2x.png
+Name: ClassicDock
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.coolstar.classiclockscreen
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1318
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Filename: ./debs/org.coolstar.classiclockscreen_4.0_iphoneos-arm.deb
+Size: 423626
+MD5sum: 20de6af90dbe2a65871e54a6947cb3dc
+SHA1: 773eddfdfaa035707a1a78d1e24a0f9b970e2917
+SHA256: cdbf362bf3600c68aa3aafb73bca66a8cfa5f8ff0637213b6ae056f3e1aab82b
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classiclockscreenDp
+Description: Hate the iOS 7 Lock Screen?
+Tag: cydia::commercial, purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <coolstarorganization@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classiclockscreenDp
+Dev: coolstar
+Icon: file:///Library/PreferenceBundles/ClassicLockScreenSettings.bundle/ClassicLockScreenSettings@2x.png
+Name: ClassicLockScreen
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.herf.flux
 Version: 0.9988
 Architecture: iphoneos-arm
@@ -9234,6 +9344,27 @@ Author: Surenix <surenix@surenix.me>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconipadios7Dp
 Dev: surenix
 Name: ayecon for iPad (iOS 7+)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.ios6completetheme
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 21112
+Depends: firmware (>=7.0), mobilesubstrate (>=0.9.5001), winterboard (>=0.9.3915), com.unlimapps.toneenabler, com.codethemed.iconbundles
+Conflicts: jp.kshizoku.classictone
+Filename: ./debs/org.thebigboss.ios6completetheme_2.0_iphoneos-arm.deb
+Size: 11382350
+MD5sum: dc67bd1ff768c677c4be7f0547d5beb1
+SHA1: f40586132ba59ad9d349bf3fc173e964420df194
+SHA256: c175c5afd6ac59b03be9efaad2669e37943c38675b917aa126f99b25d6bfa0b9
+Section: Themes (SpringBoard)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ios6completethemeDp
+Description: Bring back the glorious skeuomorphism!
+Author: Kiyashi Shizoku <kshizoku@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ios6completethemeDp
+Dev: kshizoku
+Name: iOS 6 Complete for iOS 7/8
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.thebigboss.repo.icons
