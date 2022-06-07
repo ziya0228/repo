@@ -1655,6 +1655,22 @@ Name: RealCC真实控制中心
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.agricu.stepnumber
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.stepnumber_0.0.1-1_iphoneos-arm.deb
+Size: 24944
+MD5sum: 437603b76515f88061d5636d2d8fd526
+SHA1: b92e885598e6e3886d313fc7b9e6a7481da47a80
+SHA256: 8128cef03e2053c951c71aab0c07297d39fb7d5bd25367604f59c33e68bd553f
+Section: Tweaks
+Description: A Wechat&Alipay step count tweak.
+Author: Agricu
+Name: StepNumber™助手
+
+Package: cn.agricu.stepnumber
 Version: 1.0-6
 Architecture: iphoneos-arm
 Maintainer: Agricu
@@ -2449,6 +2465,23 @@ Description: Simple and cheap app-locking solution!
 Author: Ori Kadosh <repo@hackyouriphone.org>
 Name: Applocker
 
+Package: com.hackyouriphone.ascend
+Version: 2.1-321
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.1), mobilesubstrate, preferenceloader
+Filename: ./debs/ascend_2.1-321.deb
+Size: 425570
+MD5sum: 2b718b90ed7a05d3c58962504ae04939
+SHA1: 1c86789480b2c084a1bc92712aca7794bfbcae0a
+SHA256: fd19b9c627234dfc48b10e681fd4c98375cd31e696b76e22151fccfb11564a43
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ascend
+Description: A reimagined lock screen!
+Author: Ben Rosen <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ascend
+Name: Ascend
+
 Package: com.hackyouriphone.btc-mouse
 Version: 1.9.3
 Architecture: iphoneos-arm
@@ -2465,6 +2498,23 @@ Description: Bluetooth Mouse & Trackpad support for official iOS Bluetooth Stack
 Author: Matthias Ringwald <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=btc-mouse
 Name: BTC Mouse & Trackpad
+
+Package: com.hackyouriphone.classicapps
+Version: 0.0.1-24
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Filename: ./debs/com.hackyouriphone.classicapps_0.0.1-24.deb
+Size: 4210
+MD5sum: aae9f7a366d2de9ee6642914e436f32b
+SHA1: 63201a634f9c937351d320d2813dab92600ac19a
+SHA256: d8ed747ab55201c4120f0150e61ab9c4a72c192eb4a5631ee2e6d51b3f404927
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicapps
+Description: An awesome MobileSubstrate tweak!
+Author: CoolStar <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicapps
+Name: Classic Apps
 
 Package: com.hackyouriphone.datameter
 Version: 1.4-3
