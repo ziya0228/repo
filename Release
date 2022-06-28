@@ -1,10 +1,9 @@
-Origin: Agricu's Cydia Repo
+Origin: 子鸭的软件源
 Label: Agricu
 Suite: stable
 Version: 1.0
-Codename: Agricu
+Codename: 子鸭
 Architecture: iphoneos-arm
 Components: main
-Description: Agricu's Tweaks
+Description: 子鸭的软件源
 MD5Sum:
-  16777220
