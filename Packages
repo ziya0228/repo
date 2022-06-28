@@ -355,6 +355,24 @@ Author: Min
 Name: DEB打包备份
 Sponsor: Fish <1423924@qq.com>
 
+Package: apt.cydiaba.cnicontool91
+Version: 1.9-5
+Architecture: iphoneos-arm
+Maintainer: Cydia贴吧吧务组 <1423924@qq.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
+Conflicts: com.rpetrich.iconrenamer
+Filename: ./debs/icontool_1.9-5.deb
+Size: 384356
+MD5sum: 5a108c2650906dc752fa2f3b20bc6191
+SHA1: b3543dd71bbd172545d7d94c9b93aacfc975b60e
+SHA256: ae31f7f6859c9b2963ea42d2af689d998eed1dd61755899a87209c4141b85f04
+Section: 91助手-系统
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9
+Author: ioshack
+Icon: file:///Library/PreferenceLoader/Preferences/IconTool/IconTool@2x.png
+Name: Icon Tool图标工具
+Sponsor: Cydia贴吧吧务组 <1423924@qq.com>
+
 Package: apt.cydiaba.cninfinidock
 Version: 2.1.2-1
 Architecture: iphoneos-arm
