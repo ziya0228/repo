@@ -12966,21 +12966,6 @@ Section: Administration
 Priority: important
 Description: killall, mktemp, renice, time, which
 
-Package: sileoturkiye.repoicons
-Version: 4.0
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Filename: ./debs/sileoturkiye.repoicons_4.0_iphoneos-arm.deb
-Size: 108806
-MD5sum: 62a98288096ea35909d88519853b4206
-SHA1: 788105565a59e8659d1a4b23a93fe641131deea7
-SHA256: b35fcb3aea34d568b7c0881ec3b535f381e595063a345ae20c9543f1f4c84b70
-Section: TR - Sistem
-Description: AnaRepo Repo Simgeleri
-Author: Önder Azazi <onderazazi@hotmail.com>
-Name: A.Repo Icons
-
 Package: sleepers.net
 Version: 0-1
 Architecture: iphoneos-arm
