@@ -1036,27 +1036,6 @@ Author: CokePokes
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appstoreplusplus
 Name: AppStore++
 
-Package: cn.agricu.appsyncunified
-Version: 104.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: ./debs/cn.agricu.appsyncunified_104.0_iphoneos-arm.deb
-Size: 89628
-MD5sum: 7300ddae8225a9012ec7af83fda4d316
-SHA1: c9f1716f5e1b93adefd8b4d28725431c9009ffc8
-SHA256: 68879910784e032ea6202a24251960a14baad7e0202d96b008517c4d773cc693
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appsyncunified
-Name: AppSync Unified
-
 Package: cn.agricu.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1290,24 +1269,6 @@ Description: Dump Decrypter是一个针对bfdecrypt砸壳程序封装，主要�
 Author: BishopFox / Netskao
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dumpdecrypter
 Name: Dump Decrypter
-
-Package: cn.agricu.filza
-Version: 3.8.1-22
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Installed-Size: 32112
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit
-Filename: ./debs/cn.agricu.filza_3.8.1-22_iphoneos-arm.deb
-Size: 12944354
-MD5sum: 9e66a5364972c7dfcd70bac362069608
-SHA1: 0cb8beb6e45a05693dac407da50455979950396a
-SHA256: 55936503e7b6eb556ecb06e8ae6a66c2b28cf1908964d3231ad3449c22ac1faf
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Author: TIGI Software
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.filza
-Name: Filza File Manager
 
 Package: cn.agricu.filzacrack
 Version: 1.1-4
