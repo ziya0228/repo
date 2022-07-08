@@ -2510,6 +2510,23 @@ Description: DataMeter for iOS 7-10 Notification Center
 Author: Minuit <repo@hackyouriphone.org>
 Name: DataMeter流量记录
 
+Package: com.hackyouriphone.nuxios7vwallpaper
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: winterboard, firmware (>= 7.0)
+Filename: ./debs/vwallpaper_1.0.deb
+Size: 7627016
+MD5sum: e14b01761898c11c126f084f805d9c97
+SHA1: bea3c0277d260a9c583fdae4e0b2a326fd6197ae
+SHA256: 396ec726233374ea2ec23e1852b78ffc64f969dc1b3f8888c71fea6d47a16104
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
+Description: nux iOs7 vWallpaper
+Author: ChrisGraphiX <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
+Name: nux iOs7 vWallpaper
+
 Package: com.hongv.dfu
 Version: 1.0
 Architecture: iphoneos-arm
