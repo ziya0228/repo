@@ -14669,6 +14669,63 @@ Priority: standard
 Description: the best syntax highlighter, ever
 Name: Vi IMproved
 
+Package: vn.gsm.vwallpaper
+Version: 1.24
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Depends: gsmicon, vn.gsm.skrewcommon
+Filename: ./debs/vWallpaper for iOS4.deb
+Size: 10404734
+MD5sum: 623779dec35b18a5bd1084b8d7e3e879
+SHA1: 7f9932f30c3e895bedde31e50c8f2ef3666222fc
+SHA256: e66a85de8728e7badb5c0af8a16e41b3f71843f081b3d1377fe830d23c79dd19
+Section: !GSMVN-Apps
+Homepage: http://iphone.gsm.vn/
+Description: (iOS4 only) set video mp4 làm Wallpaper.
+Author: skrew <support@gsm.vn>
+Depiction: http://cydia.gsm.vn/t762/
+Icon: file:///Applications/vWallpaper.app/icon.png
+Name: vWallpaper for iOS4
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.vwallpaper2os5
+Version: 0.0.9-29
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Installed-Size: 37220
+Depends: gsmicon, mobilesubstrate (>= 0.9.3228), firmware (>= 5.0)
+Replaces: com.skrew.skrewcommon2
+Filename: ./debs/vWallpaper2 for iOS5.deb
+Size: 33897202
+MD5sum: 05cb223c0eb659c0078ecb6b8205bb6d
+SHA1: c464dc68ebb6eff8a67cb7c50f05aab45bb32b97
+SHA256: 229c6dbbe67502927b9bf56f26552bd7b89d23cf7bb3d0aa0758aefd6752d92c
+Section: !GSMVN-Apps
+Homepage: http://cydia.vn/
+Description: Add videos, video ringtones, cool effects (particles, 3D objects), HTML Widgets (...) on your Springboard and / or Away view. Bring your iPhone to life ! (Beta stage)
+Author: skrew
+Depiction: http://cydia.gsm.vn/t2253/
+Name: vWallpaper 2 for iOS5/ARMV7
+
+Package: vn.gsm.vwallpaper2os6
+Version: 0.1.0-21
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 38500
+Depends: gsmicon, mobilesubstrate (>= 0.9.3228), firmware (>= 6.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os5, vn.gsm.vwallpaper2os5
+Filename: ./debs/vWallpaper2 for iOS6.deb
+Size: 35200794
+MD5sum: a012e6e12348ab5228acea0a8e765b4b
+SHA1: 0b2bd64d0b7ec7ff551ad92ea8005699ecbf8c0a
+SHA256: ba6b5cbeae86a869f3705ac4c344a8f1c5c3fcff0553a1581d97a13bcaecdfa0
+Section: !GSMVN-Apps
+Homepage: http://cydia.vn/
+Description: Add videos, video ringtones, cool effects (particles, 3D objects), HTML Widgets (...) on your Springboard and / or Away view. Bring your iPhone to life ! (Beta stage)
+Author: skrew
+Depiction: http://cydia.gsm.vn/t4028/
+Name: vWallpaper2 for iOS6/ARMV7
+
 Package: vorbis
 Version: 1.2.0-2
 Architecture: iphoneos-arm
