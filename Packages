@@ -8525,6 +8525,23 @@ Homepage: http://developer.apple.com/darwin/projects/bonjour/
 Description: the normally bundled client programs
 Name: mDNSResponder
 
+Package: me.sbtools.GameMasterPlus
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: 烧饼哥
+Depends: firmware (>= 5.0)
+Filename: ./debs/me.sbtools.GameMasterPlus_1.2.0_iphoneos-arm.deb
+Size: 629494
+MD5sum: b5ff020690479172127eea300b1e2519
+SHA1: c7c23dc2edbdf9ff7144166bce6a8825935e565e
+SHA256: 9e473eb08b1e8e98dc8e56217c431b521321ce823366c01a49a60e827e34d59e
+Section: System
+Description: 烧饼修改器支持iOS5、iOS6、iOS7(支持64位)。v1.2.0版：采用全新架构，秒搜结果，支持模糊、联合等高级搜索功能，支持控制数据类型，解决稳定性兼容性问题。烧饼修改器是一款通用游戏修改器，通过修改正在运行游戏的内存数据，达到修改血量、攻击、金钱等目的。国产神器，烧饼哥力作，用心设计，简单好用，完全免费无限制无广告，持续更新优化！——by烧饼哥，官网http://sbtools.me
+Author: 烧饼哥
+Icon: file:///Applications/GameMasterPlus.app/icon@2x.png
+Name: 烧饼修改器
+Sponsor: 烧饼哥
+
 Package: metasploit3
 Version: 3.4-7699-20p
 Architecture: iphoneos-arm
