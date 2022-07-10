@@ -2495,6 +2495,23 @@ Author: CoolStar <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicapps
 Name: Classic Apps
 
+Package: com.hackyouriphone.classiclockscreen
+Version: 3.3.1k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Filename: ./debs/classiclockscreen_3.3.1k.deb
+Size: 736186
+MD5sum: 7d5da71444883fec6d4273860d981ca3
+SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
+SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Description: Hate the iOS 7 Lock Screen?
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Name: ClassicLockScreen
+
 Package: com.hackyouriphone.datameter
 Version: 1.4-3
 Architecture: iphoneos-arm
