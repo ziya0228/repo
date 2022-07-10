@@ -2429,6 +2429,159 @@ Author: Various Developers
 Name: MobileTerminal
 Sponsor: Xsellize.com
 
+Package: com.hackyouriphone.0bviousios7classicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.0bviousios7
+Filename: ./debs/0bviousios7classicdock_1.0.deb
+Size: 13296352
+MD5sum: 249a3e76ca48f425681f172d60c3a7ca
+SHA1: 61355f2bef91f7e5d7d7502d095f33d1d6f847b1
+SHA256: f6798d5e9673dd88ac69ce291c1330cc7dd958ae03513f3f567994ed5cd66ca6
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0bviousios7classicdock
+Description: Funny touch for sunny days.
+Author: frenchitouch <luledu30@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0bviousios7classicdock
+Name: 0bvious iOS7 ClassicDock
+
+Package: com.hackyouriphone.0bviousios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.0bviousios8
+Filename: ./debs/0bviousios8classicdock_1.0.1.deb
+Size: 4783664
+MD5sum: cfe30fb39c21d62d7c77eae1563870b2
+SHA1: 295d1a9dcd43e43bf65f0b347bd8c302d0363b38
+SHA256: ec6deb08422099f1a5f6417884d3760163f1d010b3216626e2fb16234ce9ed7b
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0bviousios8classicdock
+Description: Funny docks for 0bvious theme
+Author: frenchitouch <luledu30@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0bviousios8classicdock
+Name: 0bvious iOS8 ClassicDock
+
+Package: com.hackyouriphone.0xygenios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.0xygenios8
+Filename: ./debs/0xygenios8classicdock_1.0.1.deb
+Size: 26040
+MD5sum: 7ee4fcfaaa81f040339cae0d713047f4
+SHA1: 8d97dbd0aeec14e99c8b950e35d0d5aa2ca43f77
+SHA256: d9cc5e092b1e3f290a8087d397a46898d1ee6f925e98b12146591b06bb4ff157
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0xygenios8classicdock
+Description: 2 awesome docks for 0xygen ios8.
+Author: frenchitouch <frenchitouch@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=0xygenios8classicdock
+Name: 0xygen ios8 ClassicDock
+
+Package: com.hackyouriphone.1mpressios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.1mpressios8
+Filename: ./debs/1mpressios8classicdock_1.0.1.deb
+Size: 445474
+MD5sum: c0a736a48c88bc6484add1e50b9a8133
+SHA1: 5935d6a250aa272fbf0747994210ad2328635717
+SHA256: 9527c89d81a6c288b5ccdbbb92dcb74cb3dd686d32beb65e2e2fb19b091edf34
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=1mpressios8classicdock
+Description: New look for your devices.
+Author: frenchitouch <luledu30@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=1mpressios8classicdock
+Name: 1mpress iOS8 Classicdock
+
+Package: com.hackyouriphone.1nkaios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.1nkaios8
+Filename: ./debs/1nkaios8classicdock_1.0.1.deb
+Size: 34191570
+MD5sum: 63292d8c690470740072d7839c6c55d0
+SHA1: c51cd69c6c6b6e3d48585752a9dea5926ba36ec9
+SHA256: b892278b4fe73e7cafe7cf77e14b20cf784a934905ee543bc1f6b3270fc579b0
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=1nkaios8classicdock
+Description: 2 awesome docks for 1nka ios8.
+Author: frenchitouch <frenchitouch@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=1nkaios8classicdock
+Name: 1nka ios8 ClassicDock
+
+Package: com.hackyouriphone.agoa8classicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: ./debs/agoa8classicdock_1.0.deb
+Size: 402182
+MD5sum: dd232d1cd8ed20fd59e6797f189b4a59
+SHA1: 93139e01eb03bb3af0be80c850a8ce1b6a76c295
+SHA256: 80fc7ec6854893d95cee845115c2390057264d5ed6d0eb600f1cde7790ad3a0c
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=agoa8classicdock
+Description: Agoa8 ClassicDock
+Author: titof59112 <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=agoa8classicdock
+Name: Agoa8 ClassicDock
+
+Package: com.hackyouriphone.ambreios8classicdock
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.ambreios8
+Filename: ./debs/ambreios8classicdock_1.0.2.deb
+Size: 2588008
+MD5sum: 04ffe2af23efe4ebfdfccdd4c61bffb7
+SHA1: d40656e73920318aaed08239813aed9ffa8da153
+SHA256: 5883e850f88a7be886f2fcf5e435c21d578d40adb84dc7bd1329d9c539eae011
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ambreios8classicdock
+Description: Ambre iOS8 iPhone and iPad compatible.
+Author: frenchitouch <frenchitouch@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ambreios8classicdock
+Name: Ambre ios8 ClassicDock
+
+Package: com.hackyouriphone.andoclassicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: ./debs/andoclassicdock_1.0.deb
+Size: 5008
+MD5sum: e31a192e5911c90f509d2573fac256e2
+SHA1: c13c005966f092cdce9f3df259e9a1f90a1d60f4
+SHA256: 5e229a58280712161f1a2239d00d2552c16a649965fd7012e4296f9487be5cf0
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=andoclassicdock
+Description: Get amazing dock only for Ando ios7 theme
+Author: frenchitouch <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=andoclassicdock
+Name: Ando ClassicDock
+
+Package: com.hackyouriphone.andoios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.andoios8
+Filename: ./debs/andoios8classicdock_1.0.1.deb
+Size: 188954
+MD5sum: ef9d8d40da7a2ec36a69626271bb87d7
+SHA1: b3135940795a6dc4279cc41a856f2f60ab1d530c
+SHA256: 5c53bfeb51c75d7564523496d1065a493310e80166a5d72f597344287fbf8081
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=andoios8classicdock
+Description: 2 awesome docks for Ando ios8 theme.
+Author: frenchitouch <frenchitouch@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=andoios8classicdock
+Name: Ando ios8 ClassicDock
+
 Package: com.hackyouriphone.applocker
 Version: 2.5-1
 Architecture: iphoneos-arm
@@ -2460,6 +2613,40 @@ Description: A reimagined lock screen!
 Author: Ben Rosen <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ascend
 Name: Ascend
+
+Package: com.hackyouriphone.astralios8classicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.astralios8
+Filename: ./debs/astralios8classicdock_1.0.deb
+Size: 1024218
+MD5sum: a5f4ad413efce73c0d4184938bcdd3e7
+SHA1: 292d34f8a99d635d19d07b39c80a6838cb541a8c
+SHA256: 86f04f1874266ded9587a2cddbb1839044fa6b9d53c3f5ca690b5073021c32f2
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=astralios8classicdock
+Description: Remastering of the old Apple OS. Clean Design for iOS.
+Author: frenchitouch <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=astralios8classicdock
+Name: Astral iOS8 Classicdock
+
+Package: com.hackyouriphone.blackeditionios8classicdock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.blackeditionios8
+Filename: ./debs/blackeditionios8classicdock_1.0.1.deb
+Size: 239086
+MD5sum: 14522f839fd8d46be4fa44ca1faec358
+SHA1: 6347e9bbd8ee8f15dcb17dd65e6990fbc16ec5fc
+SHA256: 46911e18aed3c8c7b76dbbee537cd6a05f2035684d9d7fe540d63677a195fe67
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=blackeditionios8classicdock
+Description: Blackedition iOS8 iPhone and iPad compatible.
+Author: Frenchitouch <frenchitouch@gmail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=blackeditionios8classicdock
+Name: BlackEdition ios8 Classicdock
 
 Package: com.hackyouriphone.btc-mouse
 Version: 1.9.3
@@ -2495,6 +2682,23 @@ Author: CoolStar <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicapps
 Name: Classic Apps
 
+Package: com.hackyouriphone.classicdock
+Version: 0.5-4
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Filename: ./debs/classicdock_0.5-4.deb
+Size: 357286
+MD5sum: a57e33cbd4bebf9e4ca01e7f16206441
+SHA1: b51775791670b6443d50216744a2b0810f48582d
+SHA256: 580b889514e94989a40d16002ba47b0afb6870b6aa6f16a57408f80efd10edbd
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicdock
+Description: Bring back the amazing iOS 6 dock to iOS 7!
+Author: CoolStar & sharedRoutine <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classicdock
+Name: ClassicDock
+
 Package: com.hackyouriphone.classiclockscreen
 Version: 3.3.1k
 Architecture: iphoneos-arm
@@ -2527,6 +2731,40 @@ Description: DataMeter for iOS 7-10 Notification Center
 Author: Minuit <repo@hackyouriphone.org>
 Name: DataMeter流量记录
 
+Package: com.hackyouriphone.eraipadclassicdockios7
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.eraipadflaticonsios7
+Filename: ./debs/eraipadclassicdockios7_1.0.deb
+Size: 360844
+MD5sum: 06c839d52b445bf94f79cb2883cef005
+SHA1: aff5593e8b7a9a625484bda944e5d62b369b09c7
+SHA256: 4e7182a86476898436fbe9ac18a85aa554dfee900de88e4ff98b1461b30cb0d9
+Section: HYI - iPad HD Themes
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=eraipadclassicdockios7
+Description: This is an nice classicdock to use it with Era on all the ipads.
+Author: cocco26 <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=eraipadclassicdockios7
+Name: Era iPad ClassicDock ios7
+
+Package: com.hackyouriphone.gliese86plusclassicdocks
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.gliese8
+Filename: ./debs/gliese86plusclassicdocks_1.0.deb
+Size: 1334992
+MD5sum: 4bc63d4bcb6f0b1a9e63d53604d93de6
+SHA1: d8459566a66a70d01da2f8d9f066af6f14acbebc
+SHA256: 254add4761da69ed7d148d7a4d9fcba4f08e8e0622b0efc77af2e1de424c0e71
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gliese86plusclassicdocks
+Description: Here is 8 ClassicDocks for iphone 6 theme Gliese 8.
+Author: Cjmann1ng <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gliese86plusclassicdocks
+Name: Gliese 8 6+ ClassicDocks
+
 Package: com.hackyouriphone.nuxios7vwallpaper
 Version: 1.0
 Architecture: iphoneos-arm
@@ -2543,6 +2781,91 @@ Description: nux iOs7 vWallpaper
 Author: ChrisGraphiX <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
 Name: nux iOs7 vWallpaper
+
+Package: com.hackyouriphone.sumwazios8classicdocks
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: ./debs/sumwazios8classicdocks_1.0.deb
+Size: 257942
+MD5sum: a4bed17a7100adbbd1942215ef809f68
+SHA1: 7dfe92e63afdaeeada8d54d99527ec756a882c22
+SHA256: 636554067e7c205320c66f5a966791dfdcc545b69a7d894b1b692100641fd061
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sumwazios8classicdocks
+Description: Sumwaz iOS8 ClassicDocks
+Author: Svink <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sumwazios8classicdocks
+Name: Sumwaz iOS8 ClassicDocks
+
+Package: com.hackyouriphone.swee7classicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: ./debs/swee7classicdock_1.0.deb
+Size: 38652
+MD5sum: 68901f1ae8cf9f35442c50997d5e7703
+SHA1: 019739ed90e7e844f6606392ee0709d406c7a170
+SHA256: 714a1cc56170a4982cb4249a664647c55a665a946636f25f3127f90d97a954d4
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=swee7classicdock
+Description: Swee7 ClassicDock
+Author: titof59112 <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=swee7classicdock
+Name: Swee7 ClassicDock
+
+Package: com.hackyouriphone.t1tan86plusclassicdock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.t1tan8
+Filename: ./debs/t1tan86plusclassicdock_1.0.deb
+Size: 1335450
+MD5sum: 0ae598f7ac3ac013deba7da9350b4568
+SHA1: c95676cc4b463fbc21aff84c0b4e96fc6024d49a
+SHA256: 4026c2c889139be049e32305cfc3c9079c3617a46c23a258578b25c7cf9f0a16
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tan86plusclassicdock
+Description: This is 8 ClassicDocks for the theme T1tan 8 on iPhone 6.
+Author: Cjmann1ng <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tan86plusclassicdock
+Name: T1tan 8 6+ ClassicDock
+
+Package: com.hackyouriphone.t1tan8classicdocks
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.t1tan8
+Filename: ./debs/t1tan8classicdocks_1.0.deb
+Size: 1910110
+MD5sum: 173a8733c0caab60022995ce2c39a233
+SHA1: 2f4a3438564e6a5579fa1270173ad37a6a14bbf0
+SHA256: 2ca954eef880be6148c42724b8adb7fe1586865e0fb012bbbcef13f16dad2076
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tan8classicdocks
+Description: Here is 8 ClassicDocks for the theme T1tan 8.
+Author: Cjmann1ng <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tan8classicdocks
+Name: T1tan 8 ClassicDocks
+
+Package: com.hackyouriphone.t1tanclassicdock
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.hackyouriphone.t1tan
+Filename: ./debs/t1tanclassicdock_1.1.deb
+Size: 439348
+MD5sum: 632b8c841039b24639cc9bc3092881a9
+SHA1: ff9c79bffd85ff8a07a129fdbc62733c1134fd70
+SHA256: bf611565288c5365cdf9de7a323d73b29f191ac69923549af28c4538513df545
+Section: HYI - Theme HD
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tanclassicdock
+Description: This is a wood dock and white dock for ClassicDock.
+Author: Cjmann1ng <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tanclassicdock
+Name: T1tan ClassicDock
 
 Package: com.hongv.dfu
 Version: 1.0
