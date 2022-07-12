@@ -9790,6 +9790,22 @@ Priority: optional
 Description: Piano Chord Dictionary Master Source
 Name: SaladSoft's Source
 
+Package: niuhuan.pikapika
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pikapika
+Depends: firmware (>=11.0)
+Filename: ./debs/pikapika.deb
+Size: 12060804
+MD5sum: de67451085fc00832f9659a64b917bbb
+SHA1: ae96fa7ab99ef8cd3659a20f3ee9130a81ea955f
+SHA256: 8c3bcaf8cabdb54aaa78cc63cb9fbeaedf0ca1262e050758ddfaabc4cd3c4969
+Section: Applications
+Description: App resigned with Linus Henze's CoreTrust bypass so it doesn't expire.
+Author: pikapika
+Name: pikapika
+Tags: compatible_min::ios11.0
+
 Package: nmap
 Version: 5.00-6
 Architecture: iphoneos-arm
