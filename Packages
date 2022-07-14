@@ -2782,6 +2782,23 @@ Author: ChrisGraphiX <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
 Name: nux iOs7 vWallpaper
 
+Package: com.hackyouriphone.osexperience
+Version: 1.0.7-2
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, cc.tweak.libobjcipc (>= 1.0.0-17), com.rpetrich.rocketbootstrap, gsc.ipad
+Filename: ./debs/com.hackyouriphone.osexperience_1.0.7-2.deb
+Size: 38504
+MD5sum: 7fc89f21a7717dd8abbaa0517f61b649
+SHA1: 6726a958048773d5f430169ee858f084e117711e
+SHA256: 6c6b0f6bac9e1934a299f33a6e5a524e28a3166f27cca0341d7f4148c6ed5a8f
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=osexperience
+Description: Window manager and multitasking switcher.
+Author: Evan Swick <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=osexperience
+Name: OS Experience
+
 Package: com.hackyouriphone.sumwazios8classicdocks
 Version: 1.0
 Architecture: iphoneos-arm
