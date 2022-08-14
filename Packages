@@ -2884,6 +2884,21 @@ Author: Cjmann1ng <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=t1tanclassicdock
 Name: T1tan ClassicDock
 
+Package: com.hk.fixclassicfolders2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.fixclassicfolders2_614265_iphoneos-arm.deb
+Size: 5494
+MD5sum: ec9e4538355eb35b23811c19d56ce8aa
+SHA1: 5b3c4278d66be9ec918053167e517f07f4f016cc
+SHA256: ba0cf6301965f6f6c1e8a2bd8532ded43afa37e6e715b344afc81caa28a488d7
+Section: 子鸭
+Description: OK
+Author: Netskao
+Name: FixClassicFolders2
+
 Package: com.hongv.dfu
 Version: 1.0
 Architecture: iphoneos-arm
