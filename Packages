@@ -4225,11 +4225,11 @@ Package: com.ziya.iboot32patcher
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: ziya
-Filename: ./debs/1.deb
-Size: 7584
-MD5sum: a44624b809c0f26eeabe669ff9add13b
-SHA1: 66dca92796b140e14d91c8a69b4bc3bb3613e0d6
-SHA256: bd3d1362f03b30957859065a68ff2e75a57394c6c3aa39a5d8b81f29e887a83b
+Filename: ./debs/com.ziya.iboot32patcher_1.0_iphoneos-arm.deb
+Size: 7958
+MD5sum: 2248a66cc54895bedd37c71e6c0c7094
+SHA1: 885939b1d753507c959c0e10bdb6544d07badb93
+SHA256: e618a0b1d58421612a36b5734719dd4b25c56ee1aa48f58d78977ec4981a0d7b
 Section: System
 Description: A Universal 32-bit iBoot patcher for iPhone OS 2.0 --> iOS 10
 Tag: role::hacker
