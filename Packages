@@ -2765,6 +2765,25 @@ Author: Cjmann1ng <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gliese86plusclassicdocks
 Name: Gliese 8 6+ ClassicDocks
 
+Package: com.hackyouriphone.insomniapro
+Version: 6.0.1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 5.0), libstatusbar, firmware (<< 7.0) | com.rpetrich.rocketbootstrap
+Conflicts: com.imalc.insomnia
+Replaces: com.imalc.insomnia
+Filename: ./debs/insomniapro_6.0.1.deb
+Size: 563604
+MD5sum: dfe93c2a52f6155e14e447ea858548a4
+SHA1: 93a10ff701ec21928977c64ee0d2e852ffbd1765
+SHA256: 2d507c7add26e850d44c2586596a4b6903a8dbf450b34d5754964381047fa949
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=insomniapro
+Description: Allows apps to continue to run & WiFi to stay connected long after the screen has been switched off
+Author: Malcolm Hall <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=insomniapro
+Name: Insomnia Pro
+
 Package: com.hackyouriphone.nuxios7vwallpaper
 Version: 1.0
 Architecture: iphoneos-arm
