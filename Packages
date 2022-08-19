@@ -4205,6 +4205,21 @@ Description: 输入密码的时候，允许第三方键盘获取优先级权限�
 Author: iBreak <ibreak2019@qq.com>
 Name: Allow KeyBoard
 
+Package: com.ziya.iboot32patcher
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ziya
+Filename: ./debs/1.deb
+Size: 7584
+MD5sum: a44624b809c0f26eeabe669ff9add13b
+SHA1: 66dca92796b140e14d91c8a69b4bc3bb3613e0d6
+SHA256: bd3d1362f03b30957859065a68ff2e75a57394c6c3aa39a5d8b81f29e887a83b
+Section: System
+Description: A Universal 32-bit iBoot patcher for iPhone OS 2.0 --> iOS 10
+Tag: role::hacker
+Author: iH8sn0w
+Name: iBoot32Patcher
+
 Package: com.ziya.repo
 Version: 1.0
 Architecture: iphoneos-arm
