@@ -3501,6 +3501,26 @@ Dev: rpetrich
 Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.rpetrich.vintagekeys
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: thebigboss.org <http://thebigboss.org>
+Installed-Size: 84
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7)
+Filename: ./debs/com.rpetrich.vintagekeys_0.1.deb
+Size: 12040
+MD5sum: 00f04e4bed14c6a6d43a5d8b92be1018
+SHA1: 88055cd2afbbecf756639cd076abd6403f1f17a7
+SHA256: 8d92e3db916bf9802f09c26611cd29cb66569c511274bd0e257776a5a254e10c
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/vintagekeys/
+Description: Adjustable keyboard styling
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+vintagekeys@gmail.com>
+Depiction: http://rpetri.ch/cydia/vintagekeys/
+Dev: rpetrich
+Name: VintageKeys
+
 Package: com.rullinoiz.ipa2deb
 Version: 1.0.4
 Architecture: iphoneos-arm
