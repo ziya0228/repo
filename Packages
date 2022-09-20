@@ -2452,6 +2452,28 @@ Author: FilippoBiga <filippobiga.dev@gmail.com>
 Depiction: http://cydia.saurik.com/info/com.filippobiga.glyphpatch/
 Name: GlyphPatch
 
+Package: com.filippobiga.unlockfx
+Version: 1.1-6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 94
+Depends: firmware (>= 4.3), mobilesubstrate, preferenceloader
+Filename: ./debs/com.filippobiga.unlockfx_1.1-6_iphoneos-arm(1).deb
+Size: 43870
+MD5sum: f33e44786bcd87a416feca173abbf3a6
+SHA1: b588bf4608193a84a0321b186f96cd8035cc00a1
+SHA256: c5e2c7bcd2d04fb60948217a2bcbe31d3f97c7f4ee70a2b70cc8be172c541543
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=unlockfxDp
+Description: 30+ animations to unlock with style
+Tag: cydia::commercial, purpose::extension
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=unlockfxDp
+Dev: filippobiga
+Icon: file:///Library/PreferenceBundles/UnlockFXSettings.bundle/UnlockFX@2x.png
+Name: UnlockFX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.googlecode.mobileterminal.Terminal
 Version: 472
 Architecture: iphoneos-arm
