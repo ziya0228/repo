@@ -2843,6 +2843,24 @@ Author: Cjmann1ng <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gliese86plusclassicdocks
 Name: Gliese 8 6+ ClassicDocks
 
+Package: com.hackyouriphone.gradi
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.hackyouriphone.gradi_1.2.2_iphoneos-arm.deb
+Size: 1289950
+MD5sum: 4ec28d42ebe00a517663aee74e4dcc88
+SHA1: c3b0ce16dea5284b7817dd06c87de4a3803a2cee
+SHA256: ba49ab5f72a2becc660f75e647b543b7725f66bf8067bd0dc1af0e205c17bf97
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gradi
+Description: Bring the YouTube Music / Google media player to iOS.
+Author: Ginsu <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gradi
+Name: Gradi
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=gradi
+
 Package: com.hackyouriphone.insomniapro
 Version: 6.0.1
 Architecture: iphoneos-arm
@@ -12720,42 +12738,6 @@ Author: LaughingQuoll
 Depiction: https://rejail.ru/depiction.php?file=prysm
 Name: Prysm
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=prysm
-
-Package: ru.rj.gradi
-Version: 1.0.8
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 619
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/ru.rj.gradi_1.0.8_iphoneos-arm.deb
-Size: 121622
-MD5sum: 36023799e99efe2b4d653cd78d99c7a4
-SHA1: ae3c909d2e15de2e3a5b26ef86e99a975e7744ec
-SHA256: 101ebd5193c928eaa8d4066bb74cf24dbf8027d975592b669cb0ccbf5fbbea09
-Section: Tweaks
-Description: Google медиа-проигрыватель на экране блокировки
-Author: Ginsu
-Depiction: https://rejail.ru/depiction.php?file=gradi
-Name: Gradi Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=gradi
-
-Package: ru.rj.gradi
-Version: 1.2.2
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 1715
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/ru.rj.gradi_1.2.2_iphoneos-arm.deb
-Size: 1224558
-MD5sum: affd0bd581df83ed2cb2a8633e588e80
-SHA1: d806a7ea10864cb05d0123f2c91cec97b86b05e7
-SHA256: 1c1a6ca990b6a1a5d80ebe478229abc143c90291f2917bb0e1502fc212a2ca98
-Section: Tweaks
-Description: Google медиа-проигрыватель на экране блокировки
-Author: Ginsu
-Depiction: https://rejail.ru/depiction.php?file=gradi
-Name: Gradi Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=gradi
 
 Package: ruby
 Version: 1.9.2-p0-10
