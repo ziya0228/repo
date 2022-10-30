@@ -1019,23 +1019,6 @@ Author: Agricu
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appstore
 Name: AppStore++_中文简体包
 
-Package: cn.agricu.appstoreplusplus
-Version: 0.9.14-2
-Architecture: iphoneos-arm
-Maintainer: Nets
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/cn.agricu.appstoreplusplus_0.9.14-2_iphoneos-arm.deb
-Size: 1237084
-MD5sum: 7c33718d336573c8287bae768d8d03a2
-SHA1: 9779637b42f764c0a239491cf7b6e9e2c2f456be
-SHA256: 9a608fd438dc2c0a700d4d7409354a9b2263736a5949c4c767e0a0c9f603a99f
-Section: Tweaks
-Description: AppStore应用降级，软件详情页长安按钮即可弹出插件选项，长按AppStore个人头像，即可进入高级设置，最后一个没广告的版本
-Author: CokePokes
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.appstoreplusplus
-Name: AppStore++
-
 Package: cn.agricu.appsyncunified
 Version: 104.0
 Architecture: iphoneos-arm
