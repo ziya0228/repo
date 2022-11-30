@@ -15904,6 +15904,23 @@ Section: Networking
 Priority: important
 Description: client for querying whois servers
 
+Package: wiki.qaq.iridium
+Version: 1.2.15-REL-1642832736
+Architecture: iphoneos-arm
+Maintainer: Lakr Aream <launchctl@outlook.com>
+Pre-Depends: firmware (>= 13.5)
+Filename: ./debs/wiki.qaq.iridium.rel.ci.1642832736.deb
+Size: 5425364
+MD5sum: 2e9e01cb519272c5b14291638c00906c
+SHA1: 8f9be410cbb2b0604fdd5f1375d84908ea167dff
+SHA256: 45709d373520f0613b39a590162e7933469d413e2c56f9dbd06d6072f0d9179c
+Section: Applications
+Description: An iOS application decrypter built ready for use.
+Tag: purpose::uikit
+Author: Lakr Aream <launchctl@outlook.com>
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Name: iridium
+
 Package: winterboard
 Version: 0.9.2498-1
 Architecture: iphoneos-arm
