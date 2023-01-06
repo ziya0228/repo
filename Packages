@@ -4595,26 +4595,6 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bash, coreutils-bin (>= 7.4-5), profile.d
 Replaces: netatalk (<= 2.0.3-6)
 Provides: md5sum, sha1sum
-Filename: ./debs/c.deb
-Size: 628868
-MD5sum: d7c377af64a081af979e611ad321f3d1
-SHA1: 0dec31f145c496a072326e74c664fe6159514c31
-SHA256: 36e4cb148a5e242a8b24e425a2b176f0b745063cbdd19810fa2ffc4e906c5f6f
-Section: Utilities
-Priority: standard
-Homepage: http://www.gnu.org/software/coreutils/
-Description: core set of Unix shell utilities from GNU
-Name: Core Utilities
-
-Package: coreutils
-Version: 8.12-12
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 6536
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: bash, coreutils-bin (>= 7.4-5), profile.d
-Replaces: netatalk (<= 2.0.3-6)
-Provides: md5sum, sha1sum
 Filename: ./debs/coreutils_8.12-12_iphoneos-arm.deb
 Size: 628868
 MD5sum: d7c377af64a081af979e611ad321f3d1
@@ -10803,22 +10783,6 @@ Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 1880
 Depends: openssl
-Filename: ./debs/340838_openssh_5.1p1-6_iphoneos-arm.deb
-Size: 796968
-MD5sum: 78d4e2bb398461c7c34522adc2db0d0f
-SHA1: 42c1e617eff108674057198ad349d0367c44e211
-SHA256: 0dea9f7c2a51d2231b75c02134f54d463e53b8243b72ed082000e63ec563d632
-Section: Networking
-Priority: important
-Description: secure remote access between machines
-Name: OpenSSH
-
-Package: openssh
-Version: 5.1p1-6
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 1880
-Depends: openssl
 Filename: ./debs/openssh_5.1p1-6_iphoneos-arm.deb
 Size: 796968
 MD5sum: 78d4e2bb398461c7c34522adc2db0d0f
@@ -11349,22 +11313,6 @@ Essential: yes
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 9052
 Filename: ./debs/openssl_0.9.8i-6_iphoneos-arm.deb
-Size: 2853126
-MD5sum: 42c92bc73a7755bafd6de8d13c62febc
-SHA1: 65d02268fe056e7b0b08694edb6ff8cdb1610043
-SHA256: a67e52d153a1cf70653e562c115877f35cc7813e9bec1330c04d759dd24b265e
-Section: Security
-Priority: required
-Description: SSL library and cryptographic tools
-Name: OpenSSL
-
-Package: openssl
-Version: 0.9.8i-6
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 9052
-Filename: ./debs/340839_openssl_0.9.8i-6_iphoneos-arm.deb
 Size: 2853126
 MD5sum: 42c92bc73a7755bafd6de8d13c62febc
 SHA1: 65d02268fe056e7b0b08694edb6ff8cdb1610043
