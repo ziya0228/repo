@@ -12685,6 +12685,24 @@ Depiction: https://rejail.ru/depiction.php?file=limneosos
 Name: Limneosos
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
 
+Package: ru.rejail.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 235
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.localiapstore_1.4-4.deb
+Size: 42188
+MD5sum: 32f556ef855ef19f661748a010cb8a21
+SHA1: 4aa66f07686d5fd3ad7c27b829b723d360da029f
+SHA256: 12a26a0af63e2d695414f3134f0897a19a387f167f3bfa599dd050fd39b2fefd
+Section: Tweaks
+Description: Взлом внутриигровых покупок
+Author: anondev
+Depiction: https://rejail.ru/depiction.php?file=localiapstore
+Name: LocalIAPStore
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=localiapstore
+
 Package: ru.rejail.prysm
 Version: 1.9.1k
 Architecture: iphoneos-arm
