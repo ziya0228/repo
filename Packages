@@ -3441,6 +3441,26 @@ Depiction: http://modmyi.com/info/mountainlionosipad.d.php
 Name: MountainLionOS iPad
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.mpg13.flashback
+Version: 4.1
+Architecture: iphoneos-arm
+Maintainer: MPG13 & 23 Aaron <support@23aaron.com>
+Installed-Size: 4540
+Depends: mobilesubstrate,firmware (>= 12.0) | com.chpwn.iconsupport, firmware (<< 12.0) | com.ichitaso.iconanus,ldid
+Conflicts: com.mpg13.FlashBackfree
+Filename: ./debs/com.mpg13.flashback_4.1_iphoneos-arm.deb
+Size: 2068844
+MD5sum: b5352fd863aed815865a96bf1950e620
+SHA1: 0b2d3811ddb3523fb67da75543a4200894cb3c14
+SHA256: d8688fa46b2e9c0ac2fa45d7fbdc30c8967de76448d57ca3857e06de9f989ca7
+Section: Utilities
+Description: Backup your style in style.
+Tag: compatible_min::ios9.0
+Author: MPG13 & 23 Aaron <support@23aaron.com>
+Depiction: https://chariz.com/get/flashback
+Icon: https://img.chariz.cloud/icon/flashback/icon@3x.png
+Name: FlashBack
+
 Package: com.muirey03.libimagepicker
 Version: 1.0.4
 Architecture: iphoneos-arm
