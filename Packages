@@ -2221,6 +2221,23 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.bigboss.patchsafari2/
 Name: file:// for MobileSafari
 
+Package: com.bl4z3r.nova
+Version: 5.8.0
+Architecture: iphoneos-arm
+Maintainer: Mr PHo3niX
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: ./debs/com.bl4z3r.nova_5.8.0_iphoneos-arm.deb
+Size: 68850
+MD5sum: ff79458ff2e1c765d2de477ea081c7d4
+SHA1: c0b2ed017b21048a9b46e9fc054e1613a3bd32e3
+SHA256: 1e9f4dc4914d66f90d65382a9db9e1484ab6bef0f16f675865d8ff26574220e3
+Section: Tweaks
+Homepage: iOSGods.com
+Description: N.O.V.A: Legacy Mod Menu by Mr PHo3niX!
+Author: Mr PHo3niX
+Name: N.O.V.A: Legacy Mod Menu
+
 Package: com.brend0n.gtaiii60fps
 Version: 0.0.3
 Architecture: iphoneos-arm
