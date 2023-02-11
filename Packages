@@ -3390,6 +3390,21 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MatDev
 Depends: bash (>= 3.2), coreutils (>= 8.12-12p), coreutils-bin (>= 8.12-9), grep (>= 2.5.4-3), darwintools (>=1-5), system-cmds (>=433.8-14), gawk (>= 3.1.6-2p), firmware (>= 10.0)
+Filename: ./debs/com.matdev.neofetch-ios_1.0.0.deb
+Size: 66550
+MD5sum: 232199f53c5e111c9cac4d6360642087
+SHA1: 17aed6789f028d31c5e285f84f62d6937072f271
+SHA256: 16b3765b3f7fe1a352808182c9be2c5cf9c0fcd1b1dbeb5e7556da46ac2e69c1
+Section: Tweaks
+Description: NeoFetch for iOS. Display system information in command-line!
+Author: MatDev
+Name: NeoFetch-iOS
+
+Package: com.matdev.neofetch-ios
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MatDev
+Depends: bash (>= 3.2), coreutils (>= 8.12-12p), coreutils-bin (>= 8.12-9), grep (>= 2.5.4-3), darwintools (>=1-5), system-cmds (>=433.8-14), gawk (>= 3.1.6-2p), firmware (>= 10.0)
 Filename: ./debs/com.matdev.neofetch-ios_1.0.0_iphoneos-arm.deb
 Size: 66550
 MD5sum: 232199f53c5e111c9cac4d6360642087
