@@ -2326,6 +2326,22 @@ Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
 Name: PowerDown
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.darwindev.activatephone
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Lessica
+Installed-Size: 220
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.darwindev.activatephone_0.0.1_iphoneos-arm.deb
+Size: 8312
+MD5sum: 02b127eba9b19f1ff2781c3ce031a694
+SHA1: 4cb3b0828e6c0544ee470f2ea1410b041a57e000
+SHA256: ccaad5985b2bb53ae519acc37bd1d2855186d255f1006775787ed0ee1721ece2
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Lessica
+Name: ActivatePhone
+
 Package: com.deusty.kissxml
 Version: 0.9.26-1
 Architecture: iphoneos-arm
