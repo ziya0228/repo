@@ -1982,6 +1982,23 @@ Moderndepiction: https://yttxcs.com/sileo/1387
 Name: AOD 「息屏显示增强」
 Sponsor: 幺筒源<409774743@qq.com>
 
+Package: com.34306.cytus2
+Version: 5.0.1
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.cytus2_5.0.1_iphoneos-arm.deb
+Size: 74440
+MD5sum: 1ccc5bdd21e9bfda9a8de61993aaaaf7
+SHA1: 25e181ccdbbb87862902f6a663b74a011619859b
+SHA256: ea4147a177733bcc7523a61ea47a23090326c45406583fc60d4e05b94a6fe7dc
+Section: Tweaks
+Homepage: https://34306.github.io
+Description: Cytus 2 Mod Menu by 34306!
+Author: 34306
+Name: Cytus 2 Mod Menu
+
 Package: com.91.appsyncunified.fengsync8
 Version: 6.0.0-1
 Architecture: iphoneos-arm
