@@ -131,6 +131,27 @@ Depiction: http://apt.so/index.php?r=cydia&id=549be9bb0e1d1550228b4b4b
 Name: Auxo 3 (iOS 8)
 Sponsor: Feng.com <http://www.feng.com>
 
+Package: app.weiphone.fonts
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: boby <ysh12458@163.com>
+Installed-Size: 49000
+Depends: cydia
+Filename: ./debs/app.weiphone.fonts_1.0.deb
+Size: 22265350
+MD5sum: c95c0b95a5c40d25af5e5e0414c05a8b
+SHA1: daa8f7dd500d09a74aef61ae8231450d5ff7f73c
+SHA256: b03e7658a5b2df49b7db09194130397334e3dda864b81a56c9717e2129e73ea6
+Section: [威锋源-系统字体]
+Priority: Standard
+Homepage: http://www.weiphone.com/
+Description: 网上23M的那个华康少女字体，诺基亚时代流传着的23M少女字体，因为喜欢，所以把它也做到iPhone上了，唉，谁叫我是少女字体迷呢。（英文加数字）
+Tag: role::enduser
+Author: boby <ysh12458@163.com>
+Name: 23M华康少女字体(英文加数字）
+Sponsor: ysh12458 <http://www.weiphone.com>
+
 Package: app.weiphone.fronts005
 Version: 1.0
 Architecture: iphoneos-arm
@@ -150,6 +171,26 @@ Tag: role::enduser
 Author: WeiPhone.com <support@office.weiphone.com>
 Depiction: http://apt.so/index.php?r=cydia&id=52d0e6e6319a394f658b498b
 Name: 浪漫雅园
+Sponsor: WeiPhone.com <http://www.weiphone.com>
+
+Package: app.weiphone.myrepospace.oyoung.currentnetwork
+Version: 2.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Depends: firmware(>= 3.0), mobilesubstrate, preferenceloader
+Filename: ./debs/app.weiphone.myrepospace.oyoung.currentnetwork_2.0.deb
+Size: 15606
+MD5sum: ccd6d3b138f51da2cf16c996e984eec4
+SHA1: 0fdebb645d82b58df0069b590e6800f32f34f710
+SHA256: 45834b1cf2675e50849905e2f060793721c0272d4eeadc865f83634d2964ff8f
+Section: [威锋源-应用工具]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52ed0f49b704b2412d8b4568
+Description: 适配iOS3.x-6.x，iPhone/iTouch/iPad适配。安装后可选择位置:在状态栏时钟区域显示当前网速(有网络流量活动时候)，按住状态栏可以即时切换当前网速为时钟.或者可以选择在右上角显示网速悬浮窗(无网络流量活动的时候会自动消失).在设置-DataStatusBar可以开启/关闭。Compatible with firmware 3.x-6.x Show your current network speed in statusbar or suspension window.Configure in Setting.app-DataStatusBar. ;) <br><br>新浪微薄@北瓜叔叔
+Author: bcb110 <oyoung1992@gmail.com>
+Depiction: http://apt.so/index.php?r=cydia&id=52ed0f49b704b2412d8b4568
+Name: 状态栏网速计(DataStatusBar)
 Sponsor: WeiPhone.com <http://www.weiphone.com>
 
 Package: app.weiphone.teiron.pphelperns
@@ -200,6 +241,23 @@ Version: 1.1-5
 Architecture: iphoneos-arm
 Maintainer: 丛林狼 <conglinlang.vip@gmail.com>
 Pre-Depends: firmware (>= 4.0)
+Filename: ./debs/appsync40plus.178_1.1-5.deb
+Size: 9258
+MD5sum: 134be3b37947f6080e99dd2c55ecbfca
+SHA1: 0dc5ac6f0249c5ba5c4e0c7c9d4e8f0c386b7721
+SHA256: c215cead53a82f2aac19b246e1490e5f51dd854001396fc90b783bf10d1abb2b
+Section: [178 - 破解]
+Description: iphone | ipad 4.0 - 4.3.1全部适用的appsync ，如果你安装了其它appsync请先卸载
+Author: Hackulo.us
+Depiction: http://apt.178.com/2011/0402/1920.shtml
+Name: Appsync 4.0-4.3.1全兼容
+Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
+
+Package: appsync40plus.178
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: 丛林狼 <conglinlang.vip@gmail.com>
+Pre-Depends: firmware (>= 4.0)
 Filename: ./debs/appsync40plus.178_1.1-5_iphoneos-arm.deb
 Size: 9104
 MD5sum: 79d9d53dfbe4c41d4de03d8adc8c6bec
@@ -211,6 +269,28 @@ Author: Hackulo.us
 Depiction: http://apt.178.com/2011/0402/1920.shtml
 Name: Appsync 4.0-4.3.1全兼容
 Sponsor: 丛林狼 <http://t.sina.com.cn/conglinlang>
+
+Package: appsyncunified.178
+Version: 5.3-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 284
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, ppsync.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/appsyncunified.178_5.3-1.deb
+Size: 27148
+MD5sum: 44cbcdf2da304de62ab8b2ec7c89cb05
+SHA1: 18ecc30dea07b0a5230e7de3b6b9d758baa34225
+SHA256: 2b250ec333cb9dde0b8dd1fcdfd5cf2b667fe3afb9887482889403e7fc774e25
+Section: [178 - 破解]
+Homepage: http://apt.178.com/html/2014/1208/iphone12139.shtml
+Description: 来自韩国美女开发者蔡明美的appsync补丁。
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://apt.178.com/html/2014/1208/iphone12139.shtml
+Name: Appsync for iOS8
+Sponsor: w花
 
 Package: apptapptools
 Version: 1.0.2422-6
@@ -846,6 +926,27 @@ Section: 越狱
 Description: ziya
 Author: ziya
 Name: 孝廉
+
+Package: cardswitcher-app.178
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 158
+Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
+Filename: ./debs/cardswitcher-app.178_2.0-1.deb
+Size: 84932
+MD5sum: 4dc3a3fa13857795f024c82c6aa9cfd1
+SHA1: 9e0c6cfc05ea0e84cafa57b0aeab1ff92b147343
+SHA256: e4921c0a1ba8b713d5c42cf80250e47228130c141654949e7492f164aabb570f
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2013/0208/iphone8920.shtml
+Description: CardSwitcher是一款模仿webOS后台卡片式切换风格的插件。
+Author: iKy1e (Kyle Howells) <freerunnering@gmail.com>
+Depiction: http://apt.178.com/html/2013/0208/iphone8920.shtml
+Dev: freerunnering
+Icon: file:///Library/PreferenceBundles/CardSwitcherSettings.bundle/CardSwitcher@2x.png
+Name: CardSwitcher
+Sponsor: w花
 
 Package: class-dump
 Version: 3.1.2-x-1
@@ -1672,6 +1773,22 @@ Author: Agricu
 Name: StepNumber™助手
 
 Package: cn.agricu.stepnumber
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/cn.agricu.stepnumber_0.0.1-1.deb
+Size: 24944
+MD5sum: 437603b76515f88061d5636d2d8fd526
+SHA1: b92e885598e6e3886d313fc7b9e6a7481da47a80
+SHA256: 8128cef03e2053c951c71aab0c07297d39fb7d5bd25367604f59c33e68bd553f
+Section: Tweaks
+Description: A Wechat&Alipay step count tweak.
+Author: Agricu
+Name: StepNumber™助手
+
+Package: cn.agricu.stepnumber
 Version: 1.0-6
 Architecture: iphoneos-arm
 Maintainer: Agricu
@@ -2007,6 +2124,27 @@ Maintainer: 91手机论坛技术组 <ibbs.91.com>
 Installed-Size: 220
 Depends: firmware (>= 8.0), mobilesubstrate
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Filename: ./debs/com.91.appsyncunified.fengsync8_6.0.0-1.deb
+Size: 28040
+MD5sum: d1490b79a602dafdc11b4aee453eb2f2
+SHA1: b142c36b3be2c8db47506f039e893f1838026175
+SHA256: 8b055f8cc34b7b13ade83a0c3c9224cc489ded79e719e88ea5af9f513c2924c2
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=5593c4c10e1d157b6a8b4ffa
+Description: Appsync是iPhone、iPad、iPod touch越狱后必装补丁，安装后可以绕过系统验证，随意安装运行破解的ipa软件，此版本完美兼容 iOS 8.0 ~ iOS 8.4。
+Tag: role::enduser
+Author: WeiPhone.com <support@office.weiphone.com>
+Name: Appsync for iOS8.0-8.4
+
+Package: com.91.appsyncunified.fengsync8
+Version: 6.0.0-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 220
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Filename: ./debs/_com.91.appsyncunified.fengsync8_6.0.0-1_iphoneos-arm.deb
 Size: 28230
 MD5sum: f6b45f359ca4833cc8262742cfe973c8
@@ -2019,6 +2157,28 @@ Description: Appsync是iPhone、iPad、iPod touch越狱后必装补丁，安装�
 Tag: role::enduser
 Author: WeiPhone.com <support@office.weiphone.com>
 Name: Appsync for iOS8.0-8.4
+
+Package: com.91.hackyouriphone.appsync7
+Version: 4.0-2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Pre-Depends: firmware (>= 7.0), mobilesubstrate
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/com.91.hackyouriphone.appsync7_4.0-2.deb
+Size: 4114
+MD5sum: a14b76b69cfc008d664dcae3b07fa56a
+SHA1: af26d39cf3d4dfd27caab2d09033c89a64361687
+SHA256: a8edc4a6072a51f9c9d27dd8f930ac97c65cbe7ca2a3b190053d6d4d0661cae3
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52fdbf87b704b221228b462a
+Description: AppSync allows you to sync and install unsigned iOS applications.
+Author: Linus Yang, Karen Tsai <repo@hackyouriphone.org>
+Name: AppSync for iOS 7.0+
 
 Package: com.91.us.hackulo.appsync50plus
 Version: 2.2
@@ -2058,6 +2218,29 @@ Size: 4466
 MD5sum: d2c62e917339ea087b605a3738bff9d5
 SHA1: e2b2a649041463aa18fa224dfed11540c8118b84
 SHA256: b8d5fb3d60e4db09971448adc0ae2ec648dcbae8d6afb556c3b89647ffe7dbc2
+Section: 91助手-补丁
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
+Description: AppSync是允许您安装破解软件的补丁
+Tag: role::enduser
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5.0+
+
+Package: com.91.us.hackulo.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 23
+Pre-Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/com.91.us.hackulo.appsync50plus_2.2.deb
+Size: 4572
+MD5sum: 6c210017e97780d26e26750c466c43ef
+SHA1: d97da66cb55d427edddf7ce4c5239c66766c76f6
+SHA256: 6eabf1323ce2927431a59c708dc4af84568a8dbca49c2caa4f3de7fa850609bb
 Section: 91助手-补丁
 Priority: standard
 Homepage: http://apt.so/index.php?r=read&id=52d0d22c319a3982638b4837
@@ -2201,6 +2384,27 @@ Dev: arx
 Icon: file:///Library/PreferenceBundles/InstantTouchID.bundle/InstantTouchID@2x.png
 Name: InstantTouchID
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.baidu.baiduinput
+Version: 3.5.0.18
+Architecture: iphoneos-arm
+Maintainer: 百度
+Depends: mobilesubstrate (>=0.9.3367-1), firmware (>= 4.0)
+Conflicts: baiduinputmethod.178, baiduinputmethod.91, com.duowan.baidu.shurufa.iphone, com.baidu.baiduinputmethod, app.weiphone.baidu.baiduinputmethod, baiduinputmethod.appvv, com.tgbus.baiduinputmethod
+Replaces: baiduinputmethod.178, baiduinputmethod.91, com.duowan.baidu.shurufa.iphone, com.baidu.baiduinputmethod, app.weiphone.baidu.baiduinputmethod, baiduinputmethod.appvv, com.tgbus.baiduinputmethod
+Filename: ./debs/com.baidu.baiduinput_3.5.0.18.deb
+Size: 6110304
+MD5sum: a10e7580c1ddecdff5b09a678b8c9b43
+SHA1: 2ac1de369d4ac1a102400eb7ec0d26bb8d25077f
+SHA256: 6bc83e3997948dba89f71a4faa16c2385982ecf36472a50c08f4e8bdc5191cf5
+Section: [百度输入法]
+Homepage: http://ishouji.baidu.com/input
+Description: 最好用的iPhone输入法 (iOS 4.0及更高版本)
+Author: 百度
+Depiction: http://mi.baidu.com/t/fe/iphone/iPhone.html?t=1364628311
+Icon: file:///Applications/BaiduIMSettings.app/icon@2x.png
+Name: 百度输入法
+Sponsor: 百度
 
 Package: com.bigboss.patchsafari2
 Version: 2.0.2587-1
@@ -2696,7 +2900,7 @@ Version: 2.1-321
 Architecture: iphoneos-arm
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>= 7.1), mobilesubstrate, preferenceloader
-Filename: ./debs/ascend_2.1-321.deb
+Filename: ./debs/com.hackyouriphone.ascend_2.1-321.deb
 Size: 425570
 MD5sum: 2b718b90ed7a05d3c58962504ae04939
 SHA1: 1c86789480b2c084a1bc92712aca7794bfbcae0a
@@ -2913,6 +3117,22 @@ Author: Malcolm Hall <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=insomniapro
 Name: Insomnia Pro
 
+Package: com.hackyouriphone.lockbarpro
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, com.rpetrich.layersnapshotter, libactivator
+Filename: ./debs/com.hackyouriphone.lockbarpro_1.1.2-1.deb
+Size: 210032
+MD5sum: 2e8b61dd841e1611b7a13cc5319bd4bf
+SHA1: 6c3b65713b45faa90320eeb7ae441605eba1663c
+SHA256: e092446a3ab004753ce43fa44dd9aca2d3b9bee1c02e2d29dd777d0ba6b10e29
+Section: HYI - Tweaks
+Description: LockBar Pro, Lockscreen Toggles done Right!
+Author: bushe <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=lockbarpro
+Name: LockBar Pro
+
 Package: com.hackyouriphone.nuxios7vwallpaper
 Version: 1.0
 Architecture: iphoneos-arm
@@ -3093,6 +3313,30 @@ Author: iH8sn0w, SquiffyPwn, winocm
 Depiction: http://cydia.saurik.com/info/com.ih8sn0w-squiffy-winocm.p0sixspwn/
 Name: p0sixspwn
 
+Package: com.ijinshan.kbatterydoctorpro
+Version: 4.4.0-46
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3912
+Depends: mobilesubstrate, firmware (>= 5.0)
+Conflicts: app.weiphone.jinshan.kbatterydoctorpro, app.weiphone.myrepospace.oyoung.guan, app.weiphone.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro.universal, com.myrepospace.oyoung.guan, kbatterydoctorpro.appvv
+Filename: ./debs/com.ijinshan.kbatterydoctorpro_4.4.0-46.deb
+Size: 2329564
+MD5sum: 60250c15f796ab061db5917adca64de1
+SHA1: 7f1830963f680de4575d28fa7b86b3ff381d5d78
+SHA256: 8cea9e9078b5369d25759752ba02b10e77c30069d990398d28f3dc911595db7e
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorproDp
+Description: BatteryDoctorPro (BDP) monitors and optimizes your battery
+Tag: purpose::extension
+Author: Kingsoft Security <app@ijinshan.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorproDp
+Dev: kingsoftsecurity
+Icon: file:///Applications/kBatteryDoctor.app/icon.png
+Name: 金山电池医生专业版(BatteryDoctorPro)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.im099.iShutdown
 Version: 1.1
 Architecture: iphoneos-arm
@@ -3149,6 +3393,22 @@ Author: initWithFrame <initwithframe@protonmail.com>
 Depiction: https://chariz.com/buy/velvet
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
 Name: Velvet
+
+Package: com.isoftru.bochs
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: isoftcom.com <isoftteamsupport@gmail.com>>
+Filename: ./debs/com.isoftru.bochs_1.0.0-1.deb
+Size: 36844432
+MD5sum: 2fc90234ca64aec8d45d14b938b722c9
+SHA1: a1aeb6638d3a14378b4eefca73e4e38ee1fb5275
+SHA256: b4b076aa5fe88dc2dad22b3da9a329043b5efbc3c4eefb96f57f45a0273fc382
+Section: System
+Homepage: http://isoftcom.com/
+Description: Run Windows 3.11 and Windows 95 on your iPhone. It's slow, but worked.
+Author: isoftcom.com <isoftteamsupport@gmail.com>
+Dev: isoftru
+Name: Bochs (Win95 for iPhone)
 
 Package: com.ivanc.accent
 Version: 1.4.0
@@ -3487,6 +3747,25 @@ Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
 Sponsor: Halo Michael <yc992147156@me.com>
 
+Package: com.mirrordev.fakecarrier
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 50
+Filename: ./debs/com.mirrordev.fakecarrier_1.0-1.deb
+Size: 23770
+MD5sum: 3268059a566f7c43b9e7f161e787d8ff
+SHA1: 8297864d88ed3d719e9fb1995500248c2ed82e75
+SHA256: 4ffa21b086b302665ddee5a0c70970ecb26fcfbfa17b9e5093217dac147fd258
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakecarrierData
+Description: Can easily change the carrier name and time string on status bar. Also can show batterylevel. (iPhone 3.0 required)
+Author: Eric <support@mirrordev.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakecarrierData
+Dev: mirrordev
+Name: FakeCarrier
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.modmyi.mountainlionosipad
 Version: 2.0.1
 Architecture: iphoneos-arm
@@ -3542,6 +3821,26 @@ Author: Muirey03
 Depiction: https://rejail.ru/depiction.php?file=libimagepicker
 Name: libimagepicker
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=libimagepicker
+
+Package: com.myrepospace.iLEXiNFO.rat-eng
+Version: 1.10-125
+Architecture: iphoneos-arm
+Maintainer: iLEX <ilexrepo@gmail.com>
+Installed-Size: 2000
+Depends: apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
+Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore
+Filename: ./debs/com.myrepospace.iLEXiNFO.rat-eng_1.10-125.deb
+Size: 2001694
+MD5sum: 88094d33d805ed80051fd522ab248e9b
+SHA1: 246a2b95708c47fd3f7467ab0675da4fddeb3d0e
+SHA256: eae2a2e727a00b200473b2c41e43dc6e958e4f02683d05aea5dbeda2f2eac500
+Section: iLEX
+Homepage: http://twitter.com/iLEXiNFO
+Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
+Author: iLEX <ilexrepo@gmail.com>
+Name: iLEX R.A.T.
+Sponsor: iLEX <http://twitter.com/iLEXiNFO/>
+Support: http://twitter.com/iLEXiNFO
 
 Package: com.myrepospace.oyoung.guan
 Version: 3.2
@@ -4203,6 +4502,22 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 
 Package: com.saurik.substrate.safemode
+Version: 0.9.3999.6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Filename: ./debs/com.saurik.substrate.safemode_0.9.3999.6.deb
+Size: 8638
+MD5sum: 493dffac2b9e983406ee95fe7cd956c1
+SHA1: a62fbecde5efc25e2b4abd9aaf44f4df12e5611c
+SHA256: 4efb8ff0fd3c1b6e135c629ca4f2eb52c40c6d41046b61d36aab0a4a050f4627
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+
+Package: com.saurik.substrate.safemode
 Version: 0.9.6001
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -4435,6 +4750,26 @@ Tag: purpose::extension, role::enduser
 Author: Elias Limneos <iphone@limneos.net>
 Depiction: http://cydia.saurik.com/info/com.teehanlax.element/
 Name: Element
+
+Package: com.teiron.pphelper
+Version: 0.970
+Architecture: iphoneos-arm
+Maintainer: WEIP.Tech <repo@weiphone.com>
+Installed-Size: 2400
+Filename: ./debs/com.teiron.pphelper_0.970.deb
+Size: 3167982
+MD5sum: 81ac615fb07491f54fcd21528a612b19
+SHA1: b1c4622ae5dd034e42be298be03d081027530fe8
+SHA256: 73a90c2cfed3bc2ed333af20e8b4149819e9435730b58a529b0005b0a7ed8fcc
+Section: [测试]
+Priority: standard
+Homepage: http://apt.25pp.com/htm/25pp.htm
+Description: 中文苹果设备助手，软件，游戏，铃声，壁纸....强大的功能，最友好的界面设计！CDSQ修改91卸载脚本，注意：运行卸载脚本前自行备份PXL安装的程序等，此脚本会完整地清除一切91的痕迹！！！
+Author: Jun
+Depiction: http://apt.25pp.com/htm/25pp.htm
+Icon: file:///Applications/PPHelper.app/iPhoneAppIcon.png
+Name: PP助手
+Sponsor: WeiPhone.com <http://www.weiphone.com>
 
 Package: com.tigisoftware.filza
 Version: 3.8.1-29
@@ -7065,6 +7400,23 @@ Size: 107276
 MD5sum: 3d86ef34bda9287e6081dda95b7593dd
 SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
 SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+Name: Pangu 7.1-7.1.x Untether
+
+Package: io.pangu.axe7
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: ./debs/io.pangu.axe7_0.3.deb
+Size: 63518
+MD5sum: 8e5c6b77e803c1fe44c8365c67cfbf4e
+SHA1: 6557fda528e09cdb64da27348aa86f6c79a3b5dc
+SHA256: 563cc8300900e4a6d2917482672e7b9526a176bc3e0e14ac0ffa2568bfc4a069
 Section: System
 Priority: optional
 Description: untethered jailbreak based on pangu exploits
@@ -9936,6 +10288,27 @@ Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
 Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified iOS10
 
+Package: net.angelxwind.appsyncunified91
+Version: 6.0~b1
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 364
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified91_6.0~b1.deb
+Size: 41800
+MD5sum: 3605c933260c6c4d1abe485568049d99
+SHA1: e0ccc17d675b72c4ff3d4a5472572be2f661e554
+SHA256: 9c617de5a96c712b27873e17fb13473e8640173ba722468ecc2f34674df9540c
+Section: 91助手-补丁
+Homepage: http://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified iOS10
+
 Package: net.limneos.libbulletin
 Version: 0.1-158
 Architecture: iphoneos-arm
@@ -11894,6 +12267,30 @@ Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
 
+Package: org.xbmc.kodi-ios.legacy
+Version: 17.6-0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 133122
+Depends: firmware (>= 5.1)
+Conflicts: org.xbmc.kodi-ios
+Filename: ./debs/org.xbmc.kodi-ios.legacy_17.6-0.deb
+Size: 47963644
+MD5sum: 125ac826bbc8e53e05bdd903b7501def
+SHA1: a3f6a0311a423f658ead6094ce72e334111d9d96
+SHA256: 3ed3359a9a009ae0693fbbdb26a83737bda89a63acf383617feb12601cad6d23
+Section: Multimedia
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
+Description: Kodi Entertainment Center for iOS
+Tag: purpose::extension
+Author: Team-Kodi
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
+Dev: teamkodi
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Name: Kodi-iOS (Legacy 32-bit)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.xbmc.xbmc-ios
 Version: 12.3-1
 Architecture: iphoneos-arm
@@ -12598,6 +12995,21 @@ Section: Repositories
 Priority: optional
 Description: Russian iPhone Development (Icy)
 Name: RiPDev
+
+Package: rlwrap
+Version: 0.29-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 216
+Depends: readline
+Filename: ./debs/rlwrap_0.29-2.deb
+Size: 61776
+MD5sum: 5b2754a5fa8fef82b4a21a486f4108d0
+SHA1: b379c863d54efa9c68b02c59b5add8da4092d047
+SHA256: b9839b220b164fd0f0659841ce6eaaef5e4710a31c3dfc4cce4c306961aade1f
+Section: Utilities
+Priority: standard
+Description: provides readline to anything
 
 Package: rlwrap
 Version: 0.29-2p
@@ -14354,6 +14766,24 @@ Depiction: http://cydia.saurik.com/info/syslogd/
 Name: syslogd to /var/log/syslog
 
 Package: system-cmds
+Version: 433.4-9
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: pam
+Provides: login, passwd, reboot
+Filename: ./debs/system-cmds_433.4-9.deb
+Size: 86538
+MD5sum: 64abdcd77a6fedd25c9696f6c59bbd34
+SHA1: 9fd37cc64487155f1b1db551bc5dec7673e08981
+SHA256: 698733e418a6cc75049db113436c6fe64f7af88ca6f12a0a959fe506d1dd76a8
+Section: Administration
+Priority: required
+Description: iostat, login, passwd, sync, sysctl
+
+Package: system-cmds
 Version: 433.8-14
 Architecture: iphoneos-arm
 Essential: yes
@@ -15405,6 +15835,24 @@ Size: 296804
 MD5sum: 5952d7077fe8e38452ac50f3d39cef9c
 SHA1: f7d53a4984eef265ae21256f8e4e48075e1ebc07
 SHA256: 20d381022d15181dd590ec6ba6cde5b337f100bce5d4f9f2374cc7b731e52dce
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync31
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Filename: ./debs/us.hackulo.appsync31_1.0.1.deb
+Size: 296522
+MD5sum: 7b9e9d77f9da78bbb2fe641ec9d1c1e0
+SHA1: 0597cdd1a98bf6198d33c60af2a528025c1f27aa
+SHA256: f8e9d50de8b7b7079dd8889eb8798ed30d224d95c74d3e150292b4fe49ee207e
 Section: Hackulo.us
 Priority: standard
 Description: AppSync patches the installd file on your device
