@@ -2552,11 +2552,11 @@ Version: 1.0-release
 Architecture: iphoneos-arm
 Maintainer: CoolBooter <coolbooterios@gmail.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.coolbooter.cbuntether_1.0-release.deb
-Size: 21320
-MD5sum: 41731a3a85e57af4e98653cce88dc419
-SHA1: 05e010563d17ab831e9047b68e2d1c1140667078
-SHA256: 2adb5e835a46bddfeccaa569906430f3fb1749cfa32f2fcb0a53b37cb418e9f9
+Filename: ./debs/com.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
+Size: 51646
+MD5sum: 670a6f37b3ebd48650abc9f5e8078ea5
+SHA1: 003513cfcd96b4317e9fe13f2f5b6e9686a7b36e
+SHA256: 79128c90342fc7182c286a0b59bb571a3c3692bed0223e2dbbd5e48d5e2707aa
 Section: System
 Description: "Untethers" an existing CoolBooter install
  CoolBooter Untetherer is an extension for CoolBooter that allows the user to boot into their second OS automatically.
@@ -2569,11 +2569,11 @@ Version: 1.6-release
 Architecture: iphoneos-arm
 Maintainer: CoolBooter <coolbooterios@gmail.com>
 Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
-Filename: ./debs/com.coolbooter.coolbooter_1.6-release.deb
-Size: 33805256
-MD5sum: a9a390a10541ccaf617a901118554ec9
-SHA1: c713f8ac4e1ffd266f6d8bdd3c41f7bea8a22b3f
-SHA256: a1cc1907e4c0a62325ddf0654796dcaa3623ea57db0c9456125c9e0744caa1c3
+Filename: ./debs/com.coolbooter.coolbooter_1.6-release_iphoneos-arm.deb
+Size: 33788898
+MD5sum: d1f2db49affd002afbb461753d4f51ff
+SHA1: 4e0bea7d45e3c5ade956ad90391b04a09ad74590
+SHA256: 6dbb403a2289e58abe609ea6406b096d6c8540ab7dfad0ef7b607f47c4421d75
 Section: System
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
 Author: CoolBooter <coolbooterios@gmail.com>
