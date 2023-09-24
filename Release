@@ -1,8 +1,8 @@
-Origin: 我的个人源	
-Label:我的个人源
+Origin: 子鸭的软件源
+Label: 子鸭的软件源
 Suite: stable
-Version: 1.0
-Codename: 我的个人源
-Architecture: iphoneos-arm
+Version: ©2022
+Codename: 子鸭
+Architecture: iphoneos-arm　
 Components: main
-Description: 我的个人源 Tweaks
+Description: 子鸭的软件源
