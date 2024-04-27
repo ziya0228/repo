@@ -4803,6 +4803,28 @@ Icon: file:///Applications/PPHelper.app/iPhoneAppIcon.png
 Name: PP助手
 Sponsor: WeiPhone.com <http://www.weiphone.com>
 
+Package: com.tencent.qqinput.ipad
+Version: 1.1_Build1017
+Architecture: iphoneos-arm
+Maintainer: Tencent <support@tencent.com>
+Installed-Size: 3096
+Pre-Depends: firmware (>= 3.0)
+Depends: mobilesubstrate
+Filename: ./debs/QQInput_iPad_1.1_Build1017.deb
+Size: 2280566
+MD5sum: 3c81c86ada4090e043fbf833cdf1fc4b
+SHA1: 610bb291e938f1e16271ab78611bde34601604ea
+SHA256: 1b73bb759b0ba4e6aee0bf13b55678dc9cc15b23a5e0a490927b289ff4655052
+Section: 输入法
+Priority: Optional
+Homepage: http://mobile.qq.com/py
+Description: QQ输入法 for iPad 1.1 Build 1017 1.支持iOS 4.2.1 2.新增五笔第五码自动提交当前候选功能
+Tag: role::enduser
+Author: Tencent <support@tencent.com>
+Icon: file:///Applications/QQInputMgr.app/Icon-72.png
+Name: QQ输入法（iPad)
+Sponsor: QQ.com <http://3g.qq.com>
+
 Package: com.tigisoftware.filza
 Version: 3.8.1-29
 Architecture: iphoneos-arm
