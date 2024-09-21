@@ -8387,6 +8387,23 @@ Description: Don't install if you don't know what that is
 Author: winocm, xerub
 Name: kloader
 
+Package: kokeshi.untether9x
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Filename: ./debs/kokeshi.untether9x_1.0.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+Section: System
+Priority: important
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Author: Clarity, kok3shidoll, staturnz
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Name: kokeshi 9.2-9.3.4 Untether
+
 Package: krb5
 Version: 1.6.3-1
 Architecture: darwin-arm
