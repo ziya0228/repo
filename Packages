@@ -16150,6 +16150,25 @@ Priority: standard
 Description: the best syntax highlighter, ever
 Name: Vi IMproved
 
+Package: vn.gsm.applanguageswitcher
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 153
+Depends: gsmicon, mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
+Filename: ./debs/applanguageswitcher_1.1-4.deb
+Size: 23504
+MD5sum: ea15829b71060d749fafea3282c8a08c
+SHA1: 13961901194d6bb471fc0a494cdf9e7636af4efb
+SHA256: 3952ac2fa12f156a380094ea4eb13d7763db3ee79778a2d706e967fb88967fd9
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: choose language for certain apps & frameworks
+Author: Ganbold <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t3690/
+Name: App Language Switcher
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vorbis
 Version: 1.2.0-2
 Architecture: iphoneos-arm
