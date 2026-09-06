@@ -519,61 +519,6 @@
         background: rgba(16, 185, 129, 0.1);
       }
 
-      /* ==== 特性展示 ==== */
-      .features-section {
-        max-width: 1100px;
-        margin: 10px auto 40px;
-        padding: 0 20px;
-        animation: fadeInUp 1s ease-out 0.7s both;
-      }
-      .features-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 16px;
-      }
-      .feature-item {
-        background: var(--bg-card);
-        border: 1px solid var(--border-subtle);
-        border-radius: var(--radius-md);
-        padding: 22px 20px;
-        text-align: center;
-        transition: all var(--transition);
-        backdrop-filter: blur(10px);
-      }
-      .feature-item:hover {
-        border-color: rgba(139, 92, 246, 0.3);
-        transform: translateY(-4px);
-        box-shadow: var(--shadow-card);
-      }
-      .feature-icon {
-        font-size: 1.6rem;
-        margin-bottom: 10px;
-        display: block;
-      }
-      .feature-item:nth-child(1) .feature-icon {
-        color: #8b5cf6;
-      }
-      .feature-item:nth-child(2) .feature-icon {
-        color: #ec4899;
-      }
-      .feature-item:nth-child(3) .feature-icon {
-        color: #10b981;
-      }
-      .feature-item:nth-child(4) .feature-icon {
-        color: #f97316;
-      }
-      .feature-title {
-        font-weight: 700;
-        font-size: 0.9rem;
-        color: var(--text-primary);
-        margin-bottom: 4px;
-      }
-      .feature-desc {
-        font-size: 0.78rem;
-        color: var(--text-muted);
-        line-height: 1.5;
-      }
-
       /* ==== 页脚 ==== */
       .footer {
         margin-top: auto;
@@ -669,21 +614,8 @@
           padding: 10px 12px;
           flex-wrap: wrap;
         }
-        .features-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 10px;
-        }
-        .feature-item {
-          padding: 16px 12px;
-        }
-        .feature-icon {
-          font-size: 1.3rem;
-        }
       }
       @media (max-width: 480px) {
-        .features-grid {
-          grid-template-columns: 1fr;
-        }
         .btn-custom {
           width: 100%;
           justify-content: center;
@@ -758,7 +690,7 @@
           <a class="btn-custom btn-qq" href="https://qm.qq.com/q/iYIsE7ZaZG" target="_blank">
             <i class="fab fa-qq"></i> 加入我们的 QQ 群
           </a>
-          <a class="btn-custom btn-contact" href="https://res.abeim.cn/api/qq/?qq=52173681" target="_blank">
+          <a class="btn-custom btn-contact" href="https://res.abeim.cn/api/qq/?qq=724273292" target="_blank">
             <i class="fas fa-comment-dots"></i> 联系我
           </a>
         </div>
@@ -797,32 +729,6 @@
         </div>
       </section>
 
-      <!-- 特性卡片 -->
-      <section class="features-section">
-        <div class="features-grid">
-          <div class="feature-item">
-            <span class="feature-icon"><i class="fas fa-shield-alt"></i></span>
-            <div class="feature-title">安全可靠</div>
-            <div class="feature-desc">所有插件经过测试筛选</div>
-          </div>
-          <div class="feature-item">
-            <span class="feature-icon"><i class="fas fa-sync-alt"></i></span>
-            <div class="feature-title">持续更新</div>
-            <div class="feature-desc">紧跟最新越狱生态发展</div>
-          </div>
-          <div class="feature-item">
-            <span class="feature-icon"><i class="fas fa-bolt"></i></span>
-            <div class="feature-title">极速添加</div>
-            <div class="feature-desc">一键直达，无需手动配置</div>
-          </div>
-          <div class="feature-item">
-            <span class="feature-icon"><i class="fas fa-users"></i></span>
-            <div class="feature-title">社区支持</div>
-            <div class="feature-desc">QQ 群内随时交流反馈</div>
-          </div>
-        </div>
-      </section>
-
       <!-- 页脚 -->
       <footer class="footer">
         <div class="footer-content">
@@ -832,7 +738,7 @@
             <span style="color:var(--text-muted);opacity:0.5;">·</span>
             <a href="https://qm.qq.com/q/iYIsE7ZaZG" target="_blank">QQ群</a>
             <span style="color:var(--text-muted);opacity:0.5;">·</span>
-            <a href="https://res.abeim.cn/api/qq/?qq=52173681" target="_blank">联系</a>
+            <a href="https://res.abeim.cn/api/qq/?qq=724273292" target="_blank">联系</a>
           </div>
         </div>
       </footer>
