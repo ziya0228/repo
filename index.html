@@ -58,7 +58,6 @@
         position: relative;
       }
 
-      /* ==== 动态粒子背景 ==== */
       .bg-particles {
         position: fixed;
         inset: 0;
@@ -121,7 +120,6 @@
         }
       }
 
-      /* ==== 网格纹理覆盖 ==== */
       .bg-grid {
         position: fixed;
         inset: 0;
@@ -133,7 +131,6 @@
         background-size: 60px 60px;
       }
 
-      /* ==== 主容器 ==== */
       .page-container {
         position: relative;
         z-index: 1;
@@ -142,7 +139,6 @@
         min-height: 100vh;
       }
 
-      /* ==== 导航栏 ==== */
       .navbar {
         display: flex;
         align-items: center;
@@ -229,7 +225,6 @@
         border-color: var(--border-subtle);
       }
 
-      /* ==== Hero 区域 ==== */
       .hero {
         text-align: center;
         padding: 50px 20px 40px;
@@ -306,16 +301,6 @@
         opacity: 0.7;
       }
 
-      .hero-tagline {
-        font-size: 1.05rem;
-        color: var(--text-secondary);
-        max-width: 520px;
-        margin: 18px auto 0;
-        font-weight: 400;
-        letter-spacing: -0.01em;
-      }
-
-      /* ==== 按钮区域 ==== */
       .buttons-section {
         padding: 10px 20px 30px;
         max-width: 1100px;
@@ -388,7 +373,6 @@
         flex-shrink: 0;
       }
 
-      /* 不同按钮的渐变高亮 */
       .btn-github:hover {
         border-color: rgba(255, 255, 255, 0.25);
         box-shadow: 0 0 30px rgba(255, 255, 255, 0.1), var(--shadow-card);
@@ -411,32 +395,19 @@
         border-color: rgba(249, 115, 22, 0.5);
         box-shadow: 0 0 30px rgba(249, 115, 22, 0.25), var(--shadow-card);
       }
-      .btn-cydia i {
-        color: #f97316;
-      }
       .btn-sileo:hover {
         border-color: rgba(139, 92, 246, 0.5);
         box-shadow: 0 0 30px rgba(139, 92, 246, 0.25), var(--shadow-card);
-      }
-      .btn-sileo i {
-        color: #8b5cf6;
       }
       .btn-zebra:hover {
         border-color: rgba(16, 185, 129, 0.5);
         box-shadow: 0 0 30px rgba(16, 185, 129, 0.25), var(--shadow-card);
       }
-      .btn-zebra i {
-        color: #10b981;
-      }
       .btn-installer:hover {
         border-color: rgba(6, 182, 212, 0.5);
         box-shadow: 0 0 30px rgba(6, 182, 212, 0.25), var(--shadow-card);
       }
-      .btn-installer i {
-        color: #06b6d4;
-      }
 
-      /* ==== 仓库信息卡片 ==== */
       .info-section {
         max-width: 1100px;
         margin: 10px auto 40px;
@@ -519,7 +490,6 @@
         background: rgba(16, 185, 129, 0.1);
       }
 
-      /* ==== 页脚 ==== */
       .footer {
         margin-top: auto;
         padding: 28px 20px;
@@ -574,7 +544,6 @@
         color: var(--text-primary);
       }
 
-      /* ==== 响应式 ==== */
       @media (max-width: 768px) {
         .navbar {
           padding: 14px 16px;
@@ -588,9 +557,6 @@
         }
         .hero-title {
           font-size: 2.2rem;
-        }
-        .hero-tagline {
-          font-size: 0.9rem;
         }
         .buttons-section {
           padding: 8px 12px 20px;
@@ -625,7 +591,6 @@
         }
       }
 
-      /* ==== 滚动条美化 ==== */
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -667,17 +632,13 @@
         </div>
       </nav>
 
-      <!-- Hero 标题 -->
+      <!-- Hero 标题（移除了 tagline 文字） -->
       <header class="hero">
         <div class="hero-badge">
           <span class="pulse-dot"></span>
           <span>源仓库 · 持续更新</span>
         </div>
         <h1 class="hero-title">子鸭</h1>
-        <p class="hero-tagline">
-          一键添加
-          <br>repo
-        </p>
       </header>
 
       <!-- 主要按钮 -->
@@ -695,20 +656,20 @@
           </a>
         </div>
 
-        <!-- 包管理器按钮 -->
+        <!-- 包管理器按钮（图标已移除） -->
         <p class="btn-group-label"><i class="fas fa-puzzle-piece" style="margin-right:6px;"></i>在以下包管理器中添加</p>
         <div class="btn-grid">
           <a class="btn-custom btn-cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ziya0228.github.io/repo">
-            <i class="fas fa-cube"></i> Cydia
+            Cydia
           </a>
           <a class="btn-custom btn-sileo" href="sileo://source/https://ziya0228.github.io/repo/">
-            <i class="fas fa-bolt"></i> Sileo
+            Sileo
           </a>
           <a class="btn-custom btn-zebra" href="zbra://sources/add/https://ziya0228.github.io/repo/">
-            <i class="fas fa-paw"></i> Zebra
+            Zebra
           </a>
           <a class="btn-custom btn-installer" href="installer://add/ziya0228.github.io/repo/">
-            <i class="fas fa-terminal"></i> Installer
+            Installer
           </a>
         </div>
       </section>
